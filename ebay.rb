@@ -28,4 +28,4 @@ File.readlines('brands').each do |brand|
 
 end
 
-File.open('ebay-products.json', 'w') { |f| f.write JSON.pretty_generate(products) }
+File.open('camera-ebay-products.json', 'w') { |f| f.write JSON.pretty_generate(products) }
