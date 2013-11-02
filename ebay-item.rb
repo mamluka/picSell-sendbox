@@ -7,8 +7,21 @@ Rebay::Api.configure do |rebay|
 end
 
 shopping = Rebay::Shopping.new
-response = shopping.find_popular_items({CategoryID: 31388, QueryKeywords: 'canon', MaxEntries: 100})
+#response = shopping.find_popular_items({CategoryID: 31388, QueryKeywords: 'canon', MaxEntries: 100})
 
-item_id = response.results.first['ItemID']
+#item_id = response.results.first['ItemID']
+products = Array.new
+start = Time.now
 
-p shopping.get_single_item({ItemID: 200976446842,IncludeSelector:'ItemSpecifics'}).results
+(1..500).each do |page|
+  response = shopping.find_products(CategoryID: 31388, MaxEntries: 20, PageNumber: page)
+  response.results.each do |x|
+    products << x["Title"]
+  end
+
+  $stdout.puts products.length
+end
+
+p Time.now-start
+
+File.open('ebay-products.json', 'w') { |f| f.write JSON.pretty_generate(products) }
