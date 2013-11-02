@@ -10,6 +10,17 @@ class TvELT
   end
 end
 
+class PhoneELT
+  def self.clean(name)
+    try_match = name.scan(/^.+?\s-/)[0]
+    return try_match if not try_match.nil?
+
+    name
+  end
+end
+
+
+
 Tire.index 'products' do
   delete
   create :mappings => {
@@ -28,10 +39,10 @@ Tire.index 'products' do
   }
 end
 
-products = JSON.parse(File.read('tv-ebay-products.json'), :symbolize_names => true)
+products = JSON.parse(File.read('phones-ebay-products.json'), :symbolize_names => true)
 
 products.each do |p|
-  name = TvELT.clean p[:name]
+  name = PhoneELT.clean p[:name]
 
   input = name.split(' ').select { |word| word.length > 2 }.map { |word| word.downcase }
   input << p[:model] if not p[:model].nil?
