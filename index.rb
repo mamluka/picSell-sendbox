@@ -17,6 +17,20 @@ class PhoneELT
 
     name
   end
+
+  def self.input (name)
+    terms = Array.new
+
+    name.split(' ')
+    .map { |word| word.downcase }
+    .inject { |sum, x|
+      sum = sum + ' ' + x
+      terms << sum
+      sum
+    }
+
+    terms.uniq
+  end
 end
 
 
@@ -43,7 +57,7 @@ products = JSON.parse(File.read('phones-ebay-products.json'), :symbolize_names =
 products.each do |p|
   name = PhoneELT.clean p[:name]
 
-  input = name.split(' ').select { |word| word.length > 2 }.map { |word| word.downcase }
+  input = PhoneELT.input name
   input << p[:model] if not p[:model].nil?
 
 
