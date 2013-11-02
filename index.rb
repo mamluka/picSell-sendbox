@@ -12,13 +12,12 @@ end
 
 class PhoneELT
   def self.clean(name)
-    try_match = name.scan(/^.+?\s-/)[0]
-    return try_match if not try_match.nil?
+    try_match = name.scan(/(^.+?)\s-/)[0]
+    return try_match[0] if not try_match.nil?
 
     name
   end
 end
-
 
 
 Tire.index 'products' do
@@ -33,7 +32,7 @@ Tire.index 'products' do
                         payloads: true,
                         max_input_len: 2000
               },
-              name: { :type => 'string', :analyzer => 'keyword'}
+              name: {:type => 'string', :analyzer => 'keyword'}
           }
       }
   }
