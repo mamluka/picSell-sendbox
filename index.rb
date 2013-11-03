@@ -19,6 +19,7 @@ class PhoneELT
   end
 
   def self.input (name)
+    name = PhoneELT.clean name
     terms = Array.new
 
     name.split(' ')
@@ -57,8 +58,10 @@ products = JSON.parse(File.read('phones-ebay-products.json'), :symbolize_names =
 products.each do |p|
   name = PhoneELT.clean p[:name]
 
-  input = PhoneELT.input name
+  input = PhoneELT.input p[:name]
   input << p[:model] if not p[:model].nil?
+
+  name = name + " - #{p[:average_price]}$" if not p[:average_price].nil?
 
 
   more = {
