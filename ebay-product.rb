@@ -12,8 +12,8 @@ shopping = Rebay::Shopping.new
 #
 #p product
 start = Time.now
-p shopping.find_products({:'ProductID.Value' => 153165004, :'ProductID.type' => 'Reference', IncludeSelector: 'Items'}).results
-#"231084801245\", \"321236146595\", \"161136253055\"
+#p shopping.find_products({:'ProductID.Value' => 103119035, :'ProductID.type' => 'Reference', IncludeSelector: 'Details'})
+##"231084801245\", \"321236146595\", \"161136253055\"
 
 
 #shopping.get_multiple_items({ItemID: item_ids.take(5).join(','), IncludeSelector: 'ItemSpecifics'}).results.each do |item|
@@ -28,3 +28,21 @@ p shopping.find_products({:'ProductID.Value' => 153165004, :'ProductID.type' => 
 
 
 #p shopping.get_single_item({ItemID: 261312667134, IncludeSelector: 'ItemSpecifics'})
+
+
+finder = Rebay::Finding.new
+
+find_items = finder.find_items_by_product({productId: 115164949,
+                                           :'itemFilter(0).name' => 'ListingType',
+                                           :'itemFilter(0).value' => 'AuctionWithBIN',
+                                           #:'itemFilter(1).name' => 'Condition',
+                                           #:'itemFilter(1).value(0)' => '1000',
+                                           #:'itemFilter(1).value(1)' => '1500'
+                                          }
+)
+
+results = find_items.results
+
+$stdout.puts "Length of results is #{results.length}"
+
+
