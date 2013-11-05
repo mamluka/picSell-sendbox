@@ -6,11 +6,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/ebay.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383345142127" ignored="false" />
     <file path="/semantics3.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383341757712" ignored="false" />
-    <file path="/index.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383418044910" ignored="false" />
+    <file path="/index.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383504209619" ignored="false" />
     <file path="/categories.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383339964652" ignored="false" />
     <file path="/brands.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383340365291" ignored="false" />
-    <file path="/ebay-item.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383410959234" ignored="false" />
-    <file path="/ebay-product.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383403313554" ignored="false" />
+    <file path="/ebay-item.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383516700166" ignored="false" />
+    <file path="/ebay-product.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383680915684" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/rest-client-1.6.7/lib/restclient.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383405843738" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/rest-client-1.6.7/lib/restclient/request.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383405843738" ignored="false" />
     <file path="$PROJECT_DIR$/../picSell/api/autocomplete/autocomplete.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383423113519" ignored="false" />
@@ -19,8 +19,8 @@
     <file path="/config.ru" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383420862017" ignored="false" />
     <file path="$PROJECT_DIR$/../picSell/Gemfile" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383419085826" ignored="false" />
     <file path="/Gemfile" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383419084710" ignored="false" />
-    <file path="$PROJECT_DIR$/../picSell/api/search/search.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383423481861" ignored="false" />
-    <file path="/search.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383423481503" ignored="false" />
+    <file path="$PROJECT_DIR$/../picSell/api/search/search.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383517736302" ignored="false" />
+    <file path="/search.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383517721230" ignored="false" />
     <file path="$PROJECT_DIR$/../picSell/.gitignore" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383419720131" ignored="false" />
     <file path="/.gitignore" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383419720462" ignored="false" />
     <file path="$PROJECT_DIR$/../picSell/api/config.yml" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383419322799" ignored="false" />
@@ -29,8 +29,19 @@
     <file path="/settings.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383419306110" ignored="false" />
     <file path="$PROJECT_DIR$/../picSell/Gemfile.lock" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383419185854" ignored="false" />
     <file path="$PROJECT_DIR$/../picSell/api/Gemfile" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383419787313" ignored="false" />
-    <file path="$PROJECT_DIR$/../picSell/api/root.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383421609188" ignored="false" />
+    <file path="$PROJECT_DIR$/../picSell/api/root.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383428091491" ignored="false" />
     <file path="/root.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383421595650" ignored="false" />
+    <file path="/suggested-searches.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383435048393" ignored="false" />
+    <file path="/Dummy.txt" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383515310446" ignored="false" />
+    <file path="/finding.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383592373802" ignored="false" />
+    <file path="/mws.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383605875585" ignored="false" />
+    <file path="/a.dummy" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383596632021" ignored="false" />
+    <file path="/products.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383679120610" ignored="false" />
+    <file path="/base.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383602796400" ignored="false" />
+    <file path="/ruby-mws.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383597772736" ignored="false" />
+    <file path="/response.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383599663267" ignored="false" />
+    <file path="/query.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383602915989" ignored="false" />
+    <file path="/math-tools.rb" changelist="15e4128f-f628-4307-9293-644e227f7911" time="1383680451952" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,37 +66,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.rb">
+      <file leaf-file-name="mws.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mws.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="62" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ebay-product.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebay-product.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="2" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shopping.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/rebay-1.2.0/lib/rebay/shopping.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="8" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="semantics3.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/semantics3.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="25" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+            <state line="24" column="17" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,16 +78,25 @@
       <file leaf-file-name="ebay-item.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebay-item.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="7" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+            <state line="50" column="57" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tv-ebay-products.json" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tv-ebay-products.json">
+      <file leaf-file-name="ebay-product.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ebay-product.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3162" column="46" selection-start="138084" selection-end="138117" vertical-scroll-proportion="0.27921093">
+            <state line="48" column="91" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.8214286">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="math-tools.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/math-tools.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,34 +105,52 @@
       <file leaf-file-name="phones-ebay-products.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phones-ebay-products.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100000" column="35" selection-start="4416557" selection-end="4416557" vertical-scroll-proportion="0.0">
+            <state line="13" column="35" selection-start="541" selection-end="541" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="peach.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/peach-0.5.1/lib/peach.rb">
+      <file leaf-file-name="tv-ebay-products.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tv-ebay-products.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="70" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+            <state line="10" column="2" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tablet-ebay-products.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tablet-ebay-products.json">
+      <file leaf-file-name="mash.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/hashie-2.0.5/lib/hashie/mash.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32909" column="21" selection-start="1469361" selection-end="1469361" vertical-scroll-proportion="-62.708332">
+            <state line="65" column="0" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/json/common.rb">
+      <file leaf-file-name="tablets-ebay-products.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tablets-ebay-products.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="268" column="6" selection-start="9674" selection-end="9674" vertical-scroll-proportion="0.0">
+            <state line="170" column="36" selection-start="7348" selection-end="7371" vertical-scroll-proportion="-12.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby-mws/api/products.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="54" selection-start="2454" selection-end="2488" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="query.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby-mws/api/query.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="84" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -155,15 +166,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/categories.rb" />
-        <option value="$PROJECT_DIR$/brands.rb" />
-        <option value="$PROJECT_DIR$/brands" />
-        <option value="$PROJECT_DIR$/semantics3.rb" />
-        <option value="$PROJECT_DIR$/ebay.rb" />
-        <option value="$PROJECT_DIR$/ebay-product.rb" />
         <option value="$PROJECT_DIR$/tablet-ebay-products.json" />
-        <option value="$PROJECT_DIR$/ebay-item.rb" />
+        <option value="$PROJECT_DIR$/phones-ebay-products.json" />
         <option value="$PROJECT_DIR$/index.rb" />
+        <option value="$PROJECT_DIR$/suggested-searches.rb" />
+        <option value="$PROJECT_DIR$/ebay-item.rb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/rebay-1.2.0/lib/rebay/finding.rb" />
+        <option value="$PROJECT_DIR$/ruby-mws/base.rb" />
+        <option value="$PROJECT_DIR$/ruby-mws.rb" />
+        <option value="$PROJECT_DIR$/ruby-mws/api/order.rb" />
+        <option value="$PROJECT_DIR$/ruby-mws/api/response.rb" />
+        <option value="$PROJECT_DIR$/ruby-mws/api/base.rb" />
+        <option value="$PROJECT_DIR$/ruby-mws/api/query.rb" />
+        <option value="$PROJECT_DIR$/ruby-mws/api/products.rb" />
+        <option value="$PROJECT_DIR$/mws.rb" />
+        <option value="$PROJECT_DIR$/math-tools.rb" />
+        <option value="$PROJECT_DIR$/ebay-product.rb" />
       </list>
     </option>
   </component>
@@ -206,6 +224,10 @@
               <option name="myItemId" value="ebay" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -214,6 +236,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ebay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ebay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ebay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-mws" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ebay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ebay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby-mws" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,73 +286,13 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Ruby.index">
-    <configuration default="false" name="ebay" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="ebay" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ebay.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="semantics3" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="ebay" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/semantics3.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="index" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
-      <module name="ebay" />
-      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/index.rb" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ruby-mws/api" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Ruby.ebay-product">
     <configuration default="false" name="ebay-item" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ebay" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -338,6 +332,72 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ebay-product.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mws" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ebay" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/mws.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="base" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ebay" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ruby-mws/api" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ruby-mws/api/base.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="products" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ebay" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$/ruby-mws/api" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/ruby-mws/api/products.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -420,19 +480,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Ruby.ebay" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.semantics3" />
-      <item index="2" class="java.lang.String" itemvalue="Ruby.index" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.ebay-item" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.ebay-product" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.ebay-item" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.ebay-product" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.mws" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.base" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.products" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.index" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.ebay-item" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.ebay-product" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.ebay" />
-        <item index="4" class="java.lang.String" itemvalue="Ruby.semantics3" />
+        <item index="0" class="java.lang.String" itemvalue="Ruby.ebay-product" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.mws" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.products" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.base" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.ebay-item" />
       </list>
     </recent_temporary>
   </component>
@@ -464,22 +524,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1176" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1966759" sideWeight="0.6712963" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26260388" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287037" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -517,7 +577,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -546,112 +606,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs20/io.rb">
+    <entry file="file://$PROJECT_DIR$/ruby-mws/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="13" selection-start="9736" selection-end="9736" vertical-scroll-proportion="0.0">
+        <state line="18" column="49" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brands.rb">
+    <entry file="file://$PROJECT_DIR$/ruby-mws/api/order.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+        <state line="13" column="20" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/brands">
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs20/object.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="25" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.0">
+        <state line="776" column="8" selection-start="27584" selection-end="27584" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.1/lib/active_support/core_ext/string/inflections.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="171" selection-end="199" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/camera-ebay-products.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0">
+        <state line="88" column="6" selection-start="3761" selection-end="3761" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/rexml/parent.rb">
+    <entry file="file://$PROJECT_DIR$/ruby-mws/api/response.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="8" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/rebay-1.2.0/lib/rebay/shopping.rb">
+    <entry file="file://$PROJECT_DIR$/ruby-mws/api/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="8" selection-start="2415" selection-end="2415" vertical-scroll-proportion="0.0">
+        <state line="49" column="24" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/json/common.rb">
+    <entry file="file://$PROJECT_DIR$/ruby-mws/api/query.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="6" selection-start="9674" selection-end="9674" vertical-scroll-proportion="0.0">
+        <state line="36" column="84" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semantics3.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/hashie-2.0.5/lib/hashie/mash.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+        <state line="65" column="0" selection-start="2208" selection-end="2208" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay-product.rb">
+    <entry file="file://$PROJECT_DIR$/tablets-ebay-products.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/peach-0.5.1/lib/peach.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="70" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phones-ebay-products.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100000" column="35" selection-start="4416557" selection-end="4416557" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebay-item.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tablet-ebay-products.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32909" column="21" selection-start="1469361" selection-end="1469361" vertical-scroll-proportion="-62.708332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="62" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0">
+        <state line="170" column="36" selection-start="7348" selection-end="7371" vertical-scroll-proportion="-12.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tv-ebay-products.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3162" column="46" selection-start="138084" selection-end="138117" vertical-scroll-proportion="0.27921093">
+        <state line="10" column="2" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phones-ebay-products.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="35" selection-start="541" selection-end="541" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-mws/api/products.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="54" selection-start="2454" selection-end="2488" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebay-item.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="57" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mws.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math-tools.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebay-product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="91" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.8214286">
           <folding />
         </state>
       </provider>

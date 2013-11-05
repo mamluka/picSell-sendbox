@@ -6,6 +6,8 @@ Rebay::Api.configure do |rebay|
   rebay.app_id = 'Twin-Dia-3f18-4f05-b81a-4ce4ba64f7a4'
 end
 
+require_relative 'math-tools'
+
 shopping = Rebay::Shopping.new
 
 #product = shopping.find_products(CategoryID: 11071, MaxEntries: 20, PageNumber: 1).results[5]
@@ -35,14 +37,14 @@ finder = Rebay::Finding.new
 find_items = finder.find_items_by_product({productId: 115164949,
                                            :'itemFilter(0).name' => 'ListingType',
                                            :'itemFilter(0).value' => 'AuctionWithBIN',
-                                           #:'itemFilter(1).name' => 'Condition',
-                                           #:'itemFilter(1).value(0)' => '1000',
-                                           #:'itemFilter(1).value(1)' => '1500'
                                           }
 )
+groups = find_items.results.group_by { |x| x['condition']['conditionId'].to_i }
 
-results = find_items.results
+new_items = groups.select { |k| k < 2000 }.map {|k,v| v}.flatten
+used_items = groups.select { |k| k == 3000 }.map {|k,v| v}.flatten
 
-$stdout.puts "Length of results is #{results.length}"
 
+
+p MathTools.analyze new_items.map {|x| x['sellingStatus']['currentPrice']['__value__'].to_f}
 
