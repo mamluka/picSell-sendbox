@@ -41,10 +41,22 @@ find_items = finder.find_items_by_product({productId: 115164949,
 )
 groups = find_items.results.group_by { |x| x['condition']['conditionId'].to_i }
 
-new_items = groups.select { |k| k < 2000 }.map {|k,v| v}.flatten
-used_items = groups.select { |k| k == 3000 }.map {|k,v| v}.flatten
+new_items = groups
+.select { |k| k < 2000 }
+.map {|k,v| v}
+.flatten
+.map { |x| x['listingInfo']['buyItNowPrice']['__value__'].to_i if x.kind_of?(Hash) && x.has_key?('listingInfo') && x['listingInfo'].has_key?('buyItNowPrice') }
+.select { |x| !x.nil? }
 
+used_items = groups
+.select { |k| k == 3000 }
+.map {|k,v| v}
+.flatten
+.map { |x| x['listingInfo']['buyItNowPrice']['__value__'].to_i if x.kind_of?(Hash) && x.has_key?('listingInfo') && x['listingInfo'].has_key?('buyItNowPrice') }
+.select { |x| !x.nil? }
 
+used_items.each {|x| $stdout.puts x }
 
-p MathTools.analyze new_items.map {|x| x['sellingStatus']['currentPrice']['__value__'].to_f}
+p MathTools.analyze new_items
+p MathTools.analyze used_items
 

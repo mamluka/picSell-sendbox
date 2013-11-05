@@ -5,7 +5,7 @@ mws = MWS.new(:aws_access_key_id => "AKIAIDZUEZILKOGLJNJQ",
               :seller_id => "A25ONFDA24CSQ8",
               :marketplace_id => "ATVPDKIKX0DER")
 
-products = mws.products.list_matching_products :query => 'Nokia 7230"', :marketplace_id => 'ATVPDKIKX0DER'
+products = mws.products.list_matching_products :query => 'Samsung Galaxy S III SPH-L710 16 GB', :marketplace_id => 'ATVPDKIKX0DER'
 asin = Array.new
 products.products.each { |x|
   $stdout.puts x.attribute_sets.item_attributes.title

@@ -52,11 +52,30 @@ product_ranking = Hash.new
     items_by_product = finder.find_items_by_product({productId: product_id, :'itemFilter.name' => 'ListingType', :'itemFilter.value' => 'AuctionWithBIN'}).results
 
     if not items_by_product.nil?
-      prices = items_by_product
+      groups = find_items.results.group_by { |x| x['condition']['conditionId'].to_i }
+
+      new_items = groups
+      .select { |k| k < 2000 }
+      .map {|k,v| v}
+      .flatten
       .map { |x| x['listingInfo']['buyItNowPrice']['__value__'].to_i if x.kind_of?(Hash) && x.has_key?('listingInfo') && x['listingInfo'].has_key?('buyItNowPrice') }
       .select { |x| !x.nil? }
 
-      average_price = prices.inject(:+) / prices.length if prices.length > 0
+      used_items = groups
+      .select { |k| k == 3000 }
+      .map {|k,v| v}
+      .flatten
+      .map { |x| x['listingInfo']['buyItNowPrice']['__value__'].to_i if x.kind_of?(Hash) && x.has_key?('listingInfo') && x['listingInfo'].has_key?('buyItNowPrice') }
+      .select { |x| !x.nil? }
+
+      used_items.each {|x| $stdout.puts x }
+
+      ebay = {
+             new
+      }
+
+      MathTools.analyze new_items
+      p MathTools.analyze used_items
     end
 
     products << {
