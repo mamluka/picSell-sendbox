@@ -5,15 +5,21 @@ mws = MWS.new(:aws_access_key_id => "AKIAIDZUEZILKOGLJNJQ",
               :seller_id => "A25ONFDA24CSQ8",
               :marketplace_id => "ATVPDKIKX0DER")
 
-products = mws.products.list_matching_products :query => 'Samsung Galaxy S III SPH-L710 16 GB', :marketplace_id => 'ATVPDKIKX0DER'
+products = mws.products.list_matching_products :query => 'Motorola Droid X 8 GB', :marketplace_id => 'ATVPDKIKX0DER'
 asin = Array.new
 products.products.each { |x|
+  next if x.kind_of?(Array)
+
+  $stdout.puts x
+
   $stdout.puts x.attribute_sets.item_attributes.title
   asin = x.identifiers.marketplace_asin.asin
   $stdout.puts asin
 
-  category =  mws.products.get_product_categories_for_asin(:marketplace_id => 'ATVPDKIKX0DER', :asin => asin).category
-  $stdout.puts category.name
+  $stdout.puts x.sales_rankings.sales_rank.map {|x| x.product_category_id if !x.kind_of?(Array) && x.product_category_id.match(/^\d*$/)} if not x.sales_rankings.nil?
+
+  categories =  mws.products.get_product_categories_for_asin(:marketplace_id => 'ATVPDKIKX0DER', :asin => asin).categories
+  $stdout.puts categories
 
   price = mws.products.get_competitive_pricing_for_asin :marketplace_id => 'ATVPDKIKX0DER',:'ASINList.ASIN.1' => asin
 

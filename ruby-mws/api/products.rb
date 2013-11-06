@@ -16,12 +16,9 @@ module MWS
                   :version => '2011-10-01',
                   :mods => [
                       lambda { |r|
-                        if r.self.kind_of?(Array)
-                          r.category = {id: r.self.first.product_category_id, name: r.self.first.product_category_name} if not r.self.nil?
-                        else
-                          r.category = {id: r.self.product_category_id, name: r.self.product_category_name} if not r.self.nil?
-                        end
+                        r.self = [r.self] if not r.self.kind_of?(Array)
 
+                        r.categories = r.self.map { |cat| { id: cat.product_category_id.to_i, name: cat.product_category_name} }
                       }
                   ]
 
@@ -65,6 +62,8 @@ module MWS
                   :version => '2011-10-01',
                   :mods => [
                       lambda { |r|
+
+                        next if r.product.lowest_offer_listings.nil?
 
                         lowest_offer_listing = r.product.lowest_offer_listings.lowest_offer_listing
 
