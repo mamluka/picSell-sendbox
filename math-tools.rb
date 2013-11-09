@@ -15,5 +15,9 @@ class MathTools
         median: len % 2 == 1 ? sorted[len/2] : (sorted[len/2 - 1] + sorted[len/2]).to_f / 2
     }
   end
+
+  def self.percent_range(value, range)
+    [(value*(1-range)).round(0), (value*(1+range)).round(0)]
+  end
 end
 
