@@ -37,7 +37,7 @@ start = Time.now
 
 product_ranking = Hash.new
 
-(1..3).each do |page|
+(1..1).each do |page|
 
   begin
     current_page = page
@@ -63,11 +63,13 @@ product_ranking = Hash.new
         model = response.scan(/>Model.+?<font.+?>(.+?)<\/font>/)[0][0] rescue nil
         family_line = response.scan(/>Family Line.+?<font.+?>(.+?)<\/font>/)[0][0] rescue nil
         carrier = response.scan(/>Carrier.+?<font.+?>(.+?)<\/font>/)[0][0] rescue nil
-        storage_capacity = response.scan(/>Storage Capacity.+?<font.+?>(.+?)<\/font>/)[0][0] rescue nil
+        storage_capacity = response.scan(/>Storage Capacity.+?<font.+?>(.+?)<\/font>/)[0][0].delete(' ') rescue nil
 
         family_line = family_line.gsub(brand, '') if !brand.nil? && !family_line.nil?
 
         name = "#{brand} #{family_line} #{model} #{storage_capacity}".squeeze(' ').strip
+
+        logger.info "Working on #{name}"
 
         items_by_product = finder.find_items_by_product({productId: product_id, :'itemFilter.name' => 'ListingType', :'itemFilter.value' => 'AuctionWithBIN'}).results
 
@@ -111,13 +113,16 @@ product_ranking = Hash.new
 
           begin
 
-            next if halt
-
             next if x.kind_of?(Array)
-
 
             asin = x.identifiers.marketplace_asin.asin
             amazon_name = x.attribute_sets.item_attributes.title
+
+            logger.info "Found amazon name canidate #{amazon_name}"
+
+            next if not (amazon_name =~ /#{storage_capacity}/i && amazon_name =~ /\s#{model}\s/i)
+
+            logger.info "Found amazon name canidate #{amazon_name} to be successful"
 
             product_categories = x.sales_rankings.sales_rank.map { |x| x.product_category_id.to_i if !x.kind_of?(Array) && x.product_category_id.match(/^\d*$/) }.select { |x| x!= nil } if not x.sales_rankings.nil?
 
@@ -153,7 +158,6 @@ product_ranking = Hash.new
                 lowest_offer_refurbished: MathTools.analyze(ArrayUtils.empty_if_nil(low_price.listing_price).select { |x| x[:condition] =='Refurbished' }.map { |x| x[:price].to_i })
 
             }
-            halt = true
 
           rescue Exception => ex
             logger.error "Product name: #{name}\n Amazon name: #{amazon_name}\n #{ex.message}\n#{ex.backtrace.join("\n ")}"
@@ -174,10 +178,11 @@ product_ranking = Hash.new
             item_count: (items_by_product.length rescue nil),
             ebay_new_range: (MathTools.percent_range(ebay[:new][:median], 0.1) rescue nil),
             ebay_used_range: (MathTools.percent_range(ebay[:used][:median], 0.1) rescue nil),
-            competitive_pricing: (MathTools.percent_range(amazon.first[:competitive_pricing][:median], 0.1) rescue nil),
-            lowest_offer_used: (MathTools.percent_range(amazon.first[:lowest_offer_used][:median], 0.1) rescue nil),
-            lowest_offer_new: (MathTools.percent_range(amazon.first[:lowest_offer_new][:median], 0.1) rescue nil),
-            lowest_offer_refurbished: (MathTools.percent_range(amazon.first[:lowest_offer_refurbished][:median], 0.1) rescue nil),
+            amazon_competitive_pricing: (MathTools.percent_range(amazon.first[:competitive_pricing][:median], 0.1) rescue nil),
+            amazon_lowest_offer_used: (MathTools.percent_range(amazon.first[:lowest_offer_used][:median], 0.1) rescue nil),
+            amazon_lowest_offer_new: (MathTools.percent_range(amazon.first[:lowest_offer_new][:median], 0.1) rescue nil),
+            amazon_lowest_offer_refurbished: (MathTools.percent_range(amazon.first[:lowest_offer_refurbished][:median], 0.1) rescue nil),
+            amazon_matched_products: (amazon.map { |x| x[:name] } rescue nil),
             ebay: ebay,
             amazon: amazon
         }
@@ -189,7 +194,7 @@ product_ranking = Hash.new
     end
 
   rescue Exception => ex
-    logger.error "Product name: #{name}\n #{ex.message}\n#{ex.backtrace.join("\n ")}"
+    logger.error "#{ex.message}\n#{ex.backtrace.join("\n ")}"
   end
 
 

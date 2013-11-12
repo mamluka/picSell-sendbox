@@ -1,141 +1,44 @@
 [
   {
-    "name": "Motorola Droid X 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2734659943:588934073:8aa8da134a4d75e20e6ae66101da5b9a:1:1:1:1422392950",
-    "product_id": "102650543",
-    "model": "Droid X",
-    "brand": "Motorola",
-    "family_line": "",
-    "carrier": "Verizon",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9999,
-    "item_count": 58,
-    "ebay_new_range": null,
+    "name": "HTC EVO 4G 1GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2812280820:587456210:e18d0bbc02c173b5f4c8da013c2024f7:1:1:1:1418724563",
+    "product_id": "102331090",
+    "model": "4G",
+    "brand": "HTC",
+    "family_line": " EVO",
+    "carrier": "Sprint",
+    "storage_capacity": "1GB",
+    "popularity_rank": 9989,
+    "item_count": 77,
+    "ebay_new_range": [
+      90,
+      110
+    ],
     "ebay_used_range": [
-      45,
-      55
-    ],
-    "competitive_pricing": [
-      82,
-      100
-    ],
-    "lowest_offer_used": [
-      44,
-      54
-    ],
-    "lowest_offer_new": [
-      79,
-      97
-    ],
-    "lowest_offer_refurbished": [
       62,
       76
     ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 22,
-        "highest": 250,
-        "count": 39,
-        "average": 67.46153846153847,
-        "median": 50
-      }
-    },
-    "amazon": [
-      {
-        "name": "Motorola Droid X MB810 Verizon Phone 8MP Camera, GPS, WiFi, Bluetooth (Black) B",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004HGU4H2",
-        "competitive_pricing": {
-          "lowest": 91,
-          "highest": 91,
-          "count": 1,
-          "average": 91.0,
-          "median": 91
-        },
-        "lowest_offer_new": {
-          "lowest": 85,
-          "highest": 91,
-          "count": 2,
-          "average": 88.0,
-          "median": 88.0
-        },
-        "lowest_offer_used": {
-          "lowest": 32,
-          "highest": 85,
-          "count": 7,
-          "average": 54.142857142857146,
-          "median": 49
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 52,
-          "highest": 74,
-          "count": 5,
-          "average": 64.8,
-          "median": 69
-        }
-      },
-      {
-        "name": "Motorola XT-910 DROID RAZR Unlocked GSM Smartphone with 8 MP Camera, Android OS, Wi-Fi, and GPS--No Warranty (Black)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B005PTZT6Q",
-        "competitive_pricing": {
-          "lowest": 219,
-          "highest": 239,
-          "count": 2,
-          "average": 229.0,
-          "median": 229.0
-        },
-        "lowest_offer_new": {
-          "lowest": 209,
-          "highest": 329,
-          "count": 7,
-          "average": 262.14285714285717,
-          "median": 239
-        },
-        "lowest_offer_used": {
-          "lowest": 189,
-          "highest": 330,
-          "count": 6,
-          "average": 248.5,
-          "median": 226.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 229,
-          "highest": 229,
-          "count": 1,
-          "average": 229.0,
-          "median": 229
-        }
-      }
-    ]
-  },
-  {
-    "name": "Motorola Droid Bionic 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3425071596:586746876:b6b91f52a52aeffacb17f80a8a617c64:1:1:1:5000000177661",
-    "product_id": "108782626",
-    "model": "Bionic",
-    "brand": "Motorola",
-    "family_line": " Droid",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9989,
-    "item_count": 27,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      85,
-      104
+    "amazon_competitive_pricing": null,
+    "amazon_lowest_offer_used": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+
     ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
     "ebay": {
-      "new": null,
+      "new": {
+        "lowest": 100,
+        "highest": 100,
+        "count": 1,
+        "average": 100.0,
+        "median": 100
+      },
       "used": {
-        "lowest": 40,
-        "highest": 210,
-        "count": 26,
-        "average": 101.65384615384616,
-        "median": 94.5
+        "lowest": 15,
+        "highest": 149,
+        "count": 58,
+        "average": 73.32758620689656,
+        "median": 69.0
       }
     },
     "amazon": [
@@ -143,304 +46,239 @@
     ]
   },
   {
-    "name": "Apple iPhone 4 16 GB",
+    "name": "HTC Inspire 4G 4GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3384342099:589125899:b3a672c245069ba920028582f3983294:1:1:1:1417460356",
+    "product_id": "99978689",
+    "model": "Inspire 4G",
+    "brand": "HTC",
+    "family_line": null,
+    "carrier": "Unlocked",
+    "storage_capacity": "4GB",
+    "popularity_rank": 9999,
+    "item_count": 4,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      134,
+      164
+    ],
+    "amazon_competitive_pricing": null,
+    "amazon_lowest_offer_used": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 75,
+        "highest": 150,
+        "count": 3,
+        "average": 124.66666666666667,
+        "median": 149
+      }
+    },
+    "amazon": [
+
+    ]
+  },
+  {
+    "name": "Apple iPhone 4s 16GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487226184:587516574:7bd78616c058c30d241182ac0ddf145e:1:1:1:5000000504399",
+    "product_id": "109266974",
+    "model": "4s",
+    "brand": "Apple",
+    "family_line": " iPhone",
+    "carrier": "Verizon",
+    "storage_capacity": "16GB",
+    "popularity_rank": 9988,
+    "item_count": 100,
+    "ebay_new_range": [
+      297,
+      363
+    ],
+    "ebay_used_range": [
+      232,
+      283
+    ],
+    "amazon_competitive_pricing": [
+      267,
+      326
+    ],
+    "amazon_lowest_offer_used": [
+      180,
+      220
+    ],
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+      "Apple iPhone 4S 16GB (Black) - Sprint",
+      "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+      "Apple iPhone 4S 16GB White - Unlocked",
+      "Apple iPhone 4S 16GB (White) - Sprint"
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 330,
+        "highest": 330,
+        "count": 1,
+        "average": 330.0,
+        "median": 330
+      },
+      "used": {
+        "lowest": 130,
+        "highest": 399,
+        "count": 90,
+        "average": 262.1333333333333,
+        "median": 257.5
+      }
+    },
+    "amazon": [
+      {
+        "name": "Apple iPhone 4S 16GB (Black) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074R14TI",
+        "competitive_pricing": {
+          "lowest": 236,
+          "highest": 357,
+          "count": 2,
+          "average": 296.5,
+          "median": 296.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 195,
+          "highest": 222,
+          "count": 9,
+          "average": 208.0,
+          "median": 200
+        },
+        "lowest_offer_refurbished": null
+      },
+      {
+        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
+        "competitive_pricing": {
+          "lowest": 410,
+          "highest": 499,
+          "count": 2,
+          "average": 454.5,
+          "median": 454.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 319,
+          "highest": 349,
+          "count": 8,
+          "average": 335.75,
+          "median": 337.5
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 339,
+          "highest": 339,
+          "count": 1,
+          "average": 339.0,
+          "median": 339
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB White - Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0062ICRGE",
+        "competitive_pricing": {
+          "lowest": 549,
+          "highest": 549,
+          "count": 1,
+          "average": 549.0,
+          "median": 549
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 298,
+          "highest": 359,
+          "count": 9,
+          "average": 325.77777777777777,
+          "median": 325
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 350,
+          "highest": 369,
+          "count": 2,
+          "average": 359.5,
+          "median": 359.5
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB (White) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074RE1Z2",
+        "competitive_pricing": {
+          "lowest": 231,
+          "highest": 380,
+          "count": 2,
+          "average": 305.5,
+          "median": 305.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 180,
+          "highest": 209,
+          "count": 9,
+          "average": 202.22222222222223,
+          "median": 204
+        },
+        "lowest_offer_refurbished": null
+      }
+    ]
+  },
+  {
+    "name": "Apple iPhone 4 16GB",
     "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3384801876:578974976:2e67417dc82786dd11ae41b547dc2c4a:1:1:1:1417460491",
     "product_id": "99998176",
     "model": "4",
     "brand": "Apple",
     "family_line": " iPhone",
     "carrier": "AT&T",
-    "storage_capacity": "16 GB",
+    "storage_capacity": "16GB",
     "popularity_rank": 9998,
     "item_count": 100,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      168,
-      206
-    ],
-    "competitive_pricing": [
-      196,
-      239
-    ],
-    "lowest_offer_used": [
-      157,
-      192
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 110,
-        "highest": 400,
-        "count": 84,
-        "average": 198.08333333333334,
-        "median": 187.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 16GB (White) - Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
-        "competitive_pricing": {
-          "lowest": 179,
-          "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 169,
-          "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 159,
-          "highest": 173,
-          "count": 2,
-          "average": 166.0,
-          "median": 166.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "HTC Inspire 4G 4 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3384342099:588811939:d86a7f61aee993ab22f849cc6f701656:1:1:1:1417460356",
-    "product_id": "99978689",
-    "model": "Inspire 4G",
-    "brand": "HTC",
-    "family_line": null,
-    "carrier": "Unlocked",
-    "storage_capacity": "4 GB",
-    "popularity_rank": 9997,
-    "item_count": 2,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      158,
-      193
-    ],
-    "competitive_pricing": [
-      133,
-      163
-    ],
-    "lowest_offer_used": [
-      102,
-      124
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      119,
-      145
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 150,
-        "highest": 200,
-        "count": 2,
-        "average": 175.0,
-        "median": 175.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "HTC A9192 Inspire 4G Unlocked Phone with Android OS, 3G Support, 8 MP Camera, Wi-Fi, and GPS--(Black)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004T36GCU",
-        "competitive_pricing": {
-          "lowest": 137,
-          "highest": 159,
-          "count": 2,
-          "average": 148.0,
-          "median": 148.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 107,
-          "highest": 137,
-          "count": 9,
-          "average": 116.55555555555556,
-          "median": 113
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 129,
-          "highest": 133,
-          "count": 3,
-          "average": 131.33333333333334,
-          "median": 132
-        }
-      },
-      {
-        "name": "HTC T320e One V Unlocked Android Smartphone with Beats Audio, 5MP Camera, Bluetooth, Wi-Fi, 4GB(capability with external storage), HD Video - Unlocked Phone - No Warranty - Black",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0086ZV2M6",
-        "competitive_pricing": {
-          "lowest": 167,
-          "highest": 182,
-          "count": 2,
-          "average": 174.5,
-          "median": 174.5
-        },
-        "lowest_offer_new": {
-          "lowest": 178,
-          "highest": 289,
-          "count": 9,
-          "average": 205.22222222222223,
-          "median": 185
-        },
-        "lowest_offer_used": {
-          "lowest": 134,
-          "highest": 167,
-          "count": 4,
-          "average": 144.75,
-          "median": 139.0
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 144,
-          "highest": 145,
-          "count": 2,
-          "average": 144.5,
-          "median": 144.5
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4s 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487226184:587236014:6498d3b2c1007ef35a2b856326e6eab0:1:1:1:5000000504399",
-    "product_id": "109266974",
-    "model": "4s",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9988,
-    "item_count": 100,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      225,
-      275
-    ],
-    "competitive_pricing": [
-      386,
-      472
-    ],
-    "lowest_offer_used": [
-      306,
-      374
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 175,
-        "highest": 465,
-        "count": 86,
-        "average": 265.8255813953488,
-        "median": 250.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
-        "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
-          "count": 2,
-          "average": 429.0,
-          "median": 429.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
-        },
-        "lowest_offer_refurbished": null
-      },
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Unlocked",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZBH4",
-        "competitive_pricing": {
-          "lowest": 670,
-          "highest": 670,
-          "count": 1,
-          "average": 670.0,
-          "median": 670
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 448,
-          "highest": 490,
-          "count": 9,
-          "average": 467.6666666666667,
-          "median": 468
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 480,
-          "highest": 480,
-          "count": 1,
-          "average": 480.0,
-          "median": 480
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3206237934:587223094:c71752621a54b64af81e14cc250e81c6:1:1:1:1418090522",
-    "product_id": "101787954",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9996,
-    "item_count": 100,
     "ebay_new_range": [
-      248,
-      303
+      188,
+      230
     ],
     "ebay_used_range": [
-      169,
-      207
+      179,
+      219
     ],
-    "competitive_pricing": [
-      196,
-      239
+    "amazon_competitive_pricing": [
+      230,
+      282
     ],
-    "lowest_offer_used": [
-      157,
-      192
+    "amazon_lowest_offer_used": [
+      148,
+      181
     ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": [
+      143,
+      175
+    ],
+    "amazon_matched_products": [
+      "Apple iPhone 4 16GB (White) - Verizon",
+      "IPHONE 4 16GB - Factory Unlocked - Black",
+      "Apple Iphone 4 16gb White Unlocked"
     ],
     "ebay": {
       "new": {
-        "lowest": 275,
-        "highest": 275,
+        "lowest": 209,
+        "highest": 209,
         "count": 1,
-        "average": 275.0,
-        "median": 275
+        "average": 209.0,
+        "median": 209
       },
       "used": {
-        "lowest": 99,
-        "highest": 499,
-        "count": 83,
-        "average": 192.44578313253012,
-        "median": 188
+        "lowest": 121,
+        "highest": 400,
+        "count": 88,
+        "average": 207.6590909090909,
+        "median": 199.0
       }
     },
     "amazon": [
@@ -448,471 +286,128 @@
         "name": "Apple iPhone 4 16GB (White) - Verizon",
         "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
         "competitive_pricing": {
-          "lowest": 179,
+          "lowest": 256,
           "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
+          "count": 1,
+          "average": 256.0,
+          "median": 256
         },
         "lowest_offer_new": null,
         "lowest_offer_used": {
-          "lowest": 169,
+          "lowest": 120,
           "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
+          "count": 14,
+          "average": 162.5,
+          "median": 164.5
         },
         "lowest_offer_refurbished": {
           "lowest": 159,
-          "highest": 173,
+          "highest": 159,
+          "count": 1,
+          "average": 159.0,
+          "median": 159
+        }
+      },
+      {
+        "name": "IPHONE 4 16GB - Factory Unlocked - Black",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B00598BY6W",
+        "competitive_pricing": {
+          "lowest": 311,
+          "highest": 399,
           "count": 2,
-          "average": 166.0,
-          "median": 166.0
+          "average": 355.0,
+          "median": 355.0
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 239,
+          "highest": 320,
+          "count": 12,
+          "average": 279.5833333333333,
+          "median": 277.5
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 278,
+          "highest": 320,
+          "count": 3,
+          "average": 292.0,
+          "median": 278
+        }
+      },
+      {
+        "name": "Apple Iphone 4 16gb White Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B005XYGFIY",
+        "competitive_pricing": {
+          "lowest": 399,
+          "highest": 399,
+          "count": 1,
+          "average": 399.0,
+          "median": 399
+        },
+        "lowest_offer_new": {
+          "lowest": 399,
+          "highest": 399,
+          "count": 2,
+          "average": 399.0,
+          "median": 399.0
+        },
+        "lowest_offer_used": {
+          "lowest": 199,
+          "highest": 394,
+          "count": 8,
+          "average": 290.375,
+          "median": 299.0
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 398,
+          "highest": 398,
+          "count": 1,
+          "average": 398.0,
+          "median": 398
         }
       }
     ]
   },
   {
-    "name": "Motorola Droid a855 256 MB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3957554511:587537361:533de6a1452f2a4b3c500784e462166c:1:1:1:5000000634824",
+    "name": "Motorola Droid a855 256MB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3957554511:587841281:386c017e4b411c1324565edc97a2ef15:1:1:1:5000000634824",
     "product_id": "109883331",
     "model": "a855",
     "brand": "Motorola",
     "family_line": " Droid",
     "carrier": "Verizon",
-    "storage_capacity": "256 MB",
+    "storage_capacity": "256MB",
     "popularity_rank": 9987,
-    "item_count": 32,
+    "item_count": 41,
     "ebay_new_range": [
-      206,
-      252
+      450,
+      550
     ],
     "ebay_used_range": [
-      36,
-      44
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": [
-      57,
-      70
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      107,
-      131
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 100,
-        "highest": 299,
-        "count": 3,
-        "average": 209.33333333333334,
-        "median": 229
-      },
-      "used": {
-        "lowest": 20,
-        "highest": 224,
-        "count": 26,
-        "average": 61.15384615384615,
-        "median": 40.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Motorola Droid A855 Android 2.0 Cell phone, Bluetooth, 5 MP auto-focus Camera, Video capture for Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006V6XLLW",
-        "competitive_pricing": null,
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 49,
-          "highest": 72,
-          "count": 4,
-          "average": 62.0,
-          "median": 63.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 119,
-          "highest": 119,
-          "count": 1,
-          "average": 119.0,
-          "median": 119
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4s 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487682624:587218354:434319149742a1106487f804a34cd294:1:1:1:5000000504401",
-    "product_id": "109265014",
-    "model": "4s",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9986,
-    "item_count": 100,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      225,
-      275
-    ],
-    "competitive_pricing": [
-      386,
-      472
-    ],
-    "lowest_offer_used": [
-      306,
-      374
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 170,
-        "highest": 625,
-        "count": 88,
-        "average": 270.3863636363636,
-        "median": 250.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
-        "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
-          "count": 2,
-          "average": 429.0,
-          "median": 429.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
-        },
-        "lowest_offer_refurbished": null
-      },
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Unlocked",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZBH4",
-        "competitive_pricing": {
-          "lowest": 670,
-          "highest": 670,
-          "count": 1,
-          "average": 670.0,
-          "median": 670
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 448,
-          "highest": 490,
-          "count": 9,
-          "average": 467.6666666666667,
-          "median": 468
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 480,
-          "highest": 480,
-          "count": 1,
-          "average": 480.0,
-          "median": 480
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4s 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487682628:589392928:40200c3cfa7b726382159323f5359b28:1:1:1:5000000504405",
-    "product_id": "109353398",
-    "model": "4s",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "AT&T",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9995,
-    "item_count": 100,
-    "ebay_new_range": [
-      326,
-      399
-    ],
-    "ebay_used_range": [
-      248,
-      303
-    ],
-    "competitive_pricing": [
-      603,
-      737
-    ],
-    "lowest_offer_used": [
-      418,
-      510
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      432,
-      528
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 300,
-        "highest": 425,
-        "count": 2,
-        "average": 362.5,
-        "median": 362.5
-      },
-      "used": {
-        "lowest": 200,
-        "highest": 425,
-        "count": 88,
-        "average": 285.5,
-        "median": 275.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Unlocked",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZBH4",
-        "competitive_pricing": {
-          "lowest": 670,
-          "highest": 670,
-          "count": 1,
-          "average": 670.0,
-          "median": 670
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 448,
-          "highest": 485,
-          "count": 8,
-          "average": 464.875,
-          "median": 464.0
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 480,
-          "highest": 480,
-          "count": 1,
-          "average": 480.0,
-          "median": 480
-        }
-      },
-      {
-        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
-        "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
-          "count": 2,
-          "average": 429.0,
-          "median": 429.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
-        },
-        "lowest_offer_refurbished": null
-      }
-    ]
-  },
-  {
-    "name": "Motorola Droid 2 Global 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:4083927637:588206507:1b3dbb8817ad9a038955e98af78b21b4:1:1:1:5000000180405",
-    "product_id": "108848327",
-    "model": "2 Global",
-    "brand": "Motorola",
-    "family_line": " Droid",
-    "carrier": "Verizon",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9994,
-    "item_count": 9,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      45,
-      54
-    ],
-    "competitive_pricing": [
-      82,
-      100
-    ],
-    "lowest_offer_used": [
       44,
       54
     ],
-    "lowest_offer_new": [
-      79,
-      97
-    ],
-    "lowest_offer_refurbished": [
-      62,
-      76
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 20,
-        "highest": 150,
-        "count": 6,
-        "average": 73.16666666666667,
-        "median": 49.5
-      }
-    },
-    "amazon": [
-      {
-        "name": "Motorola Droid X MB810 Verizon Phone 8MP Camera, GPS, WiFi, Bluetooth (Black) B",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004HGU4H2",
-        "competitive_pricing": {
-          "lowest": 91,
-          "highest": 91,
-          "count": 1,
-          "average": 91.0,
-          "median": 91
-        },
-        "lowest_offer_new": {
-          "lowest": 85,
-          "highest": 91,
-          "count": 2,
-          "average": 88.0,
-          "median": 88.0
-        },
-        "lowest_offer_used": {
-          "lowest": 32,
-          "highest": 85,
-          "count": 7,
-          "average": 54.142857142857146,
-          "median": 49
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 52,
-          "highest": 74,
-          "count": 5,
-          "average": 64.8,
-          "median": 69
-        }
-      }
-    ]
-  },
-  {
-    "name": "HTC Droid Incredible 2 4 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:1833994944:587211224:b16f37c8ca1600755e529e3eb9c20bd1:1:1:1:1420509800",
-    "product_id": "102410294",
-    "model": "Incredible 2",
-    "brand": "HTC",
-    "family_line": " Droid",
-    "carrier": "Verizon",
-    "storage_capacity": "4 GB",
-    "popularity_rank": 9993,
-    "item_count": 6,
-    "ebay_new_range": [
-      180,
-      220
-    ],
-    "ebay_used_range": [
-      72,
-      88
-    ],
-    "competitive_pricing": [
-      64,
-      78
-    ],
-    "lowest_offer_used": [
-      49,
-      59
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      58,
-      70
+    "amazon_competitive_pricing": null,
+    "amazon_lowest_offer_used": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+
     ],
     "ebay": {
       "new": {
-        "lowest": 200,
-        "highest": 200,
+        "lowest": 500,
+        "highest": 500,
         "count": 1,
-        "average": 200.0,
-        "median": 200
+        "average": 500.0,
+        "median": 500
       },
       "used": {
-        "lowest": 60,
-        "highest": 180,
-        "count": 4,
-        "average": 100.0,
-        "median": 80.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "HTC DROID INCREDIBLE Android Phone Black (Verizon Wireless)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004AFVEOC",
-        "competitive_pricing": {
-          "lowest": 71,
-          "highest": 71,
-          "count": 1,
-          "average": 71.0,
-          "median": 71
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 40,
-          "highest": 62,
-          "count": 10,
-          "average": 53.0,
-          "median": 54.0
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 59,
-          "highest": 64,
-          "count": 3,
-          "average": 62.333333333333336,
-          "median": 64
-        }
-      }
-    ]
-  },
-  {
-    "name": "Samsung Galaxy S II SPH-D710 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2400018252:588693612:cabe37c5a39e592afd4b7856601ad64e:1:1:1:5000000571998",
-    "product_id": "109468762",
-    "model": "SPH-D710",
-    "brand": "Samsung",
-    "family_line": " Galaxy S II",
-    "carrier": "Sprint",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9985,
-    "item_count": 52,
-    "ebay_new_range": [
-      131,
-      160
-    ],
-    "ebay_used_range": [
-      126,
-      154
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 140,
-        "highest": 150,
-        "count": 2,
-        "average": 145.0,
-        "median": 145.0
-      },
-      "used": {
-        "lowest": 80,
-        "highest": 250,
-        "count": 43,
-        "average": 146.93023255813952,
-        "median": 140
+        "lowest": 25,
+        "highest": 388,
+        "count": 33,
+        "average": 87.54545454545455,
+        "median": 49
       }
     },
     "amazon": [
@@ -920,2456 +415,543 @@
     ]
   },
   {
-    "name": "Apple iPhone 4s 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487682880:587154920:a196e78d69af48833d21651d6fa3406c:1:1:1:5000000504411",
-    "product_id": "109348370",
-    "model": "4s",
+    "name": "Apple iPhone 4 16GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3206237934:587514354:0f4a3f95b030e44840aefafa60908f37:1:1:1:1418090522",
+    "product_id": "101787954",
+    "model": "4",
     "brand": "Apple",
     "family_line": " iPhone",
-    "carrier": "AT&T",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9992,
+    "carrier": "Verizon",
+    "storage_capacity": "16GB",
+    "popularity_rank": 9997,
     "item_count": 100,
     "ebay_new_range": [
-      356,
-      435
+      236,
+      289
     ],
     "ebay_used_range": [
-      248,
-      303
+      158,
+      193
     ],
-    "competitive_pricing": [
-      386,
-      472
+    "amazon_competitive_pricing": [
+      230,
+      282
     ],
-    "lowest_offer_used": [
-      306,
-      374
+    "amazon_lowest_offer_used": [
+      148,
+      181
     ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": [
+      143,
+      175
+    ],
+    "amazon_matched_products": [
+      "Apple iPhone 4 16GB (White) - Verizon",
+      "IPHONE 4 16GB - Factory Unlocked - Black",
+      "Apple Iphone 4 16gb White Unlocked"
+    ],
     "ebay": {
       "new": {
-        "lowest": 389,
-        "highest": 500,
-        "count": 3,
-        "average": 428.0,
-        "median": 395
+        "lowest": 250,
+        "highest": 275,
+        "count": 2,
+        "average": 262.5,
+        "median": 262.5
       },
       "used": {
-        "lowest": 189,
-        "highest": 450,
-        "count": 86,
-        "average": 283.4651162790698,
-        "median": 275.0
+        "lowest": 90,
+        "highest": 400,
+        "count": 88,
+        "average": 187.95454545454547,
+        "median": 175.0
       }
     },
     "amazon": [
       {
-        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
+        "name": "Apple iPhone 4 16GB (White) - Verizon",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
         "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
-          "count": 2,
-          "average": 429.0,
-          "median": 429.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
-        },
-        "lowest_offer_refurbished": null
-      },
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Unlocked",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZBH4",
-        "competitive_pricing": {
-          "lowest": 670,
-          "highest": 670,
+          "lowest": 256,
+          "highest": 256,
           "count": 1,
-          "average": 670.0,
-          "median": 670
+          "average": 256.0,
+          "median": 256
         },
         "lowest_offer_new": null,
         "lowest_offer_used": {
-          "lowest": 448,
-          "highest": 490,
-          "count": 9,
-          "average": 467.6666666666667,
-          "median": 468
+          "lowest": 120,
+          "highest": 179,
+          "count": 14,
+          "average": 162.5,
+          "median": 164.5
         },
         "lowest_offer_refurbished": {
-          "lowest": 480,
-          "highest": 480,
+          "lowest": 159,
+          "highest": 159,
           "count": 1,
-          "average": 480.0,
-          "median": 480
+          "average": 159.0,
+          "median": 159
+        }
+      },
+      {
+        "name": "IPHONE 4 16GB - Factory Unlocked - Black",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B00598BY6W",
+        "competitive_pricing": {
+          "lowest": 311,
+          "highest": 399,
+          "count": 2,
+          "average": 355.0,
+          "median": 355.0
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 239,
+          "highest": 320,
+          "count": 12,
+          "average": 279.5833333333333,
+          "median": 277.5
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 278,
+          "highest": 320,
+          "count": 3,
+          "average": 292.0,
+          "median": 278
+        }
+      },
+      {
+        "name": "Apple Iphone 4 16gb White Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B005XYGFIY",
+        "competitive_pricing": {
+          "lowest": 399,
+          "highest": 399,
+          "count": 1,
+          "average": 399.0,
+          "median": 399
+        },
+        "lowest_offer_new": {
+          "lowest": 399,
+          "highest": 399,
+          "count": 2,
+          "average": 399.0,
+          "median": 399.0
+        },
+        "lowest_offer_used": {
+          "lowest": 199,
+          "highest": 394,
+          "count": 8,
+          "average": 290.375,
+          "median": 299.0
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 398,
+          "highest": 398,
+          "count": 1,
+          "average": 398.0,
+          "median": 398
         }
       }
     ]
   },
   {
-    "name": "Apple iPhone 5 16 GB",
+    "name": "Apple iPhone 4s 16GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487682624:587513254:5fba6c37d39cd1545fca9a294c049370:1:1:1:5000000504401",
+    "product_id": "109265014",
+    "model": "4s",
+    "brand": "Apple",
+    "family_line": " iPhone",
+    "carrier": "Verizon",
+    "storage_capacity": "16GB",
+    "popularity_rank": 9986,
+    "item_count": 100,
+    "ebay_new_range": [
+      383,
+      468
+    ],
+    "ebay_used_range": [
+      233,
+      285
+    ],
+    "amazon_competitive_pricing": [
+      267,
+      326
+    ],
+    "amazon_lowest_offer_used": [
+      180,
+      220
+    ],
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+      "Apple iPhone 4S 16GB (Black) - Sprint",
+      "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+      "Apple iPhone 4S 16GB White - Unlocked",
+      "Apple iPhone 4S 16GB (White) - Sprint"
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 425,
+        "highest": 425,
+        "count": 1,
+        "average": 425.0,
+        "median": 425
+      },
+      "used": {
+        "lowest": 175,
+        "highest": 625,
+        "count": 91,
+        "average": 277.0769230769231,
+        "median": 259
+      }
+    },
+    "amazon": [
+      {
+        "name": "Apple iPhone 4S 16GB (Black) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074R14TI",
+        "competitive_pricing": {
+          "lowest": 236,
+          "highest": 357,
+          "count": 2,
+          "average": 296.5,
+          "median": 296.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 195,
+          "highest": 222,
+          "count": 9,
+          "average": 208.0,
+          "median": 200
+        },
+        "lowest_offer_refurbished": null
+      },
+      {
+        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
+        "competitive_pricing": {
+          "lowest": 410,
+          "highest": 499,
+          "count": 2,
+          "average": 454.5,
+          "median": 454.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 319,
+          "highest": 349,
+          "count": 8,
+          "average": 335.75,
+          "median": 337.5
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 339,
+          "highest": 339,
+          "count": 1,
+          "average": 339.0,
+          "median": 339
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB White - Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0062ICRGE",
+        "competitive_pricing": {
+          "lowest": 549,
+          "highest": 549,
+          "count": 1,
+          "average": 549.0,
+          "median": 549
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 298,
+          "highest": 359,
+          "count": 9,
+          "average": 325.77777777777777,
+          "median": 325
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 350,
+          "highest": 369,
+          "count": 2,
+          "average": 359.5,
+          "median": 359.5
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB (White) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074RE1Z2",
+        "competitive_pricing": {
+          "lowest": 231,
+          "highest": 380,
+          "count": 2,
+          "average": 305.5,
+          "median": 305.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 180,
+          "highest": 209,
+          "count": 9,
+          "average": 202.22222222222223,
+          "median": 204
+        },
+        "lowest_offer_refurbished": null
+      }
+    ]
+  },
+  {
+    "name": "Apple iPhone 4s 16GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487682628:589706988:074c85d3a34353f8e3c50d9b0d8f1f75:1:1:1:5000000504405",
+    "product_id": "109353398",
+    "model": "4s",
+    "brand": "Apple",
+    "family_line": " iPhone",
+    "carrier": "AT&T",
+    "storage_capacity": "16GB",
+    "popularity_rank": 9996,
+    "item_count": 100,
+    "ebay_new_range": [
+      315,
+      385
+    ],
+    "ebay_used_range": [
+      233,
+      285
+    ],
+    "amazon_competitive_pricing": [
+      267,
+      326
+    ],
+    "amazon_lowest_offer_used": [
+      180,
+      220
+    ],
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+      "Apple iPhone 4S 16GB (Black) - Sprint",
+      "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+      "Apple iPhone 4S 16GB White - Unlocked",
+      "Apple iPhone 4S 16GB (White) - Sprint"
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 350,
+        "highest": 350,
+        "count": 2,
+        "average": 350.0,
+        "median": 350.0
+      },
+      "used": {
+        "lowest": 175,
+        "highest": 480,
+        "count": 91,
+        "average": 268.7142857142857,
+        "median": 259
+      }
+    },
+    "amazon": [
+      {
+        "name": "Apple iPhone 4S 16GB (Black) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074R14TI",
+        "competitive_pricing": {
+          "lowest": 236,
+          "highest": 357,
+          "count": 2,
+          "average": 296.5,
+          "median": 296.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 195,
+          "highest": 222,
+          "count": 9,
+          "average": 208.0,
+          "median": 200
+        },
+        "lowest_offer_refurbished": null
+      },
+      {
+        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
+        "competitive_pricing": {
+          "lowest": 410,
+          "highest": 499,
+          "count": 2,
+          "average": 454.5,
+          "median": 454.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 319,
+          "highest": 350,
+          "count": 9,
+          "average": 337.3333333333333,
+          "median": 345
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 339,
+          "highest": 339,
+          "count": 1,
+          "average": 339.0,
+          "median": 339
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB White - Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0062ICRGE",
+        "competitive_pricing": {
+          "lowest": 549,
+          "highest": 549,
+          "count": 1,
+          "average": 549.0,
+          "median": 549
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 298,
+          "highest": 359,
+          "count": 9,
+          "average": 325.77777777777777,
+          "median": 325
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 350,
+          "highest": 369,
+          "count": 2,
+          "average": 359.5,
+          "median": 359.5
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB (White) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074RE1Z2",
+        "competitive_pricing": {
+          "lowest": 231,
+          "highest": 380,
+          "count": 2,
+          "average": 305.5,
+          "median": 305.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 180,
+          "highest": 209,
+          "count": 9,
+          "average": 202.22222222222223,
+          "median": 204
+        },
+        "lowest_offer_refurbished": null
+      }
+    ]
+  },
+  {
+    "name": "Apple iPhone 5 16GB",
     "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2898271603:576426523:34fb81f98e4e7b634f2cf68c4b63ac5c:1:1:1:5000007233444",
     "product_id": "117384483",
     "model": "5",
     "brand": "Apple",
     "family_line": " iPhone",
     "carrier": "AT&T",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9984,
+    "storage_capacity": "16GB",
+    "popularity_rank": 9985,
     "item_count": 100,
     "ebay_new_range": [
-      450,
-      550
+      459,
+      561
     ],
     "ebay_used_range": [
       360,
       440
     ],
-    "competitive_pricing": [
-      427,
-      521
-    ],
-    "lowest_offer_used": [
-      315,
-      384
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      356,
-      436
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 489,
-        "highest": 550,
-        "count": 6,
-        "average": 509.6666666666667,
-        "median": 500.0
-      },
-      "used": {
-        "lowest": 289,
-        "highest": 700,
-        "count": 79,
-        "average": 418.0126582278481,
-        "median": 400
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Sprint",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B009F9Q2U4",
-        "competitive_pricing": {
-          "lowest": 474,
-          "highest": 474,
-          "count": 1,
-          "average": 474.0,
-          "median": 474
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 305,
-          "highest": 395,
-          "count": 10,
-          "average": 347.4,
-          "median": 349.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 395,
-          "highest": 397,
-          "count": 2,
-          "average": 396.0,
-          "median": 396.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Motorola Droid X2 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:352235407:588208707:92c79db97a6385ce2ff5841804feeaec:1:1:1:5000000069649",
-    "product_id": "108404537",
-    "model": "X2",
-    "brand": "Motorola",
-    "family_line": " Droid",
-    "carrier": "Verizon",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9991,
-    "item_count": 17,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      68,
-      83
-    ],
-    "competitive_pricing": [
-      82,
-      100
-    ],
-    "lowest_offer_used": [
-      44,
-      54
-    ],
-    "lowest_offer_new": [
-      79,
-      97
-    ],
-    "lowest_offer_refurbished": [
-      62,
-      76
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 39,
-        "highest": 129,
-        "count": 13,
-        "average": 80.84615384615384,
-        "median": 75
-      }
-    },
-    "amazon": [
-      {
-        "name": "Motorola Droid X MB810 Verizon Phone 8MP Camera, GPS, WiFi, Bluetooth (Black) B",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004HGU4H2",
-        "competitive_pricing": {
-          "lowest": 91,
-          "highest": 91,
-          "count": 1,
-          "average": 91.0,
-          "median": 91
-        },
-        "lowest_offer_new": {
-          "lowest": 85,
-          "highest": 91,
-          "count": 2,
-          "average": 88.0,
-          "median": 88.0
-        },
-        "lowest_offer_used": {
-          "lowest": 32,
-          "highest": 85,
-          "count": 7,
-          "average": 54.142857142857146,
-          "median": 49
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 52,
-          "highest": 74,
-          "count": 5,
-          "average": 64.8,
-          "median": 69
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 5 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2898271351:575518191:83b48f827c09ce383b042d475c03a3d2:1:1:1:5000007233450",
-    "product_id": "117283531",
-    "model": "5",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "AT&T",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9983,
-    "item_count": 100,
-    "ebay_new_range": [
-      450,
-      550
-    ],
-    "ebay_used_range": [
-      378,
-      462
-    ],
-    "competitive_pricing": [
-      427,
-      521
-    ],
-    "lowest_offer_used": [
-      315,
-      384
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      356,
-      436
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 425,
-        "highest": 600,
-        "count": 13,
-        "average": 505.0769230769231,
-        "median": 500
-      },
-      "used": {
-        "lowest": 300,
-        "highest": 650,
-        "count": 69,
-        "average": 429.94202898550725,
-        "median": 420
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Sprint",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B009F9Q2U4",
-        "competitive_pricing": {
-          "lowest": 474,
-          "highest": 474,
-          "count": 1,
-          "average": 474.0,
-          "median": 474
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 305,
-          "highest": 395,
-          "count": 10,
-          "average": 347.4,
-          "median": 349.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 395,
-          "highest": 397,
-          "count": 2,
-          "average": 396.0,
-          "median": 396.0
-        }
-      },
-      {
-        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
-        "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
-          "count": 2,
-          "average": 429.0,
-          "median": 429.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
-        },
-        "lowest_offer_refurbished": null
-      }
-    ]
-  },
-  {
-    "name": "HTC EVO 4G 1 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2812280820:587157640:5bef7786ea865a981cef7f3820633399:1:1:1:1418724563",
-    "product_id": "102331090",
-    "model": "4G",
-    "brand": "HTC",
-    "family_line": " EVO",
-    "carrier": "Sprint",
-    "storage_capacity": "1 GB",
-    "popularity_rank": 9990,
-    "item_count": 62,
-    "ebay_new_range": [
-      179,
-      219
-    ],
-    "ebay_used_range": [
-      63,
-      77
-    ],
-    "competitive_pricing": [
-      133,
-      163
-    ],
-    "lowest_offer_used": [
-      102,
-      124
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      119,
-      145
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 199,
-        "highest": 199,
-        "count": 1,
-        "average": 199.0,
-        "median": 199
-      },
-      "used": {
-        "lowest": 40,
-        "highest": 400,
-        "count": 56,
-        "average": 83.26785714285714,
-        "median": 70.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "HTC A9192 Inspire 4G Unlocked Phone with Android OS, 3G Support, 8 MP Camera, Wi-Fi, and GPS--(Black)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004T36GCU",
-        "competitive_pricing": {
-          "lowest": 137,
-          "highest": 159,
-          "count": 2,
-          "average": 148.0,
-          "median": 148.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 107,
-          "highest": 137,
-          "count": 9,
-          "average": 116.55555555555556,
-          "median": 113
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 129,
-          "highest": 133,
-          "count": 3,
-          "average": 131.33333333333334,
-          "median": 132
-        }
-      },
-      {
-        "name": "HTC EVO Design 4G Prepaid Android Phone (Boost Mobile)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0088K57I4",
-        "competitive_pricing": {
-          "lowest": 194,
-          "highest": 194,
-          "count": 1,
-          "average": 194.0,
-          "median": 194
-        },
-        "lowest_offer_new": {
-          "lowest": 194,
-          "highest": 497,
-          "count": 9,
-          "average": 263.22222222222223,
-          "median": 224
-        },
-        "lowest_offer_used": {
-          "lowest": 120,
-          "highest": 279,
-          "count": 3,
-          "average": 182.66666666666666,
-          "median": 149
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 146,
-          "highest": 228,
-          "count": 3,
-          "average": 174.33333333333334,
-          "median": 149
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502431:587542981:8595e54772ccd1aa9d9d541b359c97a2:1:1:1:5000000887461",
-    "product_id": "110602231",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Verizon",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9982,
-    "item_count": 100,
-    "ebay_new_range": [
-      217,
-      265
-    ],
-    "ebay_used_range": [
-      158,
-      193
-    ],
-    "competitive_pricing": [
-      196,
-      239
-    ],
-    "lowest_offer_used": [
-      157,
-      192
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 215,
-        "highest": 267,
-        "count": 2,
-        "average": 241.0,
-        "median": 241.0
-      },
-      "used": {
-        "lowest": 120,
-        "highest": 550,
-        "count": 81,
-        "average": 184.14814814814815,
-        "median": 175
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 16GB (White) - Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
-        "competitive_pricing": {
-          "lowest": 179,
-          "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 169,
-          "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 159,
-          "highest": 173,
-          "count": 2,
-          "average": 166.0,
-          "median": 166.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "LG Venice LG730 4 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:1236889124:587218574:07fea8d29430c0cab7f80dd139ca5b1b:1:1:1:5000019523813",
-    "product_id": "129359814",
-    "model": "Venice LG730",
-    "brand": "LG",
-    "family_line": null,
-    "carrier": "Boost Mobile",
-    "storage_capacity": "4 GB",
-    "popularity_rank": 9981,
-    "item_count": 3,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      90,
-      109
-    ],
-    "competitive_pricing": [
-      116,
-      142
-    ],
-    "lowest_offer_used": [
-      99,
-      120
-    ],
-    "lowest_offer_new": [
-      118,
-      144
-    ],
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 99,
-        "highest": 100,
-        "count": 2,
-        "average": 99.5,
-        "median": 99.5
-      }
-    },
-    "amazon": [
-      {
-        "name": "LG Venice (Boost Mobile)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B009SP8X02",
-        "competitive_pricing": {
-          "lowest": 129,
-          "highest": 129,
-          "count": 1,
-          "average": 129.0,
-          "median": 129
-        },
-        "lowest_offer_new": {
-          "lowest": 125,
-          "highest": 298,
-          "count": 5,
-          "average": 170.4,
-          "median": 131
-        },
-        "lowest_offer_used": {
-          "lowest": 95,
-          "highest": 123,
-          "count": 4,
-          "average": 109.25,
-          "median": 109.5
-        },
-        "lowest_offer_refurbished": null
-      }
-    ]
-  },
-  {
-    "name": "Motorola Droid 3 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3475273455:590058675:f4e3833005abaf50471d9c6c55edcc09:1:1:1:5000000174412",
-    "product_id": "108653735",
-    "model": "3",
-    "brand": "Motorola",
-    "family_line": " Droid",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9980,
-    "item_count": 12,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      75,
-      91
-    ],
-    "competitive_pricing": [
-      341,
-      417
-    ],
-    "lowest_offer_used": [
-      180,
-      220
-    ],
-    "lowest_offer_new": [
-      330,
-      404
-    ],
-    "lowest_offer_refurbished": [
-      188,
-      230
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 40,
-        "highest": 100,
-        "count": 8,
-        "average": 80.125,
-        "median": 83.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Motorola droid Razr Maxx 16GB (Verizon) No Contract",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B009KKP10U",
-        "competitive_pricing": {
-          "lowest": 379,
-          "highest": 379,
-          "count": 1,
-          "average": 379.0,
-          "median": 379
-        },
-        "lowest_offer_new": {
-          "lowest": 355,
-          "highest": 379,
-          "count": 2,
-          "average": 367.0,
-          "median": 367.0
-        },
-        "lowest_offer_used": {
-          "lowest": 139,
-          "highest": 309,
-          "count": 9,
-          "average": 227.66666666666666,
-          "median": 200
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 199,
-          "highest": 299,
-          "count": 3,
-          "average": 235.66666666666666,
-          "median": 209
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:656692531:587542481:4a74f5b0c1b2f7a8a4aecc7ffe5ea4fd:1:1:1:1418249513",
-    "product_id": "102216581",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9979,
-    "item_count": 100,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      162,
-      198
-    ],
-    "competitive_pricing": [
-      196,
-      239
-    ],
-    "lowest_offer_used": [
-      157,
-      192
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 99,
-        "highest": 400,
-        "count": 90,
-        "average": 191.0,
-        "median": 180.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 16GB (White) - Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
-        "competitive_pricing": {
-          "lowest": 179,
-          "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 169,
-          "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 159,
-          "highest": 173,
-          "count": 2,
-          "average": 166.0,
-          "median": 166.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Samsung Galaxy S III SCH-I535 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2926493400:587141380:fb90fcacd0ce02d01055f5950276e636:1:1:1:5000003222984",
-    "product_id": "115199970",
-    "model": "SCH-I535",
-    "brand": "Samsung",
-    "family_line": " Galaxy S III",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9969,
-    "item_count": 46,
-    "ebay_new_range": [
-      297,
-      363
-    ],
-    "ebay_used_range": [
-      256,
-      312
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 300,
-        "highest": 498,
-        "count": 7,
-        "average": 371.57142857142856,
-        "median": 330
-      },
-      "used": {
-        "lowest": 199,
-        "highest": 925,
-        "count": 28,
-        "average": 306.82142857142856,
-        "median": 284.0
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "Samsung Infuse SGH-I997 4G 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3069385243:588934373:1c8affacdc22a35e32ae85d5630222fb:1:1:1:1422403389",
-    "product_id": "102665723",
-    "model": "SGH-I997 4G",
-    "brand": "Samsung",
-    "family_line": " Infuse",
-    "carrier": "AT&T",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9978,
-    "item_count": 19,
-    "ebay_new_range": [
-      148,
-      180
-    ],
-    "ebay_used_range": [
-      117,
-      144
-    ],
-    "competitive_pricing": [
-      160,
-      196
-    ],
-    "lowest_offer_used": [
-      125,
-      153
-    ],
-    "lowest_offer_new": [
-      160,
-      196
-    ],
-    "lowest_offer_refurbished": [
-      134,
-      163
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 164,
-        "highest": 164,
-        "count": 1,
-        "average": 164.0,
-        "median": 164
-      },
-      "used": {
-        "lowest": 100,
-        "highest": 250,
-        "count": 16,
-        "average": 138.375,
-        "median": 130.5
-      }
-    },
-    "amazon": [
-      {
-        "name": "Samsung i997 Infuse 4G, 8MP,16GB, WIFI, GPS, Super AMOLED Plus, Gorilla Glass Capacitive Touchscreen AT&T Unlocked World Mobile Smartphone",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B00578HQAW",
-        "competitive_pricing": {
-          "lowest": 178,
-          "highest": 178,
-          "count": 1,
-          "average": 178.0,
-          "median": 178
-        },
-        "lowest_offer_new": {
-          "lowest": 178,
-          "highest": 180,
-          "count": 6,
-          "average": 178.33333333333334,
-          "median": 178.0
-        },
-        "lowest_offer_used": {
-          "lowest": 100,
-          "highest": 164,
-          "count": 8,
-          "average": 136.125,
-          "median": 139.0
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 148,
-          "highest": 149,
-          "count": 2,
-          "average": 148.5,
-          "median": 148.5
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 5 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2898272126:574214146:635289c9440f169f914e2884ae6ec9ec:1:1:1:5000007233469",
-    "product_id": "117332696",
-    "model": "5",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9968,
-    "item_count": 45,
-    "ebay_new_range": [
-      473,
-      578
-    ],
-    "ebay_used_range": [
-      435,
-      531
-    ],
-    "competitive_pricing": [
-      386,
-      472
-    ],
-    "lowest_offer_used": [
-      306,
-      374
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 520,
-        "highest": 650,
-        "count": 3,
-        "average": 565.0,
-        "median": 525
-      },
-      "used": {
-        "lowest": 299,
-        "highest": 650,
-        "count": 36,
-        "average": 483.25,
-        "median": 483.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
-        "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
-          "count": 2,
-          "average": 429.0,
-          "median": 429.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
-        },
-        "lowest_offer_refurbished": null
-      },
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Sprint",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B009F9Q2U4",
-        "competitive_pricing": {
-          "lowest": 474,
-          "highest": 474,
-          "count": 1,
-          "average": 474.0,
-          "median": 474
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 305,
-          "highest": 395,
-          "count": 10,
-          "average": 347.4,
-          "median": 349.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 395,
-          "highest": 397,
-          "count": 2,
-          "average": 396.0,
-          "median": 396.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4s 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502167:588333207:82b37807d992e5a7ebe0de21fe6d690a:1:1:1:5000000887459",
-    "product_id": "110661597",
-    "model": "4s",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Sprint",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9977,
-    "item_count": 100,
-    "ebay_new_range": [
-      304,
-      371
-    ],
-    "ebay_used_range": [
-      224,
-      274
-    ],
-    "competitive_pricing": [
-      386,
-      472
-    ],
-    "lowest_offer_used": [
-      306,
-      374
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 270,
-        "highest": 360,
-        "count": 6,
-        "average": 321.5,
-        "median": 337.5
-      },
-      "used": {
-        "lowest": 150,
-        "highest": 365,
-        "count": 82,
-        "average": 244.29268292682926,
-        "median": 249.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
-        "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
-          "count": 2,
-          "average": 429.0,
-          "median": 429.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
-        },
-        "lowest_offer_refurbished": null
-      },
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Unlocked",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZBH4",
-        "competitive_pricing": {
-          "lowest": 670,
-          "highest": 670,
-          "count": 1,
-          "average": 670.0,
-          "median": 670
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 448,
-          "highest": 490,
-          "count": 9,
-          "average": 467.6666666666667,
-          "median": 468
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 480,
-          "highest": 480,
-          "count": 1,
-          "average": 480.0,
-          "median": 480
-        }
-      }
-    ]
-  },
-  {
-    "name": "LG Voyager VX10000 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2070846076:586270596:b9d985c8949982c750fad5059ce16b54:1:1:1:1422566140",
-    "product_id": "102966926",
-    "model": "Voyager VX10000",
-    "brand": "LG",
-    "family_line": null,
-    "carrier": "Verizon",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9967,
-    "item_count": 4,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      20,
-      24
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 14,
-        "highest": 30,
-        "count": 2,
-        "average": 22.0,
-        "median": 22.0
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502173:588939133:9b728bbb2293a044b9993712fa032cb0:1:1:1:5000000887453",
-    "product_id": "110655773",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Sprint",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9976,
-    "item_count": 94,
-    "ebay_new_range": [
-      218,
-      267
-    ],
-    "ebay_used_range": [
-      135,
-      165
-    ],
-    "competitive_pricing": [
-      196,
-      239
-    ],
-    "lowest_offer_used": [
-      157,
-      192
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 199,
-        "highest": 350,
-        "count": 8,
-        "average": 243.5,
-        "median": 242.5
-      },
-      "used": {
-        "lowest": 79,
-        "highest": 300,
-        "count": 69,
-        "average": 168.2463768115942,
-        "median": 150
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 16GB (White) - Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
-        "competitive_pricing": {
-          "lowest": 179,
-          "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 169,
-          "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 159,
-          "highest": 173,
-          "count": 2,
-          "average": 166.0,
-          "median": 166.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "LG Ally VS740 102 MB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2070912638:589398468:cfbb036cdcd19cc63fcd2f7d513c5722:1:1:1:1422566002",
-    "product_id": "103009818",
-    "model": "VS740",
-    "brand": "LG",
-    "family_line": " Ally",
-    "carrier": "Verizon",
-    "storage_capacity": "102 MB",
-    "popularity_rank": 9975,
-    "item_count": 15,
-    "ebay_new_range": [
-      113,
-      138
-    ],
-    "ebay_used_range": [
-      36,
-      43
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 125,
-        "highest": 125,
-        "count": 1,
-        "average": 125.0,
-        "median": 125
-      },
-      "used": {
-        "lowest": 11,
-        "highest": 89,
-        "count": 10,
-        "average": 42.1,
-        "median": 39.5
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "LG Revolution VS910 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3195021947:588214547:f556999deb7ae9cc137c8272e2a8021e:1:1:1:1422422237",
-    "product_id": "102742267",
-    "model": "Revolution  VS910",
-    "brand": "LG",
-    "family_line": null,
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9966,
-    "item_count": 3,
-    "ebay_new_range": [
-      152,
-      186
-    ],
-    "ebay_used_range": [
-      72,
-      88
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 169,
-        "highest": 169,
-        "count": 1,
-        "average": 169.0,
-        "median": 169
-      },
-      "used": {
-        "lowest": 80,
-        "highest": 80,
-        "count": 1,
-        "average": 80.0,
-        "median": 80
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3403876329:576205249:1963dd7d6329a8b0780aa29c78938e73:1:1:1:5000039202553",
-    "product_id": "139833299",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "AT&T",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9965,
-    "item_count": 70,
-    "ebay_new_range": [
-      268,
-      327
-    ],
-    "ebay_used_range": [
-      158,
-      193
-    ],
-    "competitive_pricing": [
-      196,
-      239
-    ],
-    "lowest_offer_used": [
-      157,
-      192
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 250,
-        "highest": 452,
-        "count": 4,
-        "average": 324.25,
-        "median": 297.5
-      },
-      "used": {
-        "lowest": 99,
-        "highest": 297,
-        "count": 58,
-        "average": 182.20689655172413,
-        "median": 175.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 16GB (White) - Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
-        "competitive_pricing": {
-          "lowest": 179,
-          "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 169,
-          "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 159,
-          "highest": 173,
-          "count": 2,
-          "average": 166.0,
-          "median": 166.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 32 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3206040037:588214747:a75d5ecef92732d4baf3777782486538:1:1:1:1418090659",
-    "product_id": "101889927",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Verizon",
-    "storage_capacity": "32 GB",
-    "popularity_rank": 9974,
-    "item_count": 84,
-    "ebay_new_range": [
-      225,
-      275
-    ],
-    "ebay_used_range": [
-      180,
-      220
-    ],
-    "competitive_pricing": [
-      374,
-      457
-    ],
-    "lowest_offer_used": [
-      270,
-      330
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      257,
-      314
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 250,
-        "highest": 250,
-        "count": 2,
-        "average": 250.0,
-        "median": 250.0
-      },
-      "used": {
-        "lowest": 125,
-        "highest": 529,
-        "count": 71,
-        "average": 203.30985915492957,
-        "median": 200
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 (Black) 32GB (Factory Unlocked)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004FRUGRQ",
-        "competitive_pricing": {
-          "lowest": 415,
-          "highest": 415,
-          "count": 1,
-          "average": 415.0,
-          "median": 415
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 219,
-          "highest": 340,
-          "count": 9,
-          "average": 293.55555555555554,
-          "median": 300
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 255,
-          "highest": 299,
-          "count": 4,
-          "average": 281.25,
-          "median": 285.5
-        }
-      }
-    ]
-  },
-  {
-    "name": "Samsung Galaxy S II SGH-T989 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2400018243:588932723:2f0ae8c335b99754b4aa1d6df098028a:1:1:1:5000000571997",
-    "product_id": "109508983",
-    "model": "SGH-T989",
-    "brand": "Samsung",
-    "family_line": " Galaxy S II",
-    "carrier": "T-Mobile",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9964,
-    "item_count": 24,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      180,
-      220
-    ],
-    "competitive_pricing": [
-      206,
-      252
-    ],
-    "lowest_offer_used": [
-      171,
-      209
-    ],
-    "lowest_offer_new": [
-      206,
-      252
-    ],
-    "lowest_offer_refurbished": [
-      185,
-      227
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 137,
-        "highest": 325,
-        "count": 17,
-        "average": 222.64705882352942,
-        "median": 200
-      }
-    },
-    "amazon": [
-      {
-        "name": "Samsung Galaxy S II - Unlocked - AT&T",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006AUZYMS",
-        "competitive_pricing": {
-          "lowest": 229,
-          "highest": 229,
-          "count": 1,
-          "average": 229.0,
-          "median": 229
-        },
-        "lowest_offer_new": {
-          "lowest": 224,
-          "highest": 234,
-          "count": 4,
-          "average": 229.0,
-          "median": 229.0
-        },
-        "lowest_offer_used": {
-          "lowest": 159,
-          "highest": 289,
-          "count": 7,
-          "average": 203.85714285714286,
-          "median": 190
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 198,
-          "highest": 214,
-          "count": 2,
-          "average": 206.0,
-          "median": 206.0
-        }
-      },
-      {
-        "name": "Samsung Galaxy S II SGH-T989 - 16GB - Black (T-Mobile) Smartphone - TITANIUM. New in box with all accessories",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B009XUIDR0",
-        "competitive_pricing": null,
-        "lowest_offer_new": {
-          "lowest": 304,
-          "highest": 304,
-          "count": 1,
-          "average": 304.0,
-          "median": 304
-        },
-        "lowest_offer_used": null,
-        "lowest_offer_refurbished": null
-      }
-    ]
-  },
-  {
-    "name": "Samsung Epic 4G SPH-D700 1 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3088862437:588208307:ce2b346821b1fa61d5293ee12129bab6:1:1:1:1418097209",
-    "product_id": "101889987",
-    "model": "4G SPH-D700",
-    "brand": "Samsung",
-    "family_line": " Epic",
-    "carrier": "Sprint",
-    "storage_capacity": "1 GB",
-    "popularity_rank": 9973,
-    "item_count": 22,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      54,
-      66
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 25,
-        "highest": 150,
-        "count": 19,
-        "average": 64.6842105263158,
-        "median": 60
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "Samsung Galaxy S III SGH-I747 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2926489817:588208547:8923d59fb0acf3472e08e01797e356fc:1:1:1:5000003222965",
-    "product_id": "115186327",
-    "model": "SGH-I747",
-    "brand": "Samsung",
-    "family_line": " Galaxy S III",
-    "carrier": "AT&T",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9963,
-    "item_count": 48,
-    "ebay_new_range": [
-      378,
-      462
-    ],
-    "ebay_used_range": [
-      270,
-      330
-    ],
-    "competitive_pricing": [
-      322,
-      394
-    ],
-    "lowest_offer_used": [
-      265,
-      323
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      248,
-      303
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 380,
-        "highest": 499,
-        "count": 3,
-        "average": 433.0,
-        "median": 420
-      },
-      "used": {
-        "lowest": 220,
-        "highest": 395,
-        "count": 29,
-        "average": 296.2068965517241,
-        "median": 300
-      }
-    },
-    "amazon": [
-      {
-        "name": "Samsung Galaxy S III I747 New Unlocked 16GB - White",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B008MC3N34",
-        "competitive_pricing": {
-          "lowest": 358,
-          "highest": 358,
-          "count": 1,
-          "average": 358.0,
-          "median": 358
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 251,
-          "highest": 319,
-          "count": 9,
-          "average": 284.1111111111111,
-          "median": 294
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 259,
-          "highest": 289,
-          "count": 3,
-          "average": 274.3333333333333,
-          "median": 275
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889501910:587140600:448005e3dda556b13d9d73588353bfa7:1:1:1:5000000887448",
-    "product_id": "110651420",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Sprint",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9972,
-    "item_count": 100,
-    "ebay_new_range": [
-      189,
-      230
-    ],
-    "ebay_used_range": [
-      139,
-      169
-    ],
-    "competitive_pricing": [
-      196,
-      239
-    ],
-    "lowest_offer_used": [
-      157,
-      192
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 130,
-        "highest": 300,
-        "count": 10,
-        "average": 219.7,
-        "median": 209.5
-      },
-      "used": {
-        "lowest": 90,
-        "highest": 350,
-        "count": 71,
-        "average": 171.04225352112675,
-        "median": 154
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 16GB (White) - Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
-        "competitive_pricing": {
-          "lowest": 179,
-          "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 169,
-          "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 159,
-          "highest": 173,
-          "count": 2,
-          "average": 166.0,
-          "median": 166.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "HTC Droid Incredible 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3088860650:587139210:4133be330c36453a3a474f9fdf0bc6b4:1:1:1:1418097296",
-    "product_id": "101872140",
-    "model": "Incredible",
-    "brand": "HTC",
-    "family_line": " Droid",
-    "carrier": "Verizon",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9962,
-    "item_count": 30,
-    "ebay_new_range": [
-      56,
-      68
-    ],
-    "ebay_used_range": [
-      54,
-      66
-    ],
-    "competitive_pricing": [
-      64,
-      78
-    ],
-    "lowest_offer_used": [
-      49,
-      59
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      58,
-      70
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 62,
-        "highest": 62,
-        "count": 1,
-        "average": 62.0,
-        "median": 62
-      },
-      "used": {
-        "lowest": 38,
-        "highest": 190,
-        "count": 25,
-        "average": 81.36,
-        "median": 60
-      }
-    },
-    "amazon": [
-      {
-        "name": "HTC DROID INCREDIBLE Android Phone Black (Verizon Wireless)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004AFVEOC",
-        "competitive_pricing": {
-          "lowest": 71,
-          "highest": 71,
-          "count": 1,
-          "average": 71.0,
-          "median": 71
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 40,
-          "highest": 62,
-          "count": 10,
-          "average": 53.0,
-          "median": 54.0
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 59,
-          "highest": 64,
-          "count": 3,
-          "average": 62.333333333333336,
-          "median": 64
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502175:582258725:04c751202b0f842ae650b606f4fcf8ae:1:1:1:5000000887451",
-    "product_id": "110619415",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "AT&T",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9961,
-    "item_count": 98,
-    "ebay_new_range": [
-      405,
-      495
-    ],
-    "ebay_used_range": [
-      158,
-      193
-    ],
-    "competitive_pricing": [
-      196,
-      239
-    ],
-    "lowest_offer_used": [
-      157,
-      192
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 200,
-        "highest": 3250,
-        "count": 3,
-        "average": 1300.0,
-        "median": 450
-      },
-      "used": {
-        "lowest": 125,
-        "highest": 350,
-        "count": 75,
-        "average": 186.32,
-        "median": 175
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 16GB (White) - Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
-        "competitive_pricing": {
-          "lowest": 179,
-          "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 169,
-          "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 159,
-          "highest": 173,
-          "count": 2,
-          "average": 166.0,
-          "median": 166.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Samsung Galaxy S III SPH-L710 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2926490079:588821839:43d854838724b23a3a2d71b1e47f249a:1:1:1:5000003222973",
-    "product_id": "115164949",
-    "model": "SPH-L710",
-    "brand": "Samsung",
-    "family_line": " Galaxy S III",
-    "carrier": "Sprint",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9971,
-    "item_count": 95,
-    "ebay_new_range": [
-      247,
-      302
-    ],
-    "ebay_used_range": [
-      206,
-      252
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 249,
-        "highest": 400,
-        "count": 6,
-        "average": 306.3333333333333,
-        "median": 274.5
-      },
-      "used": {
-        "lowest": 129,
-        "highest": 350,
-        "count": 70,
-        "average": 235.97142857142856,
-        "median": 229.0
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "Samsung Galaxy S Stratosphere SCH-I405 4 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2049411331:587544191:27b93d0991642762bebd0820d5b7ebe4:1:1:1:5000000983001",
-    "product_id": "110733191",
-    "model": "Stratosphere SCH-I405",
-    "brand": "Samsung",
-    "family_line": " Galaxy S",
-    "carrier": "Verizon",
-    "storage_capacity": "4 GB",
-    "popularity_rank": 9960,
-    "item_count": 13,
-    "ebay_new_range": [
-      179,
-      219
-    ],
-    "ebay_used_range": [
-      54,
-      66
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 199,
-        "highest": 199,
-        "count": 1,
-        "average": 199.0,
-        "median": 199
-      },
-      "used": {
-        "lowest": 49,
-        "highest": 155,
-        "count": 7,
-        "average": 79.14285714285714,
-        "median": 60
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "Apple iPhone 4s 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502166:586752756:a0489ce0187a7c57a07de6288d1aa3c8:1:1:1:5000000887458",
-    "product_id": "110635286",
-    "model": "4s",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Sprint",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9970,
-    "item_count": 100,
-    "ebay_new_range": [
-      270,
-      330
-    ],
-    "ebay_used_range": [
-      224,
-      274
-    ],
-    "competitive_pricing": [
-      386,
-      472
-    ],
-    "lowest_offer_used": [
-      306,
-      374
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 150,
-        "highest": 479,
-        "count": 7,
-        "average": 321.14285714285717,
-        "median": 300
-      },
-      "used": {
-        "lowest": 170,
-        "highest": 500,
-        "count": 86,
-        "average": 252.86046511627907,
-        "median": 249.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
-        "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
-          "count": 2,
-          "average": 429.0,
-          "median": 429.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
-        },
-        "lowest_offer_refurbished": null
-      },
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Unlocked",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZBH4",
-        "competitive_pricing": {
-          "lowest": 670,
-          "highest": 670,
-          "count": 1,
-          "average": 670.0,
-          "median": 670
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 448,
-          "highest": 490,
-          "count": 9,
-          "average": 467.6666666666667,
-          "median": 468
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 480,
-          "highest": 480,
-          "count": 1,
-          "average": 480.0,
-          "median": 480
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 5 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2898272112:576604812:754edcc48a842b41b466d50b7564787b:1:1:1:5000007233467",
-    "product_id": "117323702",
-    "model": "5",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9949,
-    "item_count": 19,
-    "ebay_new_range": [
-      405,
-      495
-    ],
-    "ebay_used_range": [
-      404,
-      494
-    ],
-    "competitive_pricing": [
-      427,
-      521
-    ],
-    "lowest_offer_used": [
-      315,
-      384
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      356,
-      436
+    "amazon_competitive_pricing": [
+      575,
+      703
+    ],
+    "amazon_lowest_offer_used": [
+      394,
+      482
+    ],
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": [
+      436,
+      533
+    ],
+    "amazon_matched_products": [
+      "Apple iPhone 5 16GB (Black) - Unlocked",
+      "Apple iPhone 5 16GB (White) - Verizon Wireless",
+      "Apple iPhone 5 16GB (White) - Unlocked",
+      "Apple iPhone 5 16GB (White) - Sprint",
+      "Apple iPhone 5 16GB (Black) - Sprint"
     ],
     "ebay": {
       "new": {
         "lowest": 450,
-        "highest": 450,
-        "count": 1,
-        "average": 450.0,
-        "median": 450
+        "highest": 750,
+        "count": 8,
+        "average": 548.625,
+        "median": 510.0
       },
       "used": {
-        "lowest": 410,
-        "highest": 715,
-        "count": 15,
-        "average": 466.6,
-        "median": 449
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 5 16GB (Black) - Sprint",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B009F9Q2U4",
-        "competitive_pricing": {
-          "lowest": 474,
-          "highest": 474,
-          "count": 1,
-          "average": 474.0,
-          "median": 474
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 305,
-          "highest": 395,
-          "count": 10,
-          "average": 347.4,
-          "median": 349.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 395,
-          "highest": 397,
-          "count": 2,
-          "average": 396.0,
-          "median": 396.0
-        }
-      },
-      {
-        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
-        "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
-          "count": 2,
-          "average": 429.0,
-          "median": 429.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
-        },
-        "lowest_offer_refurbished": null
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 3G 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3088926948:588925608:8e3845a2815f2f54e337d784d9d6c107:1:1:1:1418097348",
-    "product_id": "101892398",
-    "model": "3G",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "AT&T",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9959,
-    "item_count": 88,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      68,
-      83
-    ],
-    "competitive_pricing": [
-      114,
-      140
-    ],
-    "lowest_offer_used": [
-      77,
-      95
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      94,
-      114
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 30,
-        "highest": 250,
-        "count": 70,
-        "average": 86.8,
-        "median": 75.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 3G 8GB - Unlocked",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B001UBB9GM",
-        "competitive_pricing": {
-          "lowest": 127,
-          "highest": 127,
-          "count": 1,
-          "average": 127.0,
-          "median": 127
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 71,
-          "highest": 107,
-          "count": 8,
-          "average": 88.875,
-          "median": 86.0
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 83,
-          "highest": 114,
-          "count": 3,
-          "average": 100.33333333333333,
-          "median": 104
-        }
-      },
-      {
-        "name": "Apple iPhone 3GS 8GB (Black) - AT&T",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLV50E",
-        "competitive_pricing": {
-          "lowest": 142,
-          "highest": 142,
-          "count": 1,
-          "average": 142.0,
-          "median": 142
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 47,
-          "highest": 73,
-          "count": 10,
-          "average": 61.4,
-          "median": 64.5
-        },
-        "lowest_offer_refurbished": null
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889501914:579445114:961e2053d02815d2fad325d77ef0793d:1:1:1:5000000887444",
-    "product_id": "110577894",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Verizon",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9948,
-    "item_count": 76,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      135,
-      165
-    ],
-    "competitive_pricing": [
-      196,
-      239
-    ],
-    "lowest_offer_used": [
-      157,
-      192
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 90,
-        "highest": 499,
-        "count": 57,
-        "average": 173.94736842105263,
-        "median": 150
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 16GB (White) - Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
-        "competitive_pricing": {
-          "lowest": 179,
-          "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 169,
-          "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 159,
-          "highest": 173,
-          "count": 2,
-          "average": 166.0,
-          "median": 166.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "LG enV Touch VX11000",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3367695700:586677000:976d7f12ba1ffb6f58dc9666a264b458:1:1:1:1417461161",
-    "product_id": "100020050",
-    "model": "VX11000",
-    "brand": "LG",
-    "family_line": " enV Touch",
-    "carrier": "Verizon",
-    "storage_capacity": null,
-    "popularity_rank": 9958,
-    "item_count": 7,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      27,
-      33
-    ],
-    "competitive_pricing": [
-      65,
-      79
-    ],
-    "lowest_offer_used": [
-      26,
-      31
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      38,
-      46
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 15,
-        "highest": 58,
-        "count": 5,
-        "average": 36.2,
-        "median": 30
-      }
-    },
-    "amazon": [
-      {
-        "name": "LG enV Touch VX11000 No Contract 3G QWERTY MP3 Camera Cell Phone Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004BX2HOE",
-        "competitive_pricing": {
-          "lowest": 72,
-          "highest": 72,
-          "count": 1,
-          "average": 72.0,
-          "median": 72
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 14,
-          "highest": 45,
-          "count": 8,
-          "average": 28.75,
-          "median": 28.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 42,
-          "highest": 42,
-          "count": 1,
-          "average": 42.0,
-          "median": 42
-        }
-      },
-      {
-        "name": "LG Voyager VX10000 Phone, Titanium (Verizon Wireless) QWERTY - No Contract Required",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B005KN60FQ",
-        "competitive_pricing": {
-          "lowest": 59,
-          "highest": 59,
-          "count": 1,
-          "average": 59.0,
-          "median": 59
-        },
-        "lowest_offer_new": {
-          "lowest": 59,
-          "highest": 62,
-          "count": 2,
-          "average": 60.5,
-          "median": 60.5
-        },
-        "lowest_offer_used": {
-          "lowest": 24,
-          "highest": 69,
-          "count": 7,
-          "average": 36.57142857142857,
-          "median": 32
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 42,
-          "highest": 42,
-          "count": 1,
-          "average": 42.0,
-          "median": 42
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 5 64 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2898271605:578016625:1c6349f172300805f104c8e6ebfa3c46:1:1:1:5000007233442",
-    "product_id": "117321475",
-    "model": "5",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "AT&T",
-    "storage_capacity": "64 GB",
-    "popularity_rank": 9947,
-    "item_count": 38,
-    "ebay_new_range": [
-      608,
-      743
-    ],
-    "ebay_used_range": [
-      450,
-      550
-    ],
-    "competitive_pricing": [
-      485,
-      593
-    ],
-    "lowest_offer_used": [
-      449,
-      549
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      585,
-      715
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 520,
-        "highest": 1000,
-        "count": 9,
-        "average": 719.6666666666666,
-        "median": 675
-      },
-      "used": {
-        "lowest": 360,
+        "lowest": 299,
         "highest": 700,
-        "count": 26,
-        "average": 517.2692307692307,
-        "median": 500.0
+        "count": 76,
+        "average": 421.2894736842105,
+        "median": 400.0
       }
     },
     "amazon": [
       {
-        "name": "Apple iPhone 5 64GB (Black) - Verizon Wireless",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0097BV55C",
+        "name": "Apple iPhone 5 16GB (Black) - Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZBH4",
         "competitive_pricing": {
-          "lowest": 539,
-          "highest": 539,
+          "lowest": 639,
+          "highest": 639,
           "count": 1,
-          "average": 539.0,
-          "median": 539
+          "average": 639.0,
+          "median": 639
         },
         "lowest_offer_new": null,
         "lowest_offer_used": {
-          "lowest": 469,
-          "highest": 575,
-          "count": 9,
-          "average": 515.4444444444445,
-          "median": 499
+          "lowest": 399,
+          "highest": 490,
+          "count": 8,
+          "average": 439.875,
+          "median": 438.0
         },
         "lowest_offer_refurbished": {
-          "lowest": 650,
-          "highest": 650,
+          "lowest": 480,
+          "highest": 489,
+          "count": 2,
+          "average": 484.5,
+          "median": 484.5
+        }
+      },
+      {
+        "name": "Apple iPhone 5 16GB (White) - Verizon Wireless",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0097BVA70",
+        "competitive_pricing": {
+          "lowest": 449,
+          "highest": 449,
           "count": 1,
-          "average": 650.0,
-          "median": 650
+          "average": 449.0,
+          "median": 449
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 405,
+          "highest": 449,
+          "count": 8,
+          "average": 428.625,
+          "median": 430.0
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 480,
+          "highest": 480,
+          "count": 1,
+          "average": 480.0,
+          "median": 480
         }
       },
       {
@@ -3384,596 +966,114 @@
         },
         "lowest_offer_new": null,
         "lowest_offer_used": {
-          "lowest": 420,
+          "lowest": 410,
           "highest": 499,
-          "count": 12,
-          "average": 471.0833333333333,
-          "median": 468.5
+          "count": 13,
+          "average": 460.3076923076923,
+          "median": 465
         },
         "lowest_offer_refurbished": null
-      }
-    ]
-  },
-  {
-    "name": "Motorola RAZR V3 5 MB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3401380946:586282846:abdb382890f28f96aac6376b90ff70c5:1:1:1:1417463777",
-    "product_id": "100001496",
-    "model": "V3",
-    "brand": "Motorola",
-    "family_line": " RAZR",
-    "carrier": "Unlocked",
-    "storage_capacity": "5 MB",
-    "popularity_rank": 9957,
-    "item_count": 2,
-    "ebay_new_range": [
-      41,
-      51
-    ],
-    "ebay_used_range": [
-      29,
-      35
-    ],
-    "competitive_pricing": [
-      53,
-      65
-    ],
-    "lowest_offer_used": [
-      38,
-      46
-    ],
-    "lowest_offer_new": [
-      58,
-      70
-    ],
-    "lowest_offer_refurbished": [
-      52,
-      63
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 46,
-        "highest": 46,
-        "count": 1,
-        "average": 46.0,
-        "median": 46
       },
-      "used": {
-        "lowest": 32,
-        "highest": 32,
-        "count": 1,
-        "average": 32.0,
-        "median": 32
-      }
-    },
-    "amazon": [
       {
-        "name": "Motorola RAZR V3 Unlocked Phone with Camera, and Video Player--International Version with No Warranty (Black)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0009FCAJA",
-        "competitive_pricing": {
-          "lowest": 59,
-          "highest": 59,
-          "count": 1,
-          "average": 59.0,
-          "median": 59
-        },
-        "lowest_offer_new": {
-          "lowest": 59,
-          "highest": 69,
-          "count": 5,
-          "average": 63.0,
-          "median": 64
-        },
+        "name": "Apple iPhone 5 16GB (White) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B009F9R6K4",
+        "competitive_pricing": null,
+        "lowest_offer_new": null,
         "lowest_offer_used": {
-          "lowest": 19,
-          "highest": 55,
-          "count": 8,
-          "average": 39.75,
-          "median": 42.0
+          "lowest": 290,
+          "highest": 360,
+          "count": 11,
+          "average": 329.1818181818182,
+          "median": 334
         },
         "lowest_offer_refurbished": {
-          "lowest": 45,
-          "highest": 88,
+          "lowest": 340,
+          "highest": 359,
           "count": 4,
-          "average": 62.0,
-          "median": 57.5
+          "average": 351.75,
+          "median": 354.0
         }
       },
       {
-        "name": "Motorola RAZR V3 Unlocked Phone with Camera, and Video Player--International Version with No Warranty (Magenta Pink)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B000CQVMYK",
+        "name": "Apple iPhone 5 16GB (Black) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B009F9Q2U4",
         "competitive_pricing": {
-          "lowest": 39,
-          "highest": 64,
-          "count": 2,
-          "average": 51.5,
-          "median": 51.5
+          "lowest": 469,
+          "highest": 469,
+          "count": 1,
+          "average": 469.0,
+          "median": 469
         },
-        "lowest_offer_new": {
-          "lowest": 53,
-          "highest": 200,
-          "count": 8,
-          "average": 84.25,
-          "median": 69.5
-        },
+        "lowest_offer_new": null,
         "lowest_offer_used": {
-          "lowest": 30,
-          "highest": 55,
-          "count": 7,
-          "average": 45.42857142857143,
-          "median": 47
+          "lowest": 279,
+          "highest": 395,
+          "count": 11,
+          "average": 332.1818181818182,
+          "median": 325
         },
         "lowest_offer_refurbished": {
-          "lowest": 49,
-          "highest": 85,
-          "count": 3,
-          "average": 61.0,
-          "median": 49
+          "lowest": 397,
+          "highest": 397,
+          "count": 1,
+          "average": 397.0,
+          "median": 397
         }
       }
     ]
   },
   {
-    "name": "Apple iPhone 3GS 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3384734803:581162713:d6bc29d9a8af23b41633e5c841091b35:1:1:1:1417460576",
-    "product_id": "100012593",
-    "model": "3GS",
+    "name": "Apple iPhone 4s 16GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487682880:587455970:c3e878ce16eb79ee009cc4adf1f717a8:1:1:1:5000000504411",
+    "product_id": "109348370",
+    "model": "4s",
     "brand": "Apple",
     "family_line": " iPhone",
     "carrier": "AT&T",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9956,
-    "item_count": 92,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      77,
-      94
-    ],
-    "competitive_pricing": [
-      128,
-      156
-    ],
-    "lowest_offer_used": [
-      58,
-      71
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 40,
-        "highest": 200,
-        "count": 71,
-        "average": 91.14084507042253,
-        "median": 85
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 3GS 8GB (Black) - AT&T",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLV50E",
-        "competitive_pricing": {
-          "lowest": 142,
-          "highest": 142,
-          "count": 1,
-          "average": 142.0,
-          "median": 142
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 47,
-          "highest": 73,
-          "count": 10,
-          "average": 61.4,
-          "median": 64.5
-        },
-        "lowest_offer_refurbished": null
-      },
-      {
-        "name": "Apple iPhone 3G 8GB - Unlocked",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B001UBB9GM",
-        "competitive_pricing": {
-          "lowest": 127,
-          "highest": 127,
-          "count": 1,
-          "average": 127.0,
-          "median": 127
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 71,
-          "highest": 107,
-          "count": 8,
-          "average": 88.875,
-          "median": 86.0
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 83,
-          "highest": 114,
-          "count": 3,
-          "average": 100.33333333333333,
-          "median": 104
-        }
-      }
-    ]
-  },
-  {
-    "name": "Samsung Galaxy S II SPH-D710 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:4097222419:588829979:0417665ee9133b204ea35e677d469053:1:1:1:5000001679123",
-    "product_id": "112134899",
-    "model": "SPH-D710",
-    "brand": "Samsung",
-    "family_line": " Galaxy S II",
-    "carrier": "Sprint",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9946,
-    "item_count": 33,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      117,
-      143
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 70,
-        "highest": 229,
-        "count": 27,
-        "average": 138.07407407407408,
-        "median": 130
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "HTC EVO Shift 4G 2 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:197467277:588210827:bcb2b9652f1c2bfae79ba8b545186a00:1:1:1:1419867429",
-    "product_id": "102478617",
-    "model": "Shift 4G",
-    "brand": "HTC",
-    "family_line": " EVO",
-    "carrier": "Sprint",
-    "storage_capacity": "2 GB",
-    "popularity_rank": 9955,
-    "item_count": 12,
+    "storage_capacity": "16GB",
+    "popularity_rank": 9995,
+    "item_count": 100,
     "ebay_new_range": [
-      269,
-      329
-    ],
-    "ebay_used_range": [
-      41,
-      50
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 299,
-        "highest": 299,
-        "count": 1,
-        "average": 299.0,
-        "median": 299
-      },
-      "used": {
-        "lowest": 30,
-        "highest": 79,
-        "count": 10,
-        "average": 51.7,
-        "median": 45.0
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "Samsung Droid Charge SCH-I510 2 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:660804442:588679622:85b05da523a9030ba4bb076b7d5ad4e8:1:1:1:1421113693",
-    "product_id": "102476572",
-    "model": "SCH-I510",
-    "brand": "Samsung",
-    "family_line": " Droid Charge",
-    "carrier": "Verizon",
-    "storage_capacity": "2 GB",
-    "popularity_rank": 9945,
-    "item_count": 11,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      56,
-      68
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 25,
-        "highest": 125,
-        "count": 8,
-        "average": 69.25,
-        "median": 62.0
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "Samsung Convoy SCH-U640",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3073574822:588214992:4eb21a218ee6920b51081c495d7851d4:1:1:1:1422416283",
-    "product_id": "102667712",
-    "model": "SCH-U640",
-    "brand": "Samsung",
-    "family_line": " Convoy",
-    "carrier": "Verizon",
-    "storage_capacity": null,
-    "popularity_rank": 9944,
-    "item_count": 4,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      32,
-      39
-    ],
-    "competitive_pricing": [
-      116,
-      142
-    ],
-    "lowest_offer_used": [
-      37,
-      46
-    ],
-    "lowest_offer_new": [
-      107,
-      131
-    ],
-    "lowest_offer_refurbished": [
-      43,
-      53
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 29,
-        "highest": 65,
-        "count": 4,
-        "average": 41.0,
-        "median": 35.0
-      }
-    },
-    "amazon": [
-      {
-        "name": "Samsung Convoy U640 for Verizon Wireless, Rugged Flip Cell Phone (Gray) - No Contract",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B005DNSXGW",
-        "competitive_pricing": {
-          "lowest": 129,
-          "highest": 129,
-          "count": 1,
-          "average": 129.0,
-          "median": 129
-        },
-        "lowest_offer_new": {
-          "lowest": 118,
-          "highest": 129,
-          "count": 3,
-          "average": 122.0,
-          "median": 119
-        },
-        "lowest_offer_used": {
-          "lowest": 19,
-          "highest": 53,
-          "count": 6,
-          "average": 37.333333333333336,
-          "median": 41.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 47,
-          "highest": 49,
-          "count": 2,
-          "average": 48.0,
-          "median": 48.0
-        }
-      },
-      {
-        "name": "- \t Samsung Convoy U640 Phone for Verizon Wireless Network with No Contract (Gray) Rugged",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004WLBTEY",
-        "competitive_pricing": {
-          "lowest": 109,
-          "highest": 109,
-          "count": 1,
-          "average": 109.0,
-          "median": 109
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 18,
-          "highest": 60,
-          "count": 6,
-          "average": 35.833333333333336,
-          "median": 37.0
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 46,
-          "highest": 58,
-          "count": 6,
-          "average": 52.166666666666664,
-          "median": 54.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Samsung Galaxy S III SPH-L710 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2926490078:589386538:1d9a4f3d158b88053e4106a48fceef20:1:1:1:5000003222972",
-    "product_id": "115228998",
-    "model": "SPH-L710",
-    "brand": "Samsung",
-    "family_line": " Galaxy S III",
-    "carrier": "Sprint",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9954,
-    "item_count": 74,
-    "ebay_new_range": [
-      323,
-      394
-    ],
-    "ebay_used_range": [
-      203,
-      248
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_used": null,
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 230,
-        "highest": 455,
-        "count": 10,
-        "average": 360.0,
-        "median": 358.5
-      },
-      "used": {
-        "lowest": 140,
-        "highest": 395,
-        "count": 47,
-        "average": 228.9787234042553,
-        "median": 225
-      }
-    },
-    "amazon": [
-
-    ]
-  },
-  {
-    "name": "Apple iPhone 4 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3384669015:590074605:43ceca90afc3c2e00e99360ef3be7c4b:1:1:1:1417460602",
-    "product_id": "99984735",
-    "model": "4",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Factory Unlocked",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9953,
-    "item_count": 36,
-    "ebay_new_range": [
-      350,
-      428
+      404,
+      494
     ],
     "ebay_used_range": [
       234,
       286
     ],
-    "competitive_pricing": [
-      196,
-      239
+    "amazon_competitive_pricing": [
+      409,
+      500
     ],
-    "lowest_offer_used": [
-      157,
-      192
+    "amazon_lowest_offer_used": [
+      311,
+      380
     ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      149,
-      183
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": [
+      305,
+      373
+    ],
+    "amazon_matched_products": [
+      "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+      "Apple iPhone 4S 16GB (Black) - Sprint",
+      "Apple iPhone 4S 16GB White - Unlocked",
+      "Apple iPhone 4S 16GB (White) - Sprint"
     ],
     "ebay": {
       "new": {
-        "lowest": 389,
-        "highest": 389,
-        "count": 2,
-        "average": 389.0,
-        "median": 389.0
+        "lowest": 449,
+        "highest": 449,
+        "count": 1,
+        "average": 449.0,
+        "median": 449
       },
       "used": {
-        "lowest": 180,
-        "highest": 399,
-        "count": 29,
-        "average": 275.8965517241379,
-        "median": 260
-      }
-    },
-    "amazon": [
-      {
-        "name": "Apple iPhone 4 16GB (White) - Verizon",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
-        "competitive_pricing": {
-          "lowest": 179,
-          "highest": 256,
-          "count": 2,
-          "average": 217.5,
-          "median": 217.5
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 169,
-          "highest": 179,
-          "count": 12,
-          "average": 174.0,
-          "median": 174.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 159,
-          "highest": 173,
-          "count": 2,
-          "average": 166.0,
-          "median": 166.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Apple iPhone 5 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2898271344:574710994:27f3257e985b7d5aa7ceeab7b1d2a6ea:1:1:1:5000007233457",
-    "product_id": "117296094",
-    "model": "5",
-    "brand": "Apple",
-    "family_line": " iPhone",
-    "carrier": "Sprint",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9943,
-    "item_count": 64,
-    "ebay_new_range": [
-      383,
-      468
-    ],
-    "ebay_used_range": [
-      338,
-      413
-    ],
-    "competitive_pricing": [
-      386,
-      472
-    ],
-    "lowest_offer_used": [
-      306,
-      374
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 400,
-        "highest": 455,
-        "count": 4,
-        "average": 426.25,
-        "median": 425.0
-      },
-      "used": {
-        "lowest": 289,
+        "lowest": 160,
         "highest": 500,
-        "count": 51,
-        "average": 385.8235294117647,
-        "median": 375
+        "count": 90,
+        "average": 277.46666666666664,
+        "median": 260.0
       }
     },
     "amazon": [
@@ -3981,615 +1081,951 @@
         "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
         "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
         "competitive_pricing": {
-          "lowest": 375,
-          "highest": 483,
+          "lowest": 410,
+          "highest": 499,
           "count": 2,
-          "average": 429.0,
-          "median": 429.0
+          "average": 454.5,
+          "median": 454.5
         },
         "lowest_offer_new": null,
         "lowest_offer_used": {
-          "lowest": 310,
-          "highest": 351,
-          "count": 11,
-          "average": 337.6363636363636,
-          "median": 340
+          "lowest": 319,
+          "highest": 350,
+          "count": 9,
+          "average": 337.3333333333333,
+          "median": 345
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 339,
+          "highest": 339,
+          "count": 1,
+          "average": 339.0,
+          "median": 339
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB (Black) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074R14TI",
+        "competitive_pricing": {
+          "lowest": 236,
+          "highest": 357,
+          "count": 2,
+          "average": 296.5,
+          "median": 296.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 195,
+          "highest": 222,
+          "count": 9,
+          "average": 208.0,
+          "median": 200
         },
         "lowest_offer_refurbished": null
+      },
+      {
+        "name": "Apple iPhone 4S 16GB White - Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0062ICRGE",
+        "competitive_pricing": {
+          "lowest": 549,
+          "highest": 549,
+          "count": 1,
+          "average": 549.0,
+          "median": 549
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 298,
+          "highest": 359,
+          "count": 9,
+          "average": 325.77777777777777,
+          "median": 325
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 350,
+          "highest": 369,
+          "count": 2,
+          "average": 359.5,
+          "median": 359.5
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB (White) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074RE1Z2",
+        "competitive_pricing": {
+          "lowest": 231,
+          "highest": 380,
+          "count": 2,
+          "average": 305.5,
+          "median": 305.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 180,
+          "highest": 209,
+          "count": 9,
+          "average": 202.22222222222223,
+          "median": 204
+        },
+        "lowest_offer_refurbished": null
+      }
+    ]
+  },
+  {
+    "name": "Apple iPhone 4s 16GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502167:588497917:de2ba9ddd1e2a8ea756423df939ea00b:1:1:1:5000000887459",
+    "product_id": "110661597",
+    "model": "4s",
+    "brand": "Apple",
+    "family_line": " iPhone",
+    "carrier": "Sprint",
+    "storage_capacity": "16GB",
+    "popularity_rank": 9984,
+    "item_count": 100,
+    "ebay_new_range": [
+      315,
+      385
+    ],
+    "ebay_used_range": [
+      225,
+      275
+    ],
+    "amazon_competitive_pricing": [
+      267,
+      326
+    ],
+    "amazon_lowest_offer_used": [
+      180,
+      220
+    ],
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+      "Apple iPhone 4S 16GB (Black) - Sprint",
+      "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+      "Apple iPhone 4S 16GB White - Unlocked",
+      "Apple iPhone 4S 16GB (White) - Sprint"
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 240,
+        "highest": 499,
+        "count": 7,
+        "average": 344.85714285714283,
+        "median": 350
+      },
+      "used": {
+        "lowest": 150,
+        "highest": 398,
+        "count": 83,
+        "average": 250.40963855421685,
+        "median": 250
+      }
+    },
+    "amazon": [
+      {
+        "name": "Apple iPhone 4S 16GB (Black) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074R14TI",
+        "competitive_pricing": {
+          "lowest": 236,
+          "highest": 357,
+          "count": 2,
+          "average": 296.5,
+          "median": 296.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 195,
+          "highest": 222,
+          "count": 9,
+          "average": 208.0,
+          "median": 200
+        },
+        "lowest_offer_refurbished": null
+      },
+      {
+        "name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
+        "competitive_pricing": {
+          "lowest": 410,
+          "highest": 499,
+          "count": 2,
+          "average": 454.5,
+          "median": 454.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 319,
+          "highest": 350,
+          "count": 9,
+          "average": 337.3333333333333,
+          "median": 345
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 339,
+          "highest": 339,
+          "count": 1,
+          "average": 339.0,
+          "median": 339
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB White - Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0062ICRGE",
+        "competitive_pricing": {
+          "lowest": 549,
+          "highest": 549,
+          "count": 1,
+          "average": 549.0,
+          "median": 549
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 298,
+          "highest": 359,
+          "count": 9,
+          "average": 325.77777777777777,
+          "median": 325
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 350,
+          "highest": 369,
+          "count": 2,
+          "average": 359.5,
+          "median": 359.5
+        }
+      },
+      {
+        "name": "Apple iPhone 4S 16GB (White) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0074RE1Z2",
+        "competitive_pricing": {
+          "lowest": 231,
+          "highest": 380,
+          "count": 2,
+          "average": 305.5,
+          "median": 305.5
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 180,
+          "highest": 209,
+          "count": 9,
+          "average": 202.22222222222223,
+          "median": 204
+        },
+        "lowest_offer_refurbished": null
+      }
+    ]
+  },
+  {
+    "name": "Motorola Droid 2 Global 8GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:4083927637:588495307:dd86abc87f8705c02b94dd5b74431008:1:1:1:5000000180405",
+    "product_id": "108848327",
+    "model": "2 Global",
+    "brand": "Motorola",
+    "family_line": " Droid",
+    "carrier": "Verizon",
+    "storage_capacity": "8GB",
+    "popularity_rank": 9994,
+    "item_count": 11,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      44,
+      54
+    ],
+    "amazon_competitive_pricing": null,
+    "amazon_lowest_offer_used": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 30,
+        "highest": 150,
+        "count": 8,
+        "average": 59.625,
+        "median": 49.0
+      }
+    },
+    "amazon": [
+
+    ]
+  },
+  {
+    "name": "HTC Droid Incredible 2 4GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:1833994944:587511824:843084a980179bf70cbc122410e1ade2:1:1:1:1420509800",
+    "product_id": "102410294",
+    "model": "Incredible 2",
+    "brand": "HTC",
+    "family_line": " Droid",
+    "carrier": "Verizon",
+    "storage_capacity": "4GB",
+    "popularity_rank": 9993,
+    "item_count": 5,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      69,
+      85
+    ],
+    "amazon_competitive_pricing": null,
+    "amazon_lowest_offer_used": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 75,
+        "highest": 175,
+        "count": 4,
+        "average": 101.0,
+        "median": 77.0
+      }
+    },
+    "amazon": [
+
+    ]
+  },
+  {
+    "name": "Apple iPhone 5 16GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2898271351:575518191:83b48f827c09ce383b042d475c03a3d2:1:1:1:5000007233450",
+    "product_id": "117283531",
+    "model": "5",
+    "brand": "Apple",
+    "family_line": " iPhone",
+    "carrier": "AT&T",
+    "storage_capacity": "16GB",
+    "popularity_rank": 9983,
+    "item_count": 100,
+    "ebay_new_range": [
+      468,
+      572
+    ],
+    "ebay_used_range": [
+      387,
+      472
+    ],
+    "amazon_competitive_pricing": [
+      575,
+      703
+    ],
+    "amazon_lowest_offer_used": [
+      394,
+      482
+    ],
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": [
+      436,
+      533
+    ],
+    "amazon_matched_products": [
+      "Apple iPhone 5 16GB (Black) - Unlocked",
+      "Apple iPhone 5 16GB (White) - Unlocked",
+      "Apple iPhone 5 16GB (White) - Verizon Wireless",
+      "Apple iPhone 5 16GB (White) - Sprint",
+      "Apple iPhone 5 16GB (Black) - Sprint"
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 425,
+        "highest": 600,
+        "count": 9,
+        "average": 517.8888888888889,
+        "median": 520
+      },
+      "used": {
+        "lowest": 285,
+        "highest": 900,
+        "count": 70,
+        "average": 442.74285714285713,
+        "median": 429.5
+      }
+    },
+    "amazon": [
+      {
+        "name": "Apple iPhone 5 16GB (Black) - Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZBH4",
+        "competitive_pricing": {
+          "lowest": 639,
+          "highest": 639,
+          "count": 1,
+          "average": 639.0,
+          "median": 639
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 399,
+          "highest": 490,
+          "count": 8,
+          "average": 439.875,
+          "median": 438.0
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 480,
+          "highest": 489,
+          "count": 2,
+          "average": 484.5,
+          "median": 484.5
+        }
+      },
+      {
+        "name": "Apple iPhone 5 16GB (White) - Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZJEO",
+        "competitive_pricing": {
+          "lowest": 694,
+          "highest": 694,
+          "count": 1,
+          "average": 694.0,
+          "median": 694
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 410,
+          "highest": 499,
+          "count": 13,
+          "average": 460.3076923076923,
+          "median": 465
+        },
+        "lowest_offer_refurbished": null
+      },
+      {
+        "name": "Apple iPhone 5 16GB (White) - Verizon Wireless",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0097BVA70",
+        "competitive_pricing": {
+          "lowest": 449,
+          "highest": 449,
+          "count": 1,
+          "average": 449.0,
+          "median": 449
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 405,
+          "highest": 449,
+          "count": 8,
+          "average": 428.625,
+          "median": 430.0
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 480,
+          "highest": 480,
+          "count": 1,
+          "average": 480.0,
+          "median": 480
+        }
+      },
+      {
+        "name": "Apple iPhone 5 16GB (White) - Sprint",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B009F9R6K4",
+        "competitive_pricing": null,
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 290,
+          "highest": 360,
+          "count": 11,
+          "average": 329.1818181818182,
+          "median": 334
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 340,
+          "highest": 359,
+          "count": 4,
+          "average": 351.75,
+          "median": 354.0
+        }
       },
       {
         "name": "Apple iPhone 5 16GB (Black) - Sprint",
         "amazon_url": "http://www.amazon.com/product-name/dp/B009F9Q2U4",
         "competitive_pricing": {
-          "lowest": 474,
-          "highest": 474,
+          "lowest": 469,
+          "highest": 469,
           "count": 1,
-          "average": 474.0,
-          "median": 474
+          "average": 469.0,
+          "median": 469
         },
         "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 305,
-          "highest": 395,
-          "count": 10,
-          "average": 347.4,
-          "median": 349.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 395,
-          "highest": 397,
-          "count": 2,
-          "average": 396.0,
-          "median": 396.0
-        }
-      }
-    ]
-  },
-  {
-    "name": "Motorola Droid Razor XT912 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2293238602:588676252:aacf3bfdb93aced7d548fa4715c44385:1:1:1:5000002575540",
-    "product_id": "113435402",
-    "model": "Razor XT912",
-    "brand": "Motorola",
-    "family_line": " Droid",
-    "carrier": "Verizon",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9942,
-    "item_count": 35,
-    "ebay_new_range": [
-      149,
-      182
-    ],
-    "ebay_used_range": [
-      121,
-      148
-    ],
-    "competitive_pricing": [
-      206,
-      252
-    ],
-    "lowest_offer_used": [
-      204,
-      249
-    ],
-    "lowest_offer_new": [
-      215,
-      263
-    ],
-    "lowest_offer_refurbished": [
-      206,
-      252
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 165,
-        "highest": 165,
-        "count": 1,
-        "average": 165.0,
-        "median": 165
-      },
-      "used": {
-        "lowest": 95,
-        "highest": 250,
-        "count": 24,
-        "average": 145.95833333333334,
-        "median": 134.5
-      }
-    },
-    "amazon": [
-      {
-        "name": "Motorola XT-910 DROID RAZR Unlocked GSM Smartphone with 8 MP Camera, Android OS, Wi-Fi, and GPS--No Warranty (Black)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B005PTZT6Q",
-        "competitive_pricing": {
-          "lowest": 219,
-          "highest": 239,
-          "count": 2,
-          "average": 229.0,
-          "median": 229.0
-        },
-        "lowest_offer_new": {
-          "lowest": 209,
-          "highest": 329,
-          "count": 7,
-          "average": 262.14285714285717,
-          "median": 239
-        },
-        "lowest_offer_used": {
-          "lowest": 189,
-          "highest": 330,
-          "count": 6,
-          "average": 248.5,
-          "median": 226.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 229,
-          "highest": 229,
-          "count": 1,
-          "average": 229.0,
-          "median": 229
-        }
-      }
-    ]
-  },
-  {
-    "name": "HTC Inspire 4G 4 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3384539732:588696402:19f26a552285c9e492d37919e53a821e:1:1:1:1417460091",
-    "product_id": "99977922",
-    "model": "4G",
-    "brand": "HTC",
-    "family_line": " Inspire",
-    "carrier": "AT&T",
-    "storage_capacity": "4 GB",
-    "popularity_rank": 9952,
-    "item_count": 29,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      99,
-      121
-    ],
-    "competitive_pricing": [
-      133,
-      163
-    ],
-    "lowest_offer_used": [
-      102,
-      124
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      119,
-      145
-    ],
-    "ebay": {
-      "new": null,
-      "used": {
-        "lowest": 44,
-        "highest": 180,
-        "count": 19,
-        "average": 108.3157894736842,
-        "median": 110
-      }
-    },
-    "amazon": [
-      {
-        "name": "HTC A9192 Inspire 4G Unlocked Phone with Android OS, 3G Support, 8 MP Camera, Wi-Fi, and GPS--(Black)",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B004T36GCU",
-        "competitive_pricing": {
-          "lowest": 137,
-          "highest": 159,
-          "count": 2,
-          "average": 148.0,
-          "median": 148.0
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 107,
-          "highest": 137,
-          "count": 9,
-          "average": 116.55555555555556,
-          "median": 113
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 129,
-          "highest": 133,
-          "count": 3,
-          "average": 131.33333333333334,
-          "median": 132
-        }
-      },
-      {
-        "name": "HTC T320e One V Unlocked Android Smartphone with Beats Audio, 5MP Camera, Bluetooth, Wi-Fi, 4GB(capability with external storage), HD Video - Unlocked Phone - No Warranty - Black",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0086ZV2M6",
-        "competitive_pricing": {
-          "lowest": 167,
-          "highest": 182,
-          "count": 2,
-          "average": 174.5,
-          "median": 174.5
-        },
-        "lowest_offer_new": {
-          "lowest": 178,
-          "highest": 289,
-          "count": 9,
-          "average": 205.22222222222223,
-          "median": 185
-        },
-        "lowest_offer_used": {
-          "lowest": 134,
-          "highest": 167,
-          "count": 4,
-          "average": 144.75,
-          "median": 139.0
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 144,
-          "highest": 145,
-          "count": 2,
-          "average": 144.5,
-          "median": 144.5
-        }
-      }
-    ]
-  },
-  {
-    "name": "Nokia Lumia 521 8 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:587468201:587564721:b679334e9b30564dc4af631328d5f236:1:1:1:5000051541371",
-    "product_id": "153951941",
-    "model": "521",
-    "brand": "Nokia",
-    "family_line": " Lumia",
-    "carrier": "T-Mobile",
-    "storage_capacity": "8 GB",
-    "popularity_rank": 9951,
-    "item_count": 10,
-    "ebay_new_range": [
-      121,
-      148
-    ],
-    "ebay_used_range": [
-      88,
-      107
-    ],
-    "competitive_pricing": [
-      126,
-      154
-    ],
-    "lowest_offer_used": [
-      119,
-      145
-    ],
-    "lowest_offer_new": [
-      148,
-      180
-    ],
-    "lowest_offer_refurbished": null,
-    "ebay": {
-      "new": {
-        "lowest": 117,
-        "highest": 150,
-        "count": 4,
-        "average": 134.0,
-        "median": 134.5
-      },
-      "used": {
-        "lowest": 75,
-        "highest": 120,
-        "count": 2,
-        "average": 97.5,
-        "median": 97.5
-      }
-    },
-    "amazon": [
-      {
-        "name": "Nokia Lumia 520 8GB Black - International Version, Factory Unlocked WP8",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B00CKUBLFQ",
-        "competitive_pricing": {
-          "lowest": 132,
-          "highest": 148,
-          "count": 2,
-          "average": 140.0,
-          "median": 140.0
-        },
-        "lowest_offer_new": {
-          "lowest": 146,
-          "highest": 190,
-          "count": 9,
-          "average": 162.22222222222223,
-          "median": 164
-        },
-        "lowest_offer_used": {
-          "lowest": 99,
-          "highest": 150,
-          "count": 3,
-          "average": 127.0,
-          "median": 132
-        },
-        "lowest_offer_refurbished": null
-      },
-      {
-        "name": "Nokia Lumia 620 Black Factory Unlocked Smartphone",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B00B9Q56WQ",
-        "competitive_pricing": {
-          "lowest": 204,
-          "highest": 204,
-          "count": 1,
-          "average": 204.0,
-          "median": 204
-        },
-        "lowest_offer_new": {
-          "lowest": 199,
-          "highest": 999,
-          "count": 8,
-          "average": 358.625,
-          "median": 252.0
-        },
-        "lowest_offer_used": {
-          "lowest": 200,
-          "highest": 249,
-          "count": 2,
-          "average": 224.5,
-          "median": 224.5
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 199,
-          "highest": 199,
-          "count": 1,
-          "average": 199.0,
-          "median": 199
-        }
-      }
-    ]
-  },
-  {
-    "name": "Samsung Galaxy S III SGH-T999 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3085103979:588828919:2fb9d2e1ee3f745eaffe92be817a2ebc:1:1:1:5000003241385",
-    "product_id": "115192749",
-    "model": "SGH-T999",
-    "brand": "Samsung",
-    "family_line": " Galaxy S III",
-    "carrier": "T-Mobile",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9941,
-    "item_count": 36,
-    "ebay_new_range": [
-      405,
-      495
-    ],
-    "ebay_used_range": [
-      306,
-      374
-    ],
-    "competitive_pricing": [
-      413,
-      505
-    ],
-    "lowest_offer_used": [
-      263,
-      321
-    ],
-    "lowest_offer_new": [
-      413,
-      505
-    ],
-    "lowest_offer_refurbished": [
-      331,
-      405
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 425,
-        "highest": 475,
-        "count": 7,
-        "average": 455.2857142857143,
-        "median": 450
-      },
-      "used": {
-        "lowest": 250,
-        "highest": 600,
-        "count": 19,
-        "average": 351.7368421052632,
-        "median": 340
-      }
-    },
-    "amazon": [
-      {
-        "name": "Samsung Galaxy S III T999 16GB Unlocked GSM Phone with Android 4.0 OS, Super AMOLED Touchscreen, 8MP Camera, GPS, Wi-Fi, Bluetooth and microSD Slot - Pebble Blue",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B008A9CZCY",
-        "competitive_pricing": {
-          "lowest": 459,
-          "highest": 459,
-          "count": 1,
-          "average": 459.0,
-          "median": 459
-        },
-        "lowest_offer_new": {
-          "lowest": 399,
-          "highest": 459,
-          "count": 3,
-          "average": 439.0,
-          "median": 459
-        },
         "lowest_offer_used": {
           "lowest": 279,
-          "highest": 379,
-          "count": 4,
-          "average": 310.5,
-          "median": 292.0
+          "highest": 395,
+          "count": 11,
+          "average": 332.1818181818182,
+          "median": 325
         },
         "lowest_offer_refurbished": {
-          "lowest": 324,
-          "highest": 369,
-          "count": 3,
-          "average": 353.6666666666667,
-          "median": 368
-        }
-      },
-      {
-        "name": "Samsung Galaxy S III T999 16GB Unlocked GSM Phone with Android 4.0 OS, Super AMOLED Touchscreen, 8MP Camera, GPS, Wi-Fi, Bluetooth and microSD Slot - Blue",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B0096DYA8U",
-        "competitive_pricing": {
-          "lowest": 420,
-          "highest": 420,
+          "lowest": 397,
+          "highest": 397,
           "count": 1,
-          "average": 420.0,
-          "median": 420
-        },
-        "lowest_offer_new": {
-          "lowest": 412,
-          "highest": 449,
-          "count": 4,
-          "average": 425.5,
-          "median": 420.5
-        },
-        "lowest_offer_used": {
-          "lowest": 240,
-          "highest": 410,
-          "count": 9,
-          "average": 316.0,
-          "median": 300
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 299,
-          "highest": 359,
-          "count": 3,
-          "average": 334.0,
-          "median": 344
+          "average": 397.0,
+          "median": 397
         }
       }
     ]
   },
   {
-    "name": "Samsung Galaxy S III SGH-I747 16 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2926489823:588940943:c3d9d978aac4ac5b90f1f2d98fb71a8b:1:1:1:5000003222963",
-    "product_id": "115213863",
-    "model": "SGH-I747",
-    "brand": "Samsung",
-    "family_line": " Galaxy S III",
-    "carrier": "AT&T",
-    "storage_capacity": "16 GB",
-    "popularity_rank": 9940,
-    "item_count": 42,
+    "name": "Motorola Droid X 8GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2734659943:589234783:73d09191792c07f7926616c827bb7f96:1:1:1:1422392950",
+    "product_id": "102650543",
+    "model": "Droid X",
+    "brand": "Motorola",
+    "family_line": "",
+    "carrier": "Verizon",
+    "storage_capacity": "8GB",
+    "popularity_rank": 9992,
+    "item_count": 71,
     "ebay_new_range": [
-      416,
-      509
+      103,
+      126
     ],
     "ebay_used_range": [
-      270,
-      330
-    ],
-    "competitive_pricing": [
-      322,
-      394
-    ],
-    "lowest_offer_used": [
-      265,
-      323
-    ],
-    "lowest_offer_new": null,
-    "lowest_offer_refurbished": [
-      248,
-      303
-    ],
-    "ebay": {
-      "new": {
-        "lowest": 325,
-        "highest": 600,
-        "count": 2,
-        "average": 462.5,
-        "median": 462.5
-      },
-      "used": {
-        "lowest": 209,
-        "highest": 670,
-        "count": 33,
-        "average": 318.6060606060606,
-        "median": 300
-      }
-    },
-    "amazon": [
-      {
-        "name": "Samsung Galaxy S III I747 New Unlocked 16GB - White",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B008MC3N34",
-        "competitive_pricing": {
-          "lowest": 358,
-          "highest": 358,
-          "count": 1,
-          "average": 358.0,
-          "median": 358
-        },
-        "lowest_offer_new": null,
-        "lowest_offer_used": {
-          "lowest": 251,
-          "highest": 319,
-          "count": 9,
-          "average": 284.1111111111111,
-          "median": 294
-        },
-        "lowest_offer_refurbished": {
-          "lowest": 259,
-          "highest": 289,
-          "count": 3,
-          "average": 274.3333333333333,
-          "median": 275
-        }
-      }
-    ]
-  },
-  {
-    "name": "BlackBerry Storm 9530 1 GB",
-    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3384406877:588200007:dd475cb209b09bef642674b95b98ce39:1:1:1:1417460208",
-    "product_id": "100036647",
-    "model": "9530",
-    "brand": "BlackBerry",
-    "family_line": " Storm",
-    "carrier": "Unlocked",
-    "storage_capacity": "1 GB",
-    "popularity_rank": 9950,
-    "item_count": 4,
-    "ebay_new_range": null,
-    "ebay_used_range": [
-      54,
-      66
-    ],
-    "competitive_pricing": [
-      78,
-      96
-    ],
-    "lowest_offer_used": [
-      51,
-      62
-    ],
-    "lowest_offer_new": [
-      77,
-      95
-    ],
-    "lowest_offer_refurbished": [
       53,
       65
     ],
+    "amazon_competitive_pricing": null,
+    "amazon_lowest_offer_used": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 75,
+        "highest": 150,
+        "count": 4,
+        "average": 113.5,
+        "median": 114.5
+      },
+      "used": {
+        "lowest": 19,
+        "highest": 250,
+        "count": 49,
+        "average": 68.20408163265306,
+        "median": 59
+      }
+    },
+    "amazon": [
+
+    ]
+  },
+  {
+    "name": "Motorola Droid X2 8GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:352235407:588495657:bf68c35b4a550dae5c0654cd8abd43ee:1:1:1:5000000069649",
+    "product_id": "108404537",
+    "model": "X2",
+    "brand": "Motorola",
+    "family_line": " Droid",
+    "carrier": "Verizon",
+    "storage_capacity": "8GB",
+    "popularity_rank": 9991,
+    "item_count": 19,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      59,
+      72
+    ],
+    "amazon_competitive_pricing": null,
+    "amazon_lowest_offer_used": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+
+    ],
     "ebay": {
       "new": null,
       "used": {
-        "lowest": 40,
-        "highest": 75,
+        "lowest": 39,
+        "highest": 540,
+        "count": 17,
+        "average": 99.47058823529412,
+        "median": 65
+      }
+    },
+    "amazon": [
+
+    ]
+  },
+  {
+    "name": "Motorola Droid Bionic 16GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3425071596:587053166:2c98a4ff19dd7cbd17d233823008ee27:1:1:1:5000000177661",
+    "product_id": "108782626",
+    "model": "Bionic",
+    "brand": "Motorola",
+    "family_line": " Droid",
+    "carrier": "Verizon",
+    "storage_capacity": "16GB",
+    "popularity_rank": 9990,
+    "item_count": 23,
+    "ebay_new_range": [
+      135,
+      165
+    ],
+    "ebay_used_range": [
+      89,
+      109
+    ],
+    "amazon_competitive_pricing": null,
+    "amazon_lowest_offer_used": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 150,
+        "highest": 150,
+        "count": 1,
+        "average": 150.0,
+        "median": 150
+      },
+      "used": {
+        "lowest": 43,
+        "highest": 189,
+        "count": 21,
+        "average": 100.14285714285714,
+        "median": 99
+      }
+    },
+    "amazon": [
+
+    ]
+  },
+  {
+    "name": "Apple iPhone 4 8GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502431:587842241:89bcf09159ee7ae239f2ccb58fcb173d:1:1:1:5000000887461",
+    "product_id": "110602231",
+    "model": "4",
+    "brand": "Apple",
+    "family_line": " iPhone",
+    "carrier": "Verizon",
+    "storage_capacity": "8GB",
+    "popularity_rank": 9982,
+    "item_count": 100,
+    "ebay_new_range": [
+      189,
+      231
+    ],
+    "ebay_used_range": [
+      158,
+      193
+    ],
+    "amazon_competitive_pricing": [
+      297,
+      363
+    ],
+    "amazon_lowest_offer_used": [
+      243,
+      297
+    ],
+    "amazon_lowest_offer_new": [
+      311,
+      380
+    ],
+    "amazon_lowest_offer_refurbished": [
+      355,
+      433
+    ],
+    "amazon_matched_products": [
+      "Apple iPhone 4 8GB - White - AT&T",
+      "Apple iPhone 4 (Black) 8GB (Factory Unlocked)",
+      "Apple iPhone 4 8GB White/Factory Unlocked"
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 130,
+        "highest": 300,
         "count": 4,
-        "average": 58.75,
-        "median": 60.0
+        "average": 212.5,
+        "median": 210.0
+      },
+      "used": {
+        "lowest": 85,
+        "highest": 550,
+        "count": 77,
+        "average": 188.2987012987013,
+        "median": 175
       }
     },
     "amazon": [
       {
-        "name": "Blackberry 9530 Storm Unlocked For Any GSM Carrier Worldwide",
-        "amazon_url": "http://www.amazon.com/product-name/dp/B00466R0V6",
+        "name": "Apple iPhone 4 8GB - White - AT&T",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0063OM9CE",
         "competitive_pricing": {
-          "lowest": 87,
-          "highest": 87,
+          "lowest": 330,
+          "highest": 330,
           "count": 1,
-          "average": 87.0,
-          "median": 87
+          "average": 330.0,
+          "median": 330
         },
         "lowest_offer_new": {
-          "lowest": 86,
-          "highest": 86,
-          "count": 1,
-          "average": 86.0,
-          "median": 86
+          "lowest": 330,
+          "highest": 369,
+          "count": 5,
+          "average": 347.6,
+          "median": 345
         },
         "lowest_offer_used": {
-          "lowest": 37,
-          "highest": 74,
-          "count": 8,
-          "average": 57.75,
-          "median": 56.5
+          "lowest": 189,
+          "highest": 350,
+          "count": 7,
+          "average": 265.7142857142857,
+          "median": 270
         },
         "lowest_offer_refurbished": {
-          "lowest": 53,
-          "highest": 80,
-          "count": 5,
-          "average": 63.0,
-          "median": 59
+          "lowest": 300,
+          "highest": 398,
+          "count": 3,
+          "average": 364.0,
+          "median": 394
+        }
+      },
+      {
+        "name": "Apple iPhone 4 (Black) 8GB (Factory Unlocked)",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B0096I594O",
+        "competitive_pricing": {
+          "lowest": 360,
+          "highest": 360,
+          "count": 1,
+          "average": 360.0,
+          "median": 360
+        },
+        "lowest_offer_new": {
+          "lowest": 350,
+          "highest": 389,
+          "count": 4,
+          "average": 369.5,
+          "median": 369.5
+        },
+        "lowest_offer_used": {
+          "lowest": 235,
+          "highest": 375,
+          "count": 9,
+          "average": 285.6666666666667,
+          "median": 275
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 250,
+          "highest": 250,
+          "count": 1,
+          "average": 250.0,
+          "median": 250
+        }
+      },
+      {
+        "name": "Apple iPhone 4 8GB White/Factory Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B00EDSM5I0",
+        "competitive_pricing": {
+          "lowest": 379,
+          "highest": 379,
+          "count": 1,
+          "average": 379.0,
+          "median": 379
+        },
+        "lowest_offer_new": {
+          "lowest": 375,
+          "highest": 389,
+          "count": 4,
+          "average": 380.5,
+          "median": 379.0
+        },
+        "lowest_offer_used": {
+          "lowest": 260,
+          "highest": 350,
+          "count": 6,
+          "average": 291.5,
+          "median": 289.5
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 249,
+          "highest": 249,
+          "count": 1,
+          "average": 249.0,
+          "median": 249
         }
       }
+    ]
+  },
+  {
+    "name": "Apple iPhone 4 16GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:656692531:587842251:000766506821aaab7e304d3f0d00a0f2:1:1:1:1418249513",
+    "product_id": "102216581",
+    "model": "4",
+    "brand": "Apple",
+    "family_line": " iPhone",
+    "carrier": "Verizon",
+    "storage_capacity": "16GB",
+    "popularity_rank": 9981,
+    "item_count": 100,
+    "ebay_new_range": [
+      248,
+      303
+    ],
+    "ebay_used_range": [
+      158,
+      193
+    ],
+    "amazon_competitive_pricing": [
+      230,
+      282
+    ],
+    "amazon_lowest_offer_used": [
+      148,
+      181
+    ],
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": [
+      143,
+      175
+    ],
+    "amazon_matched_products": [
+      "Apple iPhone 4 16GB (White) - Verizon",
+      "IPHONE 4 16GB - Factory Unlocked - Black",
+      "Apple Iphone 4 16gb White Unlocked"
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 190,
+        "highest": 300,
+        "count": 5,
+        "average": 253.0,
+        "median": 275
+      },
+      "used": {
+        "lowest": 80,
+        "highest": 300,
+        "count": 87,
+        "average": 181.2528735632184,
+        "median": 175
+      }
+    },
+    "amazon": [
+      {
+        "name": "Apple iPhone 4 16GB (White) - Verizon",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLYBQ4",
+        "competitive_pricing": {
+          "lowest": 256,
+          "highest": 256,
+          "count": 1,
+          "average": 256.0,
+          "median": 256
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 120,
+          "highest": 179,
+          "count": 14,
+          "average": 162.5,
+          "median": 164.5
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 159,
+          "highest": 159,
+          "count": 1,
+          "average": 159.0,
+          "median": 159
+        }
+      },
+      {
+        "name": "IPHONE 4 16GB - Factory Unlocked - Black",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B00598BY6W",
+        "competitive_pricing": {
+          "lowest": 311,
+          "highest": 399,
+          "count": 2,
+          "average": 355.0,
+          "median": 355.0
+        },
+        "lowest_offer_new": null,
+        "lowest_offer_used": {
+          "lowest": 239,
+          "highest": 320,
+          "count": 12,
+          "average": 279.5833333333333,
+          "median": 277.5
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 278,
+          "highest": 320,
+          "count": 3,
+          "average": 292.0,
+          "median": 278
+        }
+      },
+      {
+        "name": "Apple Iphone 4 16gb White Unlocked",
+        "amazon_url": "http://www.amazon.com/product-name/dp/B005XYGFIY",
+        "competitive_pricing": {
+          "lowest": 399,
+          "highest": 399,
+          "count": 1,
+          "average": 399.0,
+          "median": 399
+        },
+        "lowest_offer_new": {
+          "lowest": 399,
+          "highest": 399,
+          "count": 2,
+          "average": 399.0,
+          "median": 399.0
+        },
+        "lowest_offer_used": {
+          "lowest": 199,
+          "highest": 394,
+          "count": 8,
+          "average": 290.375,
+          "median": 299.0
+        },
+        "lowest_offer_refurbished": {
+          "lowest": 398,
+          "highest": 398,
+          "count": 1,
+          "average": 398.0,
+          "median": 398
+        }
+      }
+    ]
+  },
+  {
+    "name": "LG Venice LG730 4GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:1236889124:587513474:7a74b1237d76ecd427a9c4288c16f5c1:1:1:1:5000019523813",
+    "product_id": "129359814",
+    "model": "Venice LG730",
+    "brand": "LG",
+    "family_line": null,
+    "carrier": "Boost Mobile",
+    "storage_capacity": "4GB",
+    "popularity_rank": 9980,
+    "item_count": 5,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      81,
+      98
+    ],
+    "amazon_competitive_pricing": null,
+    "amazon_lowest_offer_used": null,
+    "amazon_lowest_offer_new": null,
+    "amazon_lowest_offer_refurbished": null,
+    "amazon_matched_products": [
+
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 69,
+        "highest": 130,
+        "count": 4,
+        "average": 94.5,
+        "median": 89.5
+      }
+    },
+    "amazon": [
+
     ]
   }
 ]

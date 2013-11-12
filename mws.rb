@@ -5,7 +5,7 @@ mws = MWS.new(:aws_access_key_id => "AKIAIDZUEZILKOGLJNJQ",
               :seller_id => "A25ONFDA24CSQ8",
               :marketplace_id => "ATVPDKIKX0DER")
 
-products = mws.products.list_matching_products :query => 'Motorola Droid X 8 GB', :marketplace_id => 'ATVPDKIKX0DER'
+products = mws.products.list_matching_products :query => 'Apple iPhone 4 16 GB', :marketplace_id => 'ATVPDKIKX0DER'
 asin = Array.new
 products.products.each { |x|
   next if x.kind_of?(Array)
