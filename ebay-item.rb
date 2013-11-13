@@ -123,7 +123,7 @@ product_ranking = Hash.new
             product_categories = x.sales_rankings.sales_rank.map { |x| x.product_category_id.to_i if !x.kind_of?(Array) && x.product_category_id.match(/^\d*$/) }.select { |x| x!= nil } if not x.sales_rankings.nil?
             amazon_url = "http://www.amazon.com/product-name/dp/#{asin}"
 
-            if product_categories.nil? || product_categories.all? { |x| x != 2407749011 && x != 2407748011 }
+            if product_categories.nil? || product_categories.all? { |x| x != 2407749011 && x != 2407748011 && x!=2407747011 }
 
               amazon_page = open(amazon_url)
               amazon_page_content = amazon_page.read
@@ -135,7 +135,7 @@ product_ranking = Hash.new
 
               amazon_category_section = amazon_category_section_array[0][0]
 
-              if !amazon_category_section.include?(2407749011.to_s) && !amazon_category_section.include?(2407748011.to_s)
+              if !amazon_category_section.include?(2407749011.to_s) && !amazon_category_section.include?(2407748011.to_s) && !amazon_category_section.include?(2407747011.to_s)
                 next
               end
             end
