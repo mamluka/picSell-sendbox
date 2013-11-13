@@ -109,23 +109,18 @@ product_ranking = Hash.new
 
         halt = false
 
-        amazon_products.products.peach(2) { |x|
+        amazon_products.products.each { |x|
 
           begin
 
             next if x.kind_of?(Array)
 
+            next if halt
+
             asin = x.identifiers.marketplace_asin.asin
             amazon_name = x.attribute_sets.item_attributes.title
 
-            logger.info "Found amazon name canidate #{amazon_name}"
-
-            next if not (amazon_name =~ /#{storage_capacity}/i && amazon_name =~ /\s#{model}\s/i)
-
-            logger.info "Found amazon name canidate #{amazon_name} to be successful"
-
             product_categories = x.sales_rankings.sales_rank.map { |x| x.product_category_id.to_i if !x.kind_of?(Array) && x.product_category_id.match(/^\d*$/) }.select { |x| x!= nil } if not x.sales_rankings.nil?
-
             amazon_url = "http://www.amazon.com/product-name/dp/#{asin}"
 
             if product_categories.nil? || product_categories.all? { |x| x != 2407749011 && x != 2407748011 }
@@ -158,6 +153,8 @@ product_ranking = Hash.new
                 lowest_offer_refurbished: MathTools.analyze(ArrayUtils.empty_if_nil(low_price.listing_price).select { |x| x[:condition] =='Refurbished' }.map { |x| x[:price].to_i })
 
             }
+
+            halt = true
 
           rescue Exception => ex
             logger.error "Product name: #{name}\n Amazon name: #{amazon_name}\n #{ex.message}\n#{ex.backtrace.join("\n ")}"
