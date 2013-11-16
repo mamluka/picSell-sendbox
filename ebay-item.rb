@@ -49,7 +49,7 @@ product_ranking = Hash.new
 
     results.each_index { |i| product_ranking[results[i]['ProductID']['Value']] = (10000-((current_page-1)*20+i+1)) }
 
-    results.peach(2) do |x|
+    results.peach(5) do |x|
 
       begin
 
@@ -168,6 +168,11 @@ product_ranking = Hash.new
         amazon_lowest_offer_used = (MathTools.percent_range(amazon.first[:lowest_offer_used][:median], 0.1) rescue nil)
         amazon_lowest_offer_new = (MathTools.percent_range(amazon.first[:lowest_offer_new][:median], 0.1) rescue nil)
 
+        new_deviation_warning = (MathTools.deviation_warning(ebay[:new][:median], amazon.first[:competitive_pricing][:median], 20) rescue nil)
+        used_deviation_warning = (MathTools.deviation_warning(ebay[:used][:median], amazon.first[:lowest_offer_used][:median], 20) rescue nil)
+        new_lowest_offer_new_deviation_warning = (MathTools.deviation_warning(ebay[:new][:median], amazon.first[:lowest_offer_new][:median], 20) rescue nil)
+        new_lowest_offer_used_deviation_warning = (MathTools.deviation_warning(ebay[:new][:median], amazon.first[:lowest_offer_used][:median], 20) rescue nil)
+
         products << {
             name: name,
             details_url: x['DetailsURL'],
@@ -186,7 +191,10 @@ product_ranking = Hash.new
             amazon_lowest_offer_new: amazon_lowest_offer_new,
             amazon_lowest_offer_refurbished: (MathTools.percent_range(amazon.first[:lowest_offer_refurbished][:median], 0.1) rescue nil),
             amazon_matched_products: (amazon.map { |x| x[:name] } rescue nil),
-            ebay_amazon_new_price_range_problem: ebay[:new][:median]/amazon.first[:competitive_pricing][:median]
+            ebay_amazon_new_price_range_problem: new_deviation_warning.nil? ? nil : "ebay_new/amazon_competitive_pricing price diviates: #{new_deviation_warning}%",
+            ebay_amazon_used_price_range_problem: used_deviation_warning.nil? ? nil : "ebay_used/lowest_offer_used price diviates: #{used_deviation_warning}%",
+            ebay_amazon_new_lowest_offer_new_price_range_problem: new_lowest_offer_new_deviation_warning.nil? ? nil : "ebay_new/lowest_offer_new price diviates: #{new_lowest_offer_new_deviation_warning}%",
+            ebay_amazon_new_lowest_offer_used_price_range_problem: new_lowest_offer_used_deviation_warning.nil? ? nil : "ebay_new/lowest_offer_used price diviates: #{new_lowest_offer_used_deviation_warning}%",
             ebay: ebay,
             amazon: amazon
         }

@@ -19,5 +19,15 @@ class MathTools
   def self.percent_range(value, range)
     [(value*(1-range)).round(0), (value*(1+range)).round(0)]
   end
+
+  def self.deviation_warning(first, second, tolerance)
+    ratio = ((first/second)*100).round(0)
+
+    if (ratio) < (100-tolerance) || (ratio) > (100+tolerance)
+      (ratio-100).abs
+    else
+      nil
+    end
+  end
 end
 
