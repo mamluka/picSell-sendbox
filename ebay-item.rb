@@ -162,6 +162,12 @@ product_ranking = Hash.new
         }
 
 
+        ebay_new_range = (MathTools.percent_range(ebay[:new][:median], 0.1) rescue nil)
+        ebay_used_range = (MathTools.percent_range(ebay[:used][:median], 0.1) rescue nil)
+        amazon_competitive_price = (MathTools.percent_range(amazon.first[:competitive_pricing][:median], 0.1) rescue nil)
+        amazon_lowest_offer_used = (MathTools.percent_range(amazon.first[:lowest_offer_used][:median], 0.1) rescue nil)
+        amazon_lowest_offer_new = (MathTools.percent_range(amazon.first[:lowest_offer_new][:median], 0.1) rescue nil)
+
         products << {
             name: name,
             details_url: x['DetailsURL'],
@@ -173,13 +179,14 @@ product_ranking = Hash.new
             storage_capacity: storage_capacity,
             popularity_rank: product_ranking[product_id],
             item_count: (items_by_product.length rescue nil),
-            ebay_new_range: (MathTools.percent_range(ebay[:new][:median], 0.1) rescue nil),
-            ebay_used_range: (MathTools.percent_range(ebay[:used][:median], 0.1) rescue nil),
-            amazon_competitive_pricing: (MathTools.percent_range(amazon.first[:competitive_pricing][:median], 0.1) rescue nil),
-            amazon_lowest_offer_used: (MathTools.percent_range(amazon.first[:lowest_offer_used][:median], 0.1) rescue nil),
-            amazon_lowest_offer_new: (MathTools.percent_range(amazon.first[:lowest_offer_new][:median], 0.1) rescue nil),
+            ebay_new_range: ebay_new_range,
+            ebay_used_range: ebay_used_range,
+            amazon_competitive_pricing: amazon_competitive_price,
+            amazon_lowest_offer_used: amazon_lowest_offer_used,
+            amazon_lowest_offer_new: amazon_lowest_offer_new,
             amazon_lowest_offer_refurbished: (MathTools.percent_range(amazon.first[:lowest_offer_refurbished][:median], 0.1) rescue nil),
             amazon_matched_products: (amazon.map { |x| x[:name] } rescue nil),
+            ebay_amazon_new_price_range_problem: ebay[:new][:median]/amazon.first[:competitive_pricing][:median]
             ebay: ebay,
             amazon: amazon
         }
