@@ -10,6 +10,16 @@ module MWS
                       lambda { |r| r.products = r.products.product if not r.products.nil? }
                   ]
 
+      def_request [:get_matching_product_for_id, :get_matching_product_for_id_by_next_token],
+                  :verb => :post,
+                  :uri => '/Products/2011-10-01',
+                  :version => '2011-10-01',
+                  :mods => [
+                      lambda { |r|
+                        r.product = r.products.product if not r.products.nil?
+                      }
+                  ]
+
       def_request [:get_product_categories_for_asin],
                   :verb => :post,
                   :uri => '/Products/2011-10-01',
@@ -18,7 +28,7 @@ module MWS
                       lambda { |r|
                         r.self = [r.self] if not r.self.kind_of?(Array)
 
-                        r.categories = r.self.map { |cat| { id: cat.product_category_id.to_i, name: cat.product_category_name} }
+                        r.categories = r.self.map { |cat| {id: cat.product_category_id.to_i, name: cat.product_category_name} }
                       }
                   ]
 

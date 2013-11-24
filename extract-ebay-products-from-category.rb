@@ -21,8 +21,16 @@ Rebay::Api.configure do |rebay|
   rebay.app_id = 'Twin-Dia-3f18-4f05-b81a-4ce4ba64f7a4'
 end
 
-logger = Logger.new('get-ebay-items.log')
+logger = Logger.new('get-ebay-products.log')
+
+mws = MWS.new(:aws_access_key_id => "AKIAIDZUEZILKOGLJNJQ",
+              :secret_access_key => "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",
+              :seller_id => "A25ONFDA24CSQ8",
+              :marketplace_id => "ATVPDKIKX0DER")
+
+shopping = Rebay::Shopping.new
 finder = Rebay::Finding.new
+
 product_details = Array.new
 
 start = Time.now
@@ -31,7 +39,7 @@ start = Time.now
 
   begin
     current_page = page
-    response = finder.find_items_by_category(categoryId: ARGV[0].to_i, :'paginationInput.entriesPerPage' => 100, :'paginationInput.pageNumber' => current_page, :'itemFilter.name' => 'ListingType', :'itemFilter.value' => 'AuctionWithBIN', sortOrder: 'BidCountMost')
+    response = shopping.find_products(CategoryID: ARGV[0].to_i, MaxEntries: 20, PageNumber: current_page, IncludeSelector: 'Details')
 
     logger.info response.response
 
@@ -43,14 +51,11 @@ start = Time.now
 
       begin
 
-        logger.info x
+        name = x['Title']
 
-        name = x['title']
         product_details << {
             title: name,
-            listing_type: x['listingInfo']['listingType'],
-            primary_category: x['primaryCategory']['categoryName'],
-            details_url: x['viewItemURL']
+            details_url: x['DetailsURL']
         }
 
       rescue Exception => ex

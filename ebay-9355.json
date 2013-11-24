@@ -1,0 +1,1073 @@
+[
+  {
+    "name": "Motorola X2 Droid 8 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:352235407:590474837:92c79db97a6385ce2ff5841804feeaec:1:1:1:5000000069649",
+    "product_id": "108404537",
+    "properties": {
+      "brand": "Motorola",
+      "model": "X2",
+      "family line": "Motorola Droid",
+      "carrier": "Verizon",
+      "storage capacity": "8 GB",
+      "upc": "723755000124",
+      "mpn": "BBY72LD",
+      "color": "Black"
+    },
+    "popularity_rank": 9999,
+    "item_count": 16,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      72,
+      87
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 38,
+        "highest": 540,
+        "count": 14,
+        "average": 112.0,
+        "median": 79.5,
+        "percent_range_10": [
+          -716,
+          875
+        ],
+        "percent_range_20": [
+          -1511,
+          1670
+        ]
+      }
+    }
+  },
+  {
+    "name": "LG Revolution VS910 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3195021947:590473617:258ce8dec9b954bac06dd8c09a1a64d6:1:1:1:1422422237",
+    "product_id": "102742267",
+    "properties": {
+      "brand": "LG",
+      "model": "Revolution  VS910",
+      "carrier": "Verizon",
+      "storage capacity": "16 GB",
+      "upc": "652810814829",
+      "mpn": "VS910VZW",
+      "color": "Black"
+    },
+    "popularity_rank": 9987,
+    "item_count": 6,
+    "ebay_new_range": [
+      225,
+      275
+    ],
+    "ebay_used_range": [
+      76,
+      92
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 250,
+        "highest": 250,
+        "count": 1,
+        "average": 250.0,
+        "median": 250,
+        "percent_range_10": [
+          -2250,
+          2750
+        ],
+        "percent_range_20": [
+          -4750,
+          5250
+        ]
+      },
+      "used": {
+        "lowest": 80,
+        "highest": 150,
+        "count": 3,
+        "average": 104.66666666666667,
+        "median": 84,
+        "percent_range_10": [
+          -756,
+          924
+        ],
+        "percent_range_20": [
+          -1596,
+          1764
+        ]
+      }
+    }
+  },
+  {
+    "name": "Samsung SPH-D710 Galaxy S II 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2400018252:590987312:cabe37c5a39e592afd4b7856601ad64e:1:1:1:5000000571998",
+    "product_id": "109468762",
+    "properties": {
+      "brand": "Samsung",
+      "model": "SPH-D710",
+      "family line": "Samsung Galaxy S II",
+      "carrier": "Sprint",
+      "storage capacity": "16 GB",
+      "upc": "635753490350",
+      "mpn": "SPH-D710ZKASPR",
+      "color": "Vortex Black"
+    },
+    "popularity_rank": 9983,
+    "item_count": 49,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      117,
+      143
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 70,
+        "highest": 250,
+        "count": 38,
+        "average": 139.05263157894737,
+        "median": 130.0,
+        "percent_range_10": [
+          -1170,
+          1430
+        ],
+        "percent_range_20": [
+          -2470,
+          2730
+        ]
+      }
+    }
+  },
+  {
+    "name": "Motorola Droid X 8 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2734659943:591216613:89e4cee85baccf14feefd7917f79cddb:1:1:1:1422392950",
+    "product_id": "102650543",
+    "properties": {
+      "brand": "Motorola",
+      "model": "Droid X",
+      "family line": "Motorola Droid",
+      "carrier": "Verizon",
+      "storage capacity": "8 GB",
+      "upc": [
+        "723755811829",
+        "723755812048"
+      ],
+      "mpn": "MOTMB810",
+      "color": "Black"
+    },
+    "popularity_rank": 9991,
+    "item_count": 59,
+    "ebay_new_range": [
+      87,
+      106
+    ],
+    "ebay_used_range": [
+      54,
+      65
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 94,
+        "highest": 99,
+        "count": 2,
+        "average": 96.5,
+        "median": 96.5,
+        "percent_range_10": [
+          -869,
+          1062
+        ],
+        "percent_range_20": [
+          -1834,
+          2027
+        ]
+      },
+      "used": {
+        "lowest": 26,
+        "highest": 300,
+        "count": 46,
+        "average": 73.02173913043478,
+        "median": 59.5,
+        "percent_range_10": [
+          -536,
+          655
+        ],
+        "percent_range_20": [
+          -1131,
+          1250
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4 iPhone 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3206237934:589487924:4df48dbecacedf48c9b6a241199a4188:1:1:1:1418090522",
+    "product_id": "101787954",
+    "properties": {
+      "brand": "Apple",
+      "model": "4",
+      "family line": "Apple iPhone",
+      "carrier": "Verizon",
+      "storage capacity": "16 GB",
+      "upc": "885909420438",
+      "mpn": "MC676LL/A",
+      "color": "Black"
+    },
+    "popularity_rank": 9995,
+    "item_count": 100,
+    "ebay_new_range": [
+      180,
+      220
+    ],
+    "ebay_used_range": [
+      153,
+      187
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 200,
+        "highest": 200,
+        "count": 1,
+        "average": 200.0,
+        "median": 200,
+        "percent_range_10": [
+          -1800,
+          2200
+        ],
+        "percent_range_20": [
+          -3800,
+          4200
+        ]
+      },
+      "used": {
+        "lowest": 75,
+        "highest": 350,
+        "count": 77,
+        "average": 174.74025974025975,
+        "median": 170,
+        "percent_range_10": [
+          -1530,
+          1870
+        ],
+        "percent_range_20": [
+          -3230,
+          3570
+        ]
+      }
+    }
+  },
+  {
+    "name": "Motorola 4G ATRIX 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3384406109:591116339:0cf67dd712a29d2ba12195d2e977b3d4:1:1:1:1417460238",
+    "product_id": "99978559",
+    "properties": {
+      "brand": "Motorola",
+      "model": "4G",
+      "family line": "Motorola ATRIX",
+      "carrier": "AT&T",
+      "storage capacity": "16 GB",
+      "upc": "723755921474",
+      "mpn": "ATRIX4GATT",
+      "color": "Black"
+    },
+    "popularity_rank": 9982,
+    "item_count": 14,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      99,
+      121
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 55,
+        "highest": 200,
+        "count": 11,
+        "average": 115.18181818181819,
+        "median": 110,
+        "percent_range_10": [
+          -990,
+          1210
+        ],
+        "percent_range_20": [
+          -2090,
+          2310
+        ]
+      }
+    }
+  },
+  {
+    "name": "HTC Incredible Droid 8 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3088860650:589413910:39474a82867306e34c5d6f24f102f8a7:1:1:1:1418097296",
+    "product_id": "101872140",
+    "properties": {
+      "brand": "HTC",
+      "model": "Incredible",
+      "family line": "HTC Droid",
+      "carrier": "Verizon",
+      "storage capacity": "8 GB",
+      "upc": [
+        "0044476814778",
+        "44476812804",
+        "44476814259"
+      ],
+      "mpn": "ADR6300",
+      "color": "Black"
+    },
+    "popularity_rank": 9998,
+    "item_count": 22,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      77,
+      94
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 40,
+        "highest": 190,
+        "count": 17,
+        "average": 98.17647058823529,
+        "median": 85,
+        "percent_range_10": [
+          -765,
+          935
+        ],
+        "percent_range_20": [
+          -1615,
+          1785
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4s iPhone 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502167:588497917:82b37807d992e5a7ebe0de21fe6d690a:1:1:1:5000000887459",
+    "product_id": "110661597",
+    "properties": {
+      "brand": "Apple",
+      "model": "4s",
+      "family line": "Apple iPhone",
+      "carrier": "Sprint",
+      "storage capacity": "16 GB",
+      "upc": "885909538034",
+      "mpn": "MD378LL/A",
+      "color": "White"
+    },
+    "popularity_rank": 9986,
+    "item_count": 100,
+    "ebay_new_range": [
+      315,
+      385
+    ],
+    "ebay_used_range": [
+      224,
+      274
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 232,
+        "highest": 400,
+        "count": 7,
+        "average": 325.85714285714283,
+        "median": 350,
+        "percent_range_10": [
+          -3150,
+          3850
+        ],
+        "percent_range_20": [
+          -6650,
+          7350
+        ]
+      },
+      "used": {
+        "lowest": 149,
+        "highest": 1249,
+        "count": 85,
+        "average": 257.47058823529414,
+        "median": 249,
+        "percent_range_10": [
+          -2241,
+          2739
+        ],
+        "percent_range_20": [
+          -4731,
+          5229
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4s iPhone 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487226184:589531284:447eecb9352e3220caa9a9d1a6701fd7:1:1:1:5000000504399",
+    "product_id": "109266974",
+    "properties": {
+      "brand": "Apple",
+      "model": "4s",
+      "family line": "Apple iPhone",
+      "carrier": "Verizon",
+      "storage capacity": "16 GB",
+      "upc": [
+        "400035623791",
+        "885909528905"
+      ],
+      "mpn": "MD276LL/A",
+      "color": "Black"
+    },
+    "popularity_rank": 9990,
+    "item_count": 100,
+    "ebay_new_range": [
+      347,
+      424
+    ],
+    "ebay_used_range": [
+      225,
+      275
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 300,
+        "highest": 500,
+        "count": 4,
+        "average": 392.5,
+        "median": 385.0,
+        "percent_range_10": [
+          -3465,
+          4235
+        ],
+        "percent_range_20": [
+          -7315,
+          8085
+        ]
+      },
+      "used": {
+        "lowest": 120,
+        "highest": 450,
+        "count": 82,
+        "average": 247.8658536585366,
+        "median": 250.0,
+        "percent_range_10": [
+          -2250,
+          2750
+        ],
+        "percent_range_20": [
+          -4750,
+          5250
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4s iPhone 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487682880:589479090:0bef0481594829b308932a2043701e6c:1:1:1:5000000504411",
+    "product_id": "109348370",
+    "properties": {
+      "brand": "Apple",
+      "model": "4s",
+      "family line": "Apple iPhone",
+      "carrier": "AT&T",
+      "storage capacity": "16 GB",
+      "upc": [
+        "885909459858",
+        "885909525225"
+      ],
+      "mpn": "MC920LL/A",
+      "color": "White"
+    },
+    "popularity_rank": 9994,
+    "item_count": 100,
+    "ebay_new_range": [
+      338,
+      413
+    ],
+    "ebay_used_range": [
+      248,
+      303
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 349,
+        "highest": 500,
+        "count": 3,
+        "average": 408.0,
+        "median": 375,
+        "percent_range_10": [
+          -3375,
+          4125
+        ],
+        "percent_range_20": [
+          -7125,
+          7875
+        ]
+      },
+      "used": {
+        "lowest": 175,
+        "highest": 455,
+        "count": 84,
+        "average": 279.1904761904762,
+        "median": 275.0,
+        "percent_range_10": [
+          -2475,
+          3025
+        ],
+        "percent_range_20": [
+          -5225,
+          5775
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4s iPhone 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502166:589037306:acb775e77958e0a97ff96a3c0e712a82:1:1:1:5000000887458",
+    "product_id": "110635286",
+    "properties": {
+      "brand": "Apple",
+      "model": "4s",
+      "family line": "Apple iPhone",
+      "carrier": "Sprint",
+      "storage capacity": "16 GB",
+      "upc": [
+        "885909525355",
+        "885909538027"
+      ],
+      "mpn": "MD377LL/A",
+      "color": "Black"
+    },
+    "popularity_rank": 9981,
+    "item_count": 100,
+    "ebay_new_range": [
+      275,
+      336
+    ],
+    "ebay_used_range": [
+      207,
+      253
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 249,
+        "highest": 425,
+        "count": 8,
+        "average": 312.625,
+        "median": 305.0,
+        "percent_range_10": [
+          -2745,
+          3355
+        ],
+        "percent_range_20": [
+          -5795,
+          6405
+        ]
+      },
+      "used": {
+        "lowest": 180,
+        "highest": 600,
+        "count": 81,
+        "average": 252.25925925925927,
+        "median": 230,
+        "percent_range_10": [
+          -2070,
+          2530
+        ],
+        "percent_range_20": [
+          -4370,
+          4830
+        ]
+      }
+    }
+  },
+  {
+    "name": "Motorola Bionic Droid 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3425071596:589017346:7cbc5b83ef425edc8aed39be72bfba9f:1:1:1:5000000177661",
+    "product_id": "108782626",
+    "properties": {
+      "brand": "Motorola",
+      "model": "Bionic",
+      "family line": "Motorola Droid",
+      "carrier": "Verizon",
+      "storage capacity": "16 GB",
+      "upc": [
+        "723755000230",
+        "723755000254",
+        "723755001459"
+      ],
+      "mpn": "MOTXT875-16",
+      "color": "Black"
+    },
+    "popularity_rank": 9997,
+    "item_count": 31,
+    "ebay_new_range": [
+      149,
+      182
+    ],
+    "ebay_used_range": [
+      108,
+      132
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 150,
+        "highest": 180,
+        "count": 2,
+        "average": 165.0,
+        "median": 165.0,
+        "percent_range_10": [
+          -1485,
+          1815
+        ],
+        "percent_range_20": [
+          -3135,
+          3465
+        ]
+      },
+      "used": {
+        "lowest": 50,
+        "highest": 259,
+        "count": 25,
+        "average": 125.76,
+        "median": 120,
+        "percent_range_10": [
+          -1080,
+          1320
+        ],
+        "percent_range_20": [
+          -2280,
+          2520
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4 iPhone 8 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2889502431:589818371:66abdf19dc36ea2d186824285d2567cc:1:1:1:5000000887461",
+    "product_id": "110602231",
+    "properties": {
+      "brand": "Apple",
+      "model": "4",
+      "family line": "Apple iPhone",
+      "carrier": "Verizon",
+      "storage capacity": "8 GB",
+      "upc": [
+        "400038152724",
+        "885909543274"
+      ],
+      "mpn": "MD440LL/A",
+      "color": "White"
+    },
+    "popularity_rank": 9985,
+    "item_count": 100,
+    "ebay_new_range": [
+      180,
+      220
+    ],
+    "ebay_used_range": [
+      153,
+      187
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 175,
+        "highest": 260,
+        "count": 3,
+        "average": 211.66666666666666,
+        "median": 200,
+        "percent_range_10": [
+          -1800,
+          2200
+        ],
+        "percent_range_20": [
+          -3800,
+          4200
+        ]
+      },
+      "used": {
+        "lowest": 75,
+        "highest": 550,
+        "count": 73,
+        "average": 187.15068493150685,
+        "median": 170,
+        "percent_range_10": [
+          -1530,
+          1870
+        ],
+        "percent_range_20": [
+          -3230,
+          3570
+        ]
+      }
+    }
+  },
+  {
+    "name": "HTC Incredible 2 Droid 4 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:1833994944:589456594:b16f37c8ca1600755e529e3eb9c20bd1:1:1:1:1420509800",
+    "product_id": "102410294",
+    "properties": {
+      "brand": "HTC",
+      "model": "Incredible 2",
+      "family line": "HTC Droid",
+      "carrier": "Verizon",
+      "storage capacity": "4 GB",
+      "upc": [
+        "044476817663",
+        "620062006200"
+      ],
+      "color": "Black"
+    },
+    "popularity_rank": 9989,
+    "item_count": 7,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      80,
+      98
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 30,
+        "highest": 99,
+        "count": 6,
+        "average": 78.5,
+        "median": 89.0,
+        "percent_range_10": [
+          -801,
+          979
+        ],
+        "percent_range_20": [
+          -1691,
+          1869
+        ]
+      }
+    }
+  },
+  {
+    "name": "Samsung SGH-I897 Captivate 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:4067282770:589415880:90214701a6c9511b0072a3bd0a2f951a:1:1:1:5000000181252",
+    "product_id": "108836440",
+    "properties": {
+      "brand": "Samsung",
+      "model": "SGH-I897",
+      "family line": "Samsung Captivate",
+      "carrier": "Unlocked",
+      "storage capacity": "16 GB",
+      "upc": [
+        "631656874693",
+        "899794007971"
+      ],
+      "mpn": "SGH-I897ZKAATT",
+      "color": "Black"
+    },
+    "popularity_rank": 9980,
+    "item_count": 5,
+    "ebay_new_range": null,
+    "ebay_used_range": [
+      134,
+      164
+    ],
+    "ebay": {
+      "new": null,
+      "used": {
+        "lowest": 100,
+        "highest": 185,
+        "count": 5,
+        "average": 142.8,
+        "median": 149,
+        "percent_range_10": [
+          -1341,
+          1639
+        ],
+        "percent_range_20": [
+          -2831,
+          3129
+        ]
+      }
+    }
+  },
+  {
+    "name": "Motorola 3 Droid 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3475273455:592330865:12fdb45f92a1329d199ef29ce943c635:1:1:1:5000000174412",
+    "product_id": "108653735",
+    "properties": {
+      "brand": "Motorola",
+      "model": "3",
+      "family line": "Motorola Droid",
+      "carrier": "Verizon",
+      "storage capacity": "16 GB",
+      "upc": "723755000186",
+      "color": "Black"
+    },
+    "popularity_rank": 9993,
+    "item_count": 19,
+    "ebay_new_range": [
+      234,
+      286
+    ],
+    "ebay_used_range": [
+      63,
+      77
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 260,
+        "highest": 260,
+        "count": 1,
+        "average": 260.0,
+        "median": 260,
+        "percent_range_10": [
+          -2340,
+          2860
+        ],
+        "percent_range_20": [
+          -4940,
+          5460
+        ]
+      },
+      "used": {
+        "lowest": 45,
+        "highest": 150,
+        "count": 13,
+        "average": 78.38461538461539,
+        "median": 70,
+        "percent_range_10": [
+          -630,
+          770
+        ],
+        "percent_range_20": [
+          -1330,
+          1470
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4s iPhone 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487682628:591720008:8da31638b5a103562272381f3badc674:1:1:1:5000000504405",
+    "product_id": "109353398",
+    "properties": {
+      "brand": "Apple",
+      "model": "4s",
+      "family line": "Apple iPhone",
+      "carrier": "AT&T",
+      "storage capacity": "16 GB",
+      "upc": [
+        "885909459834",
+        "885909525201",
+        "885909527052"
+      ],
+      "mpn": "MC918LL/A",
+      "color": "Black"
+    },
+    "popularity_rank": 9996,
+    "item_count": 100,
+    "ebay_new_range": [
+      338,
+      413
+    ],
+    "ebay_used_range": [
+      248,
+      303
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 275,
+        "highest": 600,
+        "count": 10,
+        "average": 393.4,
+        "median": 375.0,
+        "percent_range_10": [
+          -3375,
+          4125
+        ],
+        "percent_range_20": [
+          -7125,
+          7875
+        ]
+      },
+      "used": {
+        "lowest": 130,
+        "highest": 450,
+        "count": 81,
+        "average": 278.0617283950617,
+        "median": 275,
+        "percent_range_10": [
+          -2475,
+          3025
+        ],
+        "percent_range_20": [
+          -5225,
+          5775
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4s iPhone 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:2487682624:589471994:434319149742a1106487f804a34cd294:1:1:1:5000000504401",
+    "product_id": "109265014",
+    "properties": {
+      "brand": "Apple",
+      "model": "4s",
+      "family line": "Apple iPhone",
+      "carrier": "Verizon",
+      "storage capacity": "16 GB",
+      "upc": [
+        "130002076618",
+        "885909528912"
+      ],
+      "mpn": "MD277LL/A",
+      "color": "White"
+    },
+    "popularity_rank": 9988,
+    "item_count": 100,
+    "ebay_new_range": [
+      266,
+      325
+    ],
+    "ebay_used_range": [
+      225,
+      275
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 260,
+        "highest": 360,
+        "count": 6,
+        "average": 305.8333333333333,
+        "median": 295.0,
+        "percent_range_10": [
+          -2655,
+          3245
+        ],
+        "percent_range_20": [
+          -5605,
+          6195
+        ]
+      },
+      "used": {
+        "lowest": 149,
+        "highest": 410,
+        "count": 85,
+        "average": 256.4,
+        "median": 250,
+        "percent_range_10": [
+          -2250,
+          2750
+        ],
+        "percent_range_20": [
+          -4750,
+          5250
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4 iPhone 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:3384801876:578974976:2e67417dc82786dd11ae41b547dc2c4a:1:1:1:1417460491",
+    "product_id": "99998176",
+    "properties": {
+      "brand": "Apple",
+      "model": "4",
+      "family line": "Apple iPhone",
+      "carrier": "AT&T",
+      "storage capacity": "16 GB",
+      "upc": "885909343874",
+      "mpn": "MC318LL/A",
+      "color": "Black"
+    },
+    "popularity_rank": 9992,
+    "item_count": 100,
+    "ebay_new_range": [
+      203,
+      248
+    ],
+    "ebay_used_range": [
+      162,
+      198
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 225,
+        "highest": 225,
+        "count": 1,
+        "average": 225.0,
+        "median": 225,
+        "percent_range_10": [
+          -2025,
+          2475
+        ],
+        "percent_range_20": [
+          -4275,
+          4725
+        ]
+      },
+      "used": {
+        "lowest": 111,
+        "highest": 350,
+        "count": 80,
+        "average": 190.5375,
+        "median": 180.0,
+        "percent_range_10": [
+          -1620,
+          1980
+        ],
+        "percent_range_20": [
+          -3420,
+          3780
+        ]
+      }
+    }
+  },
+  {
+    "name": "Apple 4 iPhone 16 GB",
+    "details_url": "http://syicatalogs.ebay.com/ws/eBayISAPI.dll?PageSyiProductDetails&IncludeAttributes=1&ShowAttributesTable=1&ProductMementoString=121148:2:19518:656692531:589818681:39806a063a46b97b7d7ec404cdcf826b:1:1:1:1418249513",
+    "product_id": "102216581",
+    "properties": {
+      "brand": "Apple",
+      "model": "4",
+      "family line": "Apple iPhone",
+      "carrier": "Verizon",
+      "storage capacity": "16 GB",
+      "upc": "885909420445",
+      "mpn": "MC677LL/A",
+      "color": "White"
+    },
+    "popularity_rank": 9984,
+    "item_count": 100,
+    "ebay_new_range": [
+      185,
+      226
+    ],
+    "ebay_used_range": [
+      162,
+      198
+    ],
+    "ebay": {
+      "new": {
+        "lowest": 160,
+        "highest": 250,
+        "count": 2,
+        "average": 205.0,
+        "median": 205.0,
+        "percent_range_10": [
+          -1845,
+          2255
+        ],
+        "percent_range_20": [
+          -3895,
+          4305
+        ]
+      },
+      "used": {
+        "lowest": 85,
+        "highest": 350,
+        "count": 89,
+        "average": 181.58426966292134,
+        "median": 180,
+        "percent_range_10": [
+          -1620,
+          1980
+        ],
+        "percent_range_20": [
+          -3420,
+          3780
+        ]
+      }
+    }
+  }
+]

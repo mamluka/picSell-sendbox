@@ -1,0 +1,1200 @@
+[
+  {
+    "carrier": [
+      "Verizon",
+      "Sprint",
+      "AT&T",
+      "Unlocked",
+      "no contract"
+    ],
+    "color": [
+      "Black",
+      "Vortex Black",
+      "White"
+    ]
+  },
+  {
+    "id": "B0074R1PI8",
+    "name": "Apple iPhone 4S 16GB",
+    "original_name": "Apple iPhone 4S 16GB (Black) - Verizon",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0074R1PI8",
+    "brand": "Apple",
+    "model": "MD276LL/A",
+    "asin": "B0074R1PI8",
+    "sales_rank": 2442,
+    "extra_properties": {
+      "carrier": [
+        "Verizon"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+    ],
+    "competitive_pricing": {
+      "lowest": 214,
+      "highest": 379,
+      "count": 2,
+      "average": 296.5,
+      "median": 296.5,
+      "percent_range_10": [
+        267,
+        326
+      ],
+      "percent_range_20": [
+        237,
+        356
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 294,
+      "highest": 505,
+      "count": 8,
+      "average": 402.25,
+      "median": 419.5,
+      "percent_range_10": [
+        378,
+        461
+      ],
+      "percent_range_20": [
+        336,
+        503
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 189,
+      "highest": 214,
+      "count": 10,
+      "average": 199.0,
+      "median": 199.0,
+      "percent_range_10": [
+        179,
+        219
+      ],
+      "percent_range_20": [
+        159,
+        239
+      ]
+    }
+  },
+  {
+    "id": "B006FMDVDK",
+    "name": "Apple iPhone 4S 16GB",
+    "original_name": "Apple iPhone 4S 16GB Black - FACTORY UNLOCKED",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B006FMDVDK",
+    "brand": "Apple",
+    "model": "4S",
+    "asin": "B006FMDVDK",
+    "sales_rank": 2782,
+    "extra_properties": {
+      "carrier": [
+        "UNLOCKED"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 505,
+      "highest": 505,
+      "count": 1,
+      "average": 505.0,
+      "median": 505,
+      "percent_range_10": [
+        455,
+        556
+      ],
+      "percent_range_20": [
+        404,
+        606
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 438,
+      "highest": 614,
+      "count": 10,
+      "average": 502.9,
+      "median": 502.5,
+      "percent_range_10": [
+        452,
+        553
+      ],
+      "percent_range_20": [
+        402,
+        603
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 270,
+      "highest": 324,
+      "count": 8,
+      "average": 305.875,
+      "median": 310.0,
+      "percent_range_10": [
+        279,
+        341
+      ],
+      "percent_range_20": [
+        248,
+        372
+      ]
+    }
+  },
+  {
+    "id": "B00AQ30KLK",
+    "name": "Samsung Galaxy S II 4G",
+    "original_name": "Samsung Galaxy S II 4G Prepaid Android Phone, Titanium (Virgin Mobile)",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00AQ30KLK",
+    "brand": "Samsung",
+    "model": "Galaxy S II",
+    "asin": "B00AQ30KLK",
+    "sales_rank": 30252,
+    "extra_properties": {
+      "carrier": [
+
+      ],
+      "color": [
+
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::No-Contract Cell Phones"
+    ],
+    "competitive_pricing": null,
+    "lowest_offer_new": null,
+    "lowest_offer_used": {
+      "lowest": 189,
+      "highest": 350,
+      "count": 10,
+      "average": 243.1,
+      "median": 243.0,
+      "percent_range_10": [
+        219,
+        267
+      ],
+      "percent_range_20": [
+        194,
+        292
+      ]
+    }
+  },
+  {
+    "id": "B009FQYZQK",
+    "name": "Samsung Galaxy S II Epic 4G Touch SPH-D710",
+    "original_name": "Samsung Galaxy S II Epic 4G Touch SPH-D710 - Vortex Black (Sprint)...",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B009FQYZQK",
+    "brand": "Samsung",
+    "model": "D710",
+    "asin": "B009FQYZQK",
+    "sales_rank": 14628,
+    "extra_properties": {
+      "carrier": [
+        "Sprint"
+      ],
+      "color": [
+        "Black",
+        "Vortex Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": null,
+    "lowest_offer_new": null,
+    "lowest_offer_used": {
+      "lowest": 78,
+      "highest": 175,
+      "count": 10,
+      "average": 99.9,
+      "median": 89.0,
+      "percent_range_10": [
+        80,
+        98
+      ],
+      "percent_range_20": [
+        71,
+        107
+      ]
+    }
+  },
+  {
+    "id": "B009XUFHK6",
+    "name": "Samsung Galaxy S II Epic 4G Touch SPH-D710",
+    "original_name": "WHITE Samsung Galaxy S II Epic 4G Touch SPH-D710 - WHITE (Sprint) Smartphone. CLEAN ESN!",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B009XUFHK6",
+    "brand": "Samsung",
+    "model": "Epic 4G Touch SPH-D710",
+    "asin": "B009XUFHK6",
+    "sales_rank": 16652,
+    "extra_properties": {
+      "carrier": [
+        "Sprint"
+      ],
+      "color": [
+        "WHITE",
+        "WHITE"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": null,
+    "lowest_offer_new": null,
+    "lowest_offer_used": {
+      "lowest": 99,
+      "highest": 599,
+      "count": 6,
+      "average": 212.66666666666666,
+      "median": 127.0,
+      "percent_range_10": [
+        114,
+        140
+      ],
+      "percent_range_20": [
+        102,
+        152
+      ]
+    }
+  },
+  {
+    "id": "B0097EHRE2",
+    "name": "EZOPower Ultra Compact High Capacity 6600mAh 2-Port External Backup Battery Charger",
+    "original_name": "EZOPower Ultra Compact High Capacity 6600mAh 2-Port External Backup Battery Charger / Power Bank For Verizon Motorola Droid RAZR M, Samsung Galaxy Stellar, LG Intuition, Pantech Marauder and Other Android Cell Phone, Window Smartphone, Blackberry, MP3 Playert, ebook, Tablet and more - Purple",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0097EHRE2",
+    "brand": "EZOPower",
+    "model": "EZEBA21U",
+    "asin": "B0097EHRE2",
+    "sales_rank": 14912,
+    "extra_properties": {
+      "carrier": [
+        "Verizon"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Chargers::Travel Chargers"
+    ],
+    "competitive_pricing": {
+      "lowest": 22,
+      "highest": 22,
+      "count": 1,
+      "average": 22.0,
+      "median": 22,
+      "percent_range_10": [
+        20,
+        24
+      ],
+      "percent_range_20": [
+        18,
+        26
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 22,
+      "highest": 22,
+      "count": 1,
+      "average": 22.0,
+      "median": 22,
+      "percent_range_10": [
+        20,
+        24
+      ],
+      "percent_range_20": [
+        18,
+        26
+      ]
+    },
+    "lowest_offer_used": null
+  },
+  {
+    "id": "B00ET9T3TC",
+    "name": "Motorola DROID RAZR M",
+    "original_name": "Motorola DROID RAZR M, White 8GB, No Contract (Verizon Wireless)",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00ET9T3TC",
+    "brand": "Motorola",
+    "model": "XT907",
+    "asin": "B00ET9T3TC",
+    "sales_rank": 39823,
+    "extra_properties": {
+      "carrier": [
+        "Verizon",
+        "No Contract"
+      ],
+      "color": [
+        "White"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 355,
+      "highest": 355,
+      "count": 1,
+      "average": 355.0,
+      "median": 355,
+      "percent_range_10": [
+        320,
+        391
+      ],
+      "percent_range_20": [
+        284,
+        426
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 339,
+      "highest": 475,
+      "count": 3,
+      "average": 389.6666666666667,
+      "median": 355,
+      "percent_range_10": [
+        320,
+        391
+      ],
+      "percent_range_20": [
+        284,
+        426
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 129,
+      "highest": 375,
+      "count": 8,
+      "average": 196.5,
+      "median": 164.0,
+      "percent_range_10": [
+        148,
+        180
+      ],
+      "percent_range_20": [
+        131,
+        197
+      ]
+    }
+  },
+  {
+    "id": "B005PTZT6Q",
+    "name": "Motorola XT-910 DROID RAZR",
+    "original_name": "Motorola XT-910 DROID RAZR Unlocked GSM Smartphone with 8 MP Camera, Android OS, Wi-Fi, and GPS--No Warranty (Black)",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B005PTZT6Q",
+    "brand": "Motorola",
+    "model": "XT-910",
+    "asin": "B005PTZT6Q",
+    "sales_rank": 17181,
+    "extra_properties": {
+      "carrier": [
+        "Unlocked"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 239,
+      "highest": 239,
+      "count": 1,
+      "average": 239.0,
+      "median": 239,
+      "percent_range_10": [
+        215,
+        263
+      ],
+      "percent_range_20": [
+        191,
+        287
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 199,
+      "highest": 389,
+      "count": 6,
+      "average": 285.6666666666667,
+      "median": 279.0,
+      "percent_range_10": [
+        251,
+        307
+      ],
+      "percent_range_20": [
+        223,
+        335
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 187,
+      "highest": 350,
+      "count": 8,
+      "average": 277.5,
+      "median": 314.5,
+      "percent_range_10": [
+        283,
+        346
+      ],
+      "percent_range_20": [
+        252,
+        377
+      ]
+    }
+  },
+  {
+    "id": "B0096I594O",
+    "name": "Apple iPhone 4 8GB",
+    "original_name": "Apple iPhone 4 (Black) 8GB (Factory Unlocked)",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0096I594O",
+    "brand": "Apple",
+    "model": "MD127LL",
+    "asin": "B0096I594O",
+    "sales_rank": 6157,
+    "extra_properties": {
+      "carrier": [
+        "Unlocked"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 389,
+      "highest": 389,
+      "count": 1,
+      "average": 389.0,
+      "median": 389,
+      "percent_range_10": [
+        350,
+        428
+      ],
+      "percent_range_20": [
+        311,
+        467
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 384,
+      "highest": 460,
+      "count": 6,
+      "average": 403.3333333333333,
+      "median": 394.0,
+      "percent_range_10": [
+        355,
+        433
+      ],
+      "percent_range_20": [
+        315,
+        473
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 260,
+      "highest": 325,
+      "count": 8,
+      "average": 293.125,
+      "median": 299.0,
+      "percent_range_10": [
+        269,
+        329
+      ],
+      "percent_range_20": [
+        239,
+        359
+      ]
+    }
+  },
+  {
+    "id": "B0074R1D0S",
+    "name": "Apple iPhone 4 8GB",
+    "original_name": "Apple iPhone 4 8GB (White) - AT&T",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0074R1D0S",
+    "brand": "Apple",
+    "model": "MD197LL/A",
+    "asin": "B0074R1D0S",
+    "sales_rank": 4019,
+    "extra_properties": {
+      "carrier": [
+        "AT&T"
+      ],
+      "color": [
+        "White"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+    ],
+    "competitive_pricing": {
+      "lowest": 310,
+      "highest": 310,
+      "count": 1,
+      "average": 310.0,
+      "median": 310,
+      "percent_range_10": [
+        279,
+        341
+      ],
+      "percent_range_20": [
+        248,
+        372
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 249,
+      "highest": 400,
+      "count": 6,
+      "average": 298.0,
+      "median": 289.5,
+      "percent_range_10": [
+        261,
+        318
+      ],
+      "percent_range_20": [
+        232,
+        347
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 110,
+      "highest": 150,
+      "count": 11,
+      "average": 135.54545454545453,
+      "median": 140,
+      "percent_range_10": [
+        126,
+        154
+      ],
+      "percent_range_20": [
+        112,
+        168
+      ]
+    }
+  },
+  {
+    "id": "B0074R0TOE",
+    "name": "Apple iPhone 4 8GB",
+    "original_name": "Apple iPhone 4 8GB (Black) - AT&T",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0074R0TOE",
+    "brand": "Apple",
+    "model": "md127ll/a",
+    "asin": "B0074R0TOE",
+    "sales_rank": 2031,
+    "extra_properties": {
+      "carrier": [
+        "AT&T"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+    ],
+    "competitive_pricing": {
+      "lowest": 264,
+      "highest": 264,
+      "count": 1,
+      "average": 264.0,
+      "median": 264,
+      "percent_range_10": [
+        238,
+        290
+      ],
+      "percent_range_20": [
+        211,
+        317
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 240,
+      "highest": 329,
+      "count": 9,
+      "average": 276.22222222222223,
+      "median": 278,
+      "percent_range_10": [
+        250,
+        306
+      ],
+      "percent_range_20": [
+        222,
+        334
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 129,
+      "highest": 148,
+      "count": 8,
+      "average": 134.75,
+      "median": 132.5,
+      "percent_range_10": [
+        119,
+        146
+      ],
+      "percent_range_20": [
+        106,
+        159
+      ]
+    }
+  },
+  {
+    "id": "B0074R0Z3O",
+    "name": "Apple iPhone 4 8GB",
+    "original_name": "Apple iPhone 4 8GB (Black) - Verizon",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0074R0Z3O",
+    "brand": "Apple",
+    "model": "Apple",
+    "asin": "B0074R0Z3O",
+    "sales_rank": 2400,
+    "extra_properties": {
+      "carrier": [
+        "Verizon"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+    ],
+    "competitive_pricing": {
+      "lowest": 159,
+      "highest": 239,
+      "count": 2,
+      "average": 199.0,
+      "median": 199.0,
+      "percent_range_10": [
+        179,
+        219
+      ],
+      "percent_range_20": [
+        159,
+        239
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 225,
+      "highest": 250,
+      "count": 9,
+      "average": 238.33333333333334,
+      "median": 239,
+      "percent_range_10": [
+        215,
+        263
+      ],
+      "percent_range_20": [
+        191,
+        287
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 120,
+      "highest": 139,
+      "count": 9,
+      "average": 132.66666666666666,
+      "median": 135,
+      "percent_range_10": [
+        122,
+        149
+      ],
+      "percent_range_20": [
+        108,
+        162
+      ]
+    }
+  },
+  {
+    "id": "B005XYGFIY",
+    "name": "Apple Iphone 4 16gb",
+    "original_name": "Apple Iphone 4 16gb White Unlocked",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B005XYGFIY",
+    "brand": "Apple",
+    "model": "iPhone 4",
+    "asin": "B005XYGFIY",
+    "sales_rank": 3113,
+    "extra_properties": {
+      "carrier": [
+        "Unlocked"
+      ],
+      "color": [
+        "White"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 399,
+      "highest": 399,
+      "count": 1,
+      "average": 399.0,
+      "median": 399,
+      "percent_range_10": [
+        359,
+        439
+      ],
+      "percent_range_20": [
+        319,
+        479
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 397,
+      "highest": 590,
+      "count": 6,
+      "average": 446.0,
+      "median": 420.0,
+      "percent_range_10": [
+        378,
+        462
+      ],
+      "percent_range_20": [
+        336,
+        504
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 220,
+      "highest": 375,
+      "count": 9,
+      "average": 290.1111111111111,
+      "median": 267,
+      "percent_range_10": [
+        240,
+        294
+      ],
+      "percent_range_20": [
+        214,
+        320
+      ]
+    }
+  },
+  {
+    "id": "B00713Y6B8",
+    "name": "HTC Droid Incredible 2",
+    "original_name": "HTC Droid Incredible 2 - Unlocked - 16GB - 8MP - Black Android Smartphone + Free Car Charger by Devices Now",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00713Y6B8",
+    "brand": "HTC",
+    "model": "ADR6350",
+    "asin": "B00713Y6B8",
+    "sales_rank": 117462,
+    "extra_properties": {
+      "carrier": [
+        "Unlocked"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": null,
+    "lowest_offer_new": null,
+    "lowest_offer_used": {
+      "lowest": 115,
+      "highest": 115,
+      "count": 1,
+      "average": 115.0,
+      "median": 115,
+      "percent_range_10": [
+        104,
+        127
+      ],
+      "percent_range_20": [
+        92,
+        138
+      ]
+    }
+  },
+  {
+    "id": "B005U25EGS",
+    "name": "Motorola Atrix MB860 4G",
+    "original_name": "Motorola Atrix MB860 4G Unlocked Dual Core Phone with Android Gingerbread 2.3 OS and 5MP Camera",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B005U25EGS",
+    "brand": "Motorola",
+    "model": "MB860",
+    "asin": "B005U25EGS",
+    "sales_rank": 47796,
+    "extra_properties": {
+      "carrier": [
+        "Unlocked"
+      ],
+      "color": [
+
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 149,
+      "highest": 149,
+      "count": 1,
+      "average": 149.0,
+      "median": 149,
+      "percent_range_10": [
+        134,
+        164
+      ],
+      "percent_range_20": [
+        119,
+        179
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 149,
+      "highest": 149,
+      "count": 1,
+      "average": 149.0,
+      "median": 149,
+      "percent_range_10": [
+        134,
+        164
+      ],
+      "percent_range_20": [
+        119,
+        179
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 78,
+      "highest": 105,
+      "count": 2,
+      "average": 91.5,
+      "median": 91.5,
+      "percent_range_10": [
+        82,
+        101
+      ],
+      "percent_range_20": [
+        73,
+        110
+      ]
+    }
+  },
+  {
+    "id": "B00BQ760EG",
+    "name": "Motorola Atrix HD MB886 4G OS",
+    "original_name": "Motorola Atrix HD MB886 4G LTE Unlocked Android OS Smartphone White",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00BQ760EG",
+    "brand": "Motorola",
+    "model": "MB886",
+    "asin": "B00BQ760EG",
+    "sales_rank": 14281,
+    "extra_properties": {
+      "carrier": [
+        "Unlocked"
+      ],
+      "color": [
+        "White"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 239,
+      "highest": 239,
+      "count": 1,
+      "average": 239.0,
+      "median": 239,
+      "percent_range_10": [
+        215,
+        263
+      ],
+      "percent_range_20": [
+        191,
+        287
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 239,
+      "highest": 399,
+      "count": 6,
+      "average": 282.5,
+      "median": 254.0,
+      "percent_range_10": [
+        229,
+        279
+      ],
+      "percent_range_20": [
+        203,
+        305
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 119,
+      "highest": 259,
+      "count": 4,
+      "average": 169.0,
+      "median": 149.0,
+      "percent_range_10": [
+        134,
+        164
+      ],
+      "percent_range_20": [
+        119,
+        179
+      ]
+    }
+  },
+  {
+    "id": "B004SBJHW4",
+    "name": "Motorola Atrix 4G MB861",
+    "original_name": "Motorola Atrix 4G MB861 Unlocked GSM Phone with Android 2.2 OS, Dual Core, 5MP Camera, GPS, Wi-Fi and Bluetooth - Black",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B004SBJHW4",
+    "brand": "Motorola",
+    "model": "MB860",
+    "asin": "B004SBJHW4",
+    "sales_rank": 2860,
+    "extra_properties": {
+      "carrier": [
+        "Unlocked"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 119,
+      "highest": 119,
+      "count": 1,
+      "average": 119.0,
+      "median": 119,
+      "percent_range_10": [
+        107,
+        131
+      ],
+      "percent_range_20": [
+        95,
+        143
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 119,
+      "highest": 226,
+      "count": 8,
+      "average": 152.25,
+      "median": 139.0,
+      "percent_range_10": [
+        125,
+        153
+      ],
+      "percent_range_20": [
+        111,
+        167
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 79,
+      "highest": 115,
+      "count": 11,
+      "average": 96.45454545454545,
+      "median": 99,
+      "percent_range_10": [
+        89,
+        109
+      ],
+      "percent_range_20": [
+        79,
+        119
+      ]
+    }
+  },
+  {
+    "id": "B008NC9PZ8",
+    "name": "HTC Droid Incredible 2 Memory Card 16GB microSDHC Memory Card",
+    "original_name": "HTC Droid Incredible 2 Cell Phone Memory Card 16GB microSDHC Memory Card with SD Adapter",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B008NC9PZ8",
+    "brand": "Kingston",
+    "model": "SDC4/16GB_189351",
+    "asin": "B008NC9PZ8",
+    "sales_rank": 56168,
+    "extra_properties": {
+      "carrier": [
+
+      ],
+      "color": [
+
+      ]
+    },
+    "categories": [
+      "Electronics::Computers & Accessories::Cables & Accessories::Memory Cards::Micro SD Cards"
+    ],
+    "competitive_pricing": {
+      "lowest": 9,
+      "highest": 9,
+      "count": 1,
+      "average": 9.0,
+      "median": 9,
+      "percent_range_10": [
+        8,
+        10
+      ],
+      "percent_range_20": [
+        7,
+        11
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 9,
+      "highest": 20,
+      "count": 2,
+      "average": 14.5,
+      "median": 14.5,
+      "percent_range_10": [
+        13,
+        16
+      ],
+      "percent_range_20": [
+        12,
+        17
+      ]
+    },
+    "lowest_offer_used": null
+  },
+  {
+    "id": "B0072YKDLI",
+    "name": "Samsung Galaxy S Captivate Camera",
+    "original_name": "New Samsung Galaxy S Captivate Android AT&T Phone 5MP Camera, Wi-Fi, GPS - Black",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0072YKDLI",
+    "brand": "Samsung",
+    "model": "i897",
+    "asin": "B0072YKDLI",
+    "sales_rank": 25323,
+    "extra_properties": {
+      "carrier": [
+        "AT&T"
+      ],
+      "color": [
+        "Black"
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 149,
+      "highest": 149,
+      "count": 1,
+      "average": 149.0,
+      "median": 149,
+      "percent_range_10": [
+        134,
+        164
+      ],
+      "percent_range_20": [
+        119,
+        179
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 108,
+      "highest": 149,
+      "count": 2,
+      "average": 128.5,
+      "median": 128.5,
+      "percent_range_10": [
+        116,
+        141
+      ],
+      "percent_range_20": [
+        103,
+        154
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 74,
+      "highest": 165,
+      "count": 5,
+      "average": 107.4,
+      "median": 100,
+      "percent_range_10": [
+        90,
+        110
+      ],
+      "percent_range_20": [
+        80,
+        120
+      ]
+    }
+  },
+  {
+    "id": "B009KKP10U",
+    "name": "Motorola droid Razr Maxx 16GB No Contract",
+    "original_name": "Motorola droid Razr Maxx 16GB (Verizon) No Contract",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B009KKP10U",
+    "brand": "Motorola",
+    "model": "MOTXT912",
+    "asin": "B009KKP10U",
+    "sales_rank": 18655,
+    "extra_properties": {
+      "carrier": [
+        "Verizon",
+        "No Contract"
+      ],
+      "color": [
+
+      ]
+    },
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 375,
+      "highest": 375,
+      "count": 1,
+      "average": 375.0,
+      "median": 375,
+      "percent_range_10": [
+        338,
+        413
+      ],
+      "percent_range_20": [
+        300,
+        450
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 345,
+      "highest": 629,
+      "count": 4,
+      "average": 429.75,
+      "median": 372.5,
+      "percent_range_10": [
+        335,
+        410
+      ],
+      "percent_range_20": [
+        298,
+        447
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 140,
+      "highest": 309,
+      "count": 10,
+      "average": 231.8,
+      "median": 250.0,
+      "percent_range_10": [
+        225,
+        275
+      ],
+      "percent_range_20": [
+        200,
+        300
+      ]
+    }
+  }
+]

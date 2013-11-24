@@ -1,2 +1,44 @@
-9355: [2407749011,2407748011,2407747011]
-233: []
+:ebay_details_mapping:
+  :31388:
+    :properties:
+      - Brand
+      - Model
+      - MPN
+      - UPC
+    :exclude_from_name:
+      - MPN
+      - UPC
+  :9355:
+    :properties:
+      - Brand
+      - Model
+      - Family Line
+      - Carrier
+      - Storage Capacity
+      - UPC
+      - MPN
+      - Color
+    :exclude_from_name:
+      - Carrier
+      - UPC
+      - MPN
+      - Color
+  :139971:
+    :properties:
+      - Brand
+      - Product Name
+      - UPC
+    :exclude_from_name:
+      - UPC
+
+:amazon_categories_mapping:
+  :9355:
+    - 2407749011
+    - 2407748011
+    - 2407747011
+  :31388:
+    - 3017941
+    - 330405011
+    - 3109924011
+  :139971:
+    - 14210711
