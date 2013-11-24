@@ -19,6 +19,7 @@
       - MPN
       - Color
     :exclude_from_name:
+      - Model
       - Carrier
       - UPC
       - MPN
