@@ -36,13 +36,15 @@ properties_extractors = Hash[amazon_etl[category_id][:extractors].map { |k, v| [
 
 logger = Logger.new 'log-amazon-mine-products.log'
 
-#ebay_data.select { |x| x[:properties].has_key? :UPC }.map { |x| x[:properties][:UPC] }.flatten.each do |upc|
-ebay_data.map { |x| x[:name] }.peach(2) do |upc|
+#ebay_data.select { |x| x[:properties].has_key? :UPC }.map { |x| x[:properties][:UPC] }.flatten.each do |query|
+ebay_data.map { |x| x[:name] }.concat(ebay_data.map { |x| "#{x[:brand]} #{x[:'family line']}" }).uniq.peach(3) do |query|
 
-  logger.info "Looking for #{upc}"
-  #amazon_products = mws.products.list_matching_products :query => upc, :marketplace_id => 'ATVPDKIKX0DER'
+  next if query.length == 0
 
-  search_url = URI::encode "http://www.amazon.com/s/search-alias=#{amazon_etl[category_id][:search][:search_alias]}&field-keywords=#{upc}"
+  logger.info "Looking for #{query}"
+  #amazon_products = mws.products.list_matching_products :query => query, :marketplace_id => 'ATVPDKIKX0DER'
+
+  search_url = URI::encode "http://www.amazon.com/s/search-alias=#{amazon_etl[category_id][:search][:search_alias]}&field-keywords=#{query}"
   web_text = RestClient.get search_url
 
   next if web_text.include? 'did not match any products'
@@ -50,6 +52,8 @@ ebay_data.map { |x| x[:name] }.peach(2) do |upc|
   html = Nokogiri::HTML web_text
 
   products_asins = html.css('.productTitle').map { |x| x.attributes['id'].value.split('_')[1] }.take(5)
+
+  next if products_asins.empty?
 
   amazon_request = {marketplace_id: 'ATVPDKIKX0DER', IdType: 'ASIN'}
 
