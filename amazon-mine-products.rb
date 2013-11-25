@@ -25,14 +25,14 @@ mws = MWS.new(:aws_access_key_id => "AKIAIDZUEZILKOGLJNJQ",
               :seller_id => "A25ONFDA24CSQ8",
               :marketplace_id => "ATVPDKIKX0DER")
 
+category_id = ARGV[0].to_sym
+
 products = Array.new
 start = Time.now
 ebay_data = JSON.parse(File.read("ebay-#{ARGV[0]}.json"), :symbolize_names => true)
 
 amazon_etl = YAML.load(File.read(File.dirname(__FILE__) + '/amazon-etl.yml'))
-properties_extractors = Hash[amazon_etl[ARGV[0].to_sym][:extractors].map { |k, v| [k, ebay_data.map { |p| (p[:properties][k] rescue nil) }.select { |p| p != nil }.uniq + v] }]
-
-products << properties_extractors
+properties_extractors = Hash[amazon_etl[category_id][:extractors].map { |k, v| [k, ebay_data.map { |p| (p[:properties][k] rescue nil) }.select { |p| p != nil }.uniq + v] }]
 
 logger = Logger.new 'log-amazon-mine-products.log'
 
@@ -42,7 +42,7 @@ ebay_data.map { |x| x[:name] }.peach(2) do |upc|
   logger.info "Looking for #{upc}"
   #amazon_products = mws.products.list_matching_products :query => upc, :marketplace_id => 'ATVPDKIKX0DER'
 
-  search_url = URI::encode "http://www.amazon.com/s/search-alias=#{amazon_etl[ARGV[0].to_sym][:search][:search_alias]}&field-keywords=#{upc}"
+  search_url = URI::encode "http://www.amazon.com/s/search-alias=#{amazon_etl[category_id][:search][:search_alias]}&field-keywords=#{upc}"
   web_text = RestClient.get search_url
 
   next if web_text.include? 'did not match any products'
@@ -62,6 +62,7 @@ ebay_data.map { |x| x[:name] }.peach(2) do |upc|
   amazon_products.peach(10) { |x|
 
     begin
+
       x = x.product
 
       next if x.nil?
@@ -73,18 +74,12 @@ ebay_data.map { |x| x[:name] }.peach(2) do |upc|
       amazon_name = x.attribute_sets.item_attributes.title
       original_name = amazon_name
 
-      extra_properties = Hash[properties_extractors.map { |k, v|
-        logger.info "Checking name #{amazon_name} for #{k}"
-        props = v.map { |x| amazon_name.scan /#{x}/i }.flatten
-        logger.info "Found #{k} to be #{props}"
-        [k, props]
-      }]
 
       properties_extractors.each { |k, v| amazon_name = v.inject(amazon_name) { |name, x| name.split(' ').delete_if { |w| w.downcase == x.downcase }.join(' ') } }
 
-      amazon_name = amazon_etl[ARGV[0].to_sym][:bad_phrases].inject(amazon_name) { |name, x| name.gsub /#{x}/i, '' }
-      amazon_name = amazon_etl[ARGV[0].to_sym][:bad_patterns].inject(amazon_name) { |name, x| name.gsub /#{x}/i, '' }
-      amazon_name = amazon_etl[ARGV[0].to_sym][:bad_words].inject(amazon_name) { |name, x| name.split(' ').delete_if { |w| w.downcase == x.downcase }.join(' ') }
+      amazon_name = amazon_etl[category_id][:bad_phrases].inject(amazon_name) { |name, x| name.gsub /#{x}/i, '' }
+      amazon_name = amazon_etl[category_id][:bad_patterns].inject(amazon_name) { |name, x| name.gsub /#{x}/i, '' }
+      amazon_name = amazon_etl[category_id][:bad_words].inject(amazon_name) { |name, x| name.split(' ').delete_if { |w| w.downcase == x.downcase }.join(' ') }
 
       brand = x.attribute_sets.item_attributes.brand
       model = x.attribute_sets.item_attributes.model
@@ -108,7 +103,14 @@ ebay_data.map { |x| x[:name] }.peach(2) do |upc|
 
       logger.info amazon_name
 
-      products << {
+      competitive_pricing_analyze = MathTools.analyze(ArrayUtils.empty_if_nil(high_price.listing_price).map { |x| x[:price].to_i })
+      lowest_offer_new_analyze = MathTools.analyze(ArrayUtils.empty_if_nil(low_price_new.listing_price).map { |x| x[:price].to_i })
+      lowest_offer_used_analyze = MathTools.analyze(ArrayUtils.empty_if_nil(low_price_used.listing_price).map { |x| x[:price].to_i })
+
+      item_count = [competitive_pricing_analyze, lowest_offer_new_analyze, lowest_offer_used_analyze].compact.inject(0) { |sum, x| sum + x[:count] }
+
+
+      product = {
           id: asin,
           name: amazon_name,
           original_name: original_name,
@@ -117,12 +119,19 @@ ebay_data.map { |x| x[:name] }.peach(2) do |upc|
           model: model,
           asin: asin,
           sales_rank: sales_rank,
-          extra_properties: extra_properties,
+          item_count: item_count,
           categories: categories,
-          competitive_pricing: MathTools.analyze(ArrayUtils.empty_if_nil(high_price.listing_price).map { |x| x[:price].to_i }),
-          lowest_offer_new: MathTools.analyze(ArrayUtils.empty_if_nil(low_price_new.listing_price).map { |x| x[:price].to_i }),
-          lowest_offer_used: MathTools.analyze(ArrayUtils.empty_if_nil(low_price_used.listing_price).map { |x| x[:price].to_i }),
+          competitive_pricing: competitive_pricing_analyze,
+          lowest_offer_new: lowest_offer_new_analyze,
+          lowest_offer_used: lowest_offer_used_analyze,
       }
+
+      properties_extractors.map { |k, v|
+        extracted = v.map { |x| original_name.scan /#{x}/i }.flatten.map(&:downcase)
+        product[k]= extracted.first if extracted.any?
+      }
+
+      products << product
 
     rescue Exception => ex
       logger.error "Product name: #{amazon_name}\n Amazon name: #{amazon_name}\n #{ex.message}\n#{ex.backtrace.join("\n ")}"
@@ -138,11 +147,36 @@ number_of_products = products.length
 logger.info "Number of products found is: #{number_of_products}"
 File.open("amazon-#{ARGV[0]}.json", 'w') { |f| f.write JSON.pretty_generate(products) }
 
-products = products.group_by { |x| x[:name] }.map { |k, v| v.min_by { |x|
-  p =x[:lowest_offer_used][:median] if !x[:lowest_offer_used].nil?
-  p =x[:lowest_offer_new][:median] if !x[:lowest_offer_new].nil?
-  p =x[:competitive_pricing][:median] if !x[:competitive_pricing].nil?
-  p
-} }
+products = products
+.group_by { |x| x[:name] }
+.map { |k, v|
+  first_product = v.first
+
+  base_hash = {
+      name: first_product[:name],
+      brand: first_product[:brand],
+      model: first_product[:model],
+  }
+
+  variants = amazon_etl[category_id][:variants]
+  keys = variants.map { |x| x[:key] }
+
+  products_that_are_variants = v.select { |x| keys.all? { |k| x.has_key? k } }
+
+  products = Array.new
+  if products_that_are_variants.length > 1
+    base_hash[:variants] = variants.map { |x|
+      {
+          name: x[:name],
+          values: products_that_are_variants.map { |p| p[x[:key]] }
+      }
+    }
+
+    base_hash[:products] = products_that_are_variants
+  else
+    base_hash[:products] = v.first
+  end
+
+}
 
 File.open("amazon-#{ARGV[0]}-uniq.json", 'w') { |f| f.write JSON.pretty_generate(products) }

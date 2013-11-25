@@ -27,6 +27,10 @@
   :extractors:
     :carrier: [no contract]
     :color: []
+  :variants:
+      -
+        :name: Carrier
+        :key: :carrier
   :allowed_categories:
     - Cell Phones & Accessories::Cell Phones::Contract Cell Phones
     - Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases
