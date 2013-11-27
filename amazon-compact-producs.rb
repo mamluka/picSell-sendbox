@@ -1,6 +1,7 @@
 require 'json'
 require 'yaml'
 require 'pry'
+require 'digest/md5'
 
 category_id = ARGV[0].to_sym
 
@@ -15,8 +16,10 @@ products = products
 
   base_hash = {
       name: first_product[:name],
+      id: Digest::MD5.hexdigest(k),
       brand: first_product[:brand],
       model: first_product[:model],
+      category_id: category_id,
       item_count: v.inject(0) { |sum, x| sum+x[:item_count] },
       sales_rank: v.inject(0) { |sum, x| sum+x[:sales_rank] } / v.length,
   }
@@ -29,13 +32,7 @@ products = products
 
   products = Array.new
   if products_that_are_variants.length > 1
-    base_hash[:variants] = variants.map { |x|
-      {
-          name: x[:name],
-          values: products_that_are_variants.map { |p| p[x[:key]] }
-      }
-    }
-
+    base_hash[:variants] = Hash[variants.map { |x| [x[:key], products_that_are_variants.map { |p| p[x[:key]] }] }]
     base_hash[:products] = products_that_are_variants
   else
     base_hash[:products] = [v.first]

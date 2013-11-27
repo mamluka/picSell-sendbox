@@ -31,6 +31,18 @@
     :exclude_from_name:
       - UPC
 
+  :171485:
+      :properties:
+        - Brand
+        - Family Line
+        - Model
+        - Hard Drive Capacity
+        - UPC
+        - Carrier
+      :exclude_from_name:
+        - UPC
+        - Carrier
+
 :amazon_categories_mapping:
   :9355:
     - 2407749011

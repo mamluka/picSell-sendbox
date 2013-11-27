@@ -1,258 +1,320 @@
 [
   {
-    "id": "B00AQBDBIQ",
-    "name": "Samsung Galaxy S lll I535 CDMA",
-    "original_name": "Samsung Galaxy S lll I535 Verizon CDMA Phone with 4.8\" HD Super AMOLED Screen, 8MP Camera, Android OS 4.0, A-GPS and Wi-Fi - Marble White",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B00AQBDBIQ",
-    "brand": "Samsung",
-    "model": "SCH-I535",
-    "asin": "B00AQBDBIQ",
-    "sales_rank": 27837,
-    "item_count": 7,
-    "categories": [
-      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_new": null,
-    "lowest_offer_used": {
-      "lowest": 220,
-      "highest": 350,
-      "count": 7,
-      "average": 277.0,
-      "median": 279,
-      "percent_range_10": [
-        251,
-        307
-      ],
-      "percent_range_20": [
-        223,
-        335
-      ]
-    },
-    "carrier": "verizon",
-    "color": "white"
-  },
-  {
-    "id": "B00DD6LCQY",
-    "name": "ORIGINAL Samsung Battery EBL1G6LLZ MADE 2013 NFC 2100 mAh USPS tracking numbers come",
-    "original_name": "ORIGINAL Samsung Battery EBL1G6LLZ MADE 2013 NFC 2100 mAh USPS tracking numbers come with all shipped packages Samsung Galaxy S III, available for SCH-i535 or SCH-i930",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B00DD6LCQY",
-    "brand": "Samsung",
-    "model": "EBL1G6LLZ 2013",
-    "asin": "B00DD6LCQY",
-    "sales_rank": 8172,
-    "item_count": 7,
-    "categories": [
-      "Cell Phones & Accessories::Accessories::Batteries"
-    ],
-    "competitive_pricing": {
-      "lowest": 6,
-      "highest": 6,
-      "count": 1,
-      "average": 6.0,
-      "median": 6,
-      "percent_range_10": [
-        5,
-        7
-      ],
-      "percent_range_20": [
-        5,
-        7
-      ]
-    },
-    "lowest_offer_new": {
-      "lowest": 5,
-      "highest": 14,
-      "count": 5,
-      "average": 7.6,
-      "median": 6,
-      "percent_range_10": [
-        5,
-        7
-      ],
-      "percent_range_20": [
-        5,
-        7
-      ]
-    },
-    "lowest_offer_used": {
-      "lowest": 8,
-      "highest": 8,
-      "count": 1,
-      "average": 8.0,
-      "median": 8,
-      "percent_range_10": [
-        7,
-        9
-      ],
-      "percent_range_20": [
-        6,
-        10
-      ]
-    }
-  },
-  {
-    "id": "B0088RN42S",
-    "name": "Motorola MILESTONE 3 XT860 ME863 16GB 3G WiFi",
-    "original_name": "Motorola MILESTONE 3 XT860 ME863 16GB Unlocked GSM 3G WiFi Android 8MP New Phone",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B0088RN42S",
-    "brand": "Motorola",
-    "model": "XT860",
-    "asin": "B0088RN42S",
-    "sales_rank": 54374,
-    "item_count": 3,
-    "categories": [
-      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-    ],
-    "competitive_pricing": null,
-    "lowest_offer_new": {
-      "lowest": 149,
-      "highest": 239,
-      "count": 2,
-      "average": 194.0,
-      "median": 194.0,
-      "percent_range_10": [
-        175,
-        213
-      ],
-      "percent_range_20": [
-        155,
-        233
-      ]
-    },
-    "lowest_offer_used": {
-      "lowest": 150,
-      "highest": 150,
-      "count": 1,
-      "average": 150.0,
-      "median": 150,
-      "percent_range_10": [
-        135,
-        165
-      ],
-      "percent_range_20": [
-        120,
-        180
-      ]
-    },
-    "carrier": "unlocked"
-  },
-  {
-    "id": "B0097EHRE2",
-    "name": "EZOPower Ultra Compact High Capacity 6600mAh 2-Port External Backup Battery Charger",
-    "original_name": "EZOPower Ultra Compact High Capacity 6600mAh 2-Port External Backup Battery Charger / Power Bank For Verizon Motorola Droid RAZR M, Samsung Galaxy Stellar, LG Intuition, Pantech Marauder and Other Android Cell Phone, Window Smartphone, Blackberry, MP3 Playert, ebook, Tablet and more - Purple",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B0097EHRE2",
-    "brand": "EZOPower",
-    "model": "EZEBA21U",
-    "asin": "B0097EHRE2",
-    "sales_rank": 34939,
-    "item_count": 2,
-    "categories": [
-      "Cell Phones & Accessories::Accessories::Chargers::Travel Chargers"
-    ],
-    "competitive_pricing": {
-      "lowest": 22,
-      "highest": 22,
-      "count": 1,
-      "average": 22.0,
-      "median": 22,
-      "percent_range_10": [
-        20,
-        24
-      ],
-      "percent_range_20": [
-        18,
-        26
-      ]
-    },
-    "lowest_offer_new": {
-      "lowest": 22,
-      "highest": 22,
-      "count": 1,
-      "average": 22.0,
-      "median": 22,
-      "percent_range_10": [
-        20,
-        24
-      ],
-      "percent_range_20": [
-        18,
-        26
-      ]
-    },
-    "lowest_offer_used": null,
-    "carrier": "verizon",
-    "color": "black"
-  },
-  {
-    "id": "B009KKP10U",
+    "id": "9e4dbf7826f140ab9c259a128653b902",
     "name": "Motorola droid Razr Maxx 16GB No Contract",
     "original_name": "Motorola droid Razr Maxx 16GB (Verizon) No Contract",
     "amazon_url": "http://www.amazon.com/product-name/dp/B009KKP10U",
     "brand": "Motorola",
     "model": "MOTXT912",
     "asin": "B009KKP10U",
-    "sales_rank": 9510,
-    "item_count": 14,
+    "sales_rank": 7671,
+    "item_count": 13,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
     "competitive_pricing": {
-      "lowest": 375,
-      "highest": 375,
+      "lowest": 355,
+      "highest": 355,
       "count": 1,
-      "average": 375.0,
-      "median": 375,
+      "average": 355.0,
+      "median": 355,
       "percent_range_10": [
-        338,
-        413
+        320,
+        391
       ],
       "percent_range_20": [
-        300,
-        450
+        284,
+        426
       ]
     },
     "lowest_offer_new": {
-      "lowest": 365,
+      "lowest": 355,
       "highest": 629,
       "count": 3,
-      "average": 456.3333333333333,
-      "median": 375,
+      "average": 446.3333333333333,
+      "median": 355,
       "percent_range_10": [
-        338,
-        413
+        320,
+        391
       ],
       "percent_range_20": [
-        300,
-        450
+        284,
+        426
       ]
     },
     "lowest_offer_used": {
       "lowest": 140,
       "highest": 309,
-      "count": 10,
-      "average": 207.3,
-      "median": 173.0,
+      "count": 9,
+      "average": 225.66666666666666,
+      "median": 225,
       "percent_range_10": [
-        156,
-        190
+        203,
+        248
       ],
       "percent_range_20": [
-        138,
-        208
+        180,
+        270
       ]
     },
     "carrier": "verizon"
   },
+  [
+    {
+      "id": "13eaae53eeff48f1ba88c8441362c897",
+      "name": "Apple iPhone 5 64GB",
+      "original_name": "Apple iPhone 5 64GB (Black) - AT&T",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B0097BX78U",
+      "brand": "Apple",
+      "model": "5",
+      "asin": "B0097BX78U",
+      "sales_rank": 14965,
+      "item_count": 21,
+      "categories": [
+        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+      ],
+      "competitive_pricing": {
+        "lowest": 483,
+        "highest": 589,
+        "count": 2,
+        "average": 536.0,
+        "median": 536.0,
+        "percent_range_10": [
+          482,
+          590
+        ],
+        "percent_range_20": [
+          429,
+          643
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 489,
+        "highest": 745,
+        "count": 10,
+        "average": 618.0,
+        "median": 599.5,
+        "percent_range_10": [
+          540,
+          659
+        ],
+        "percent_range_20": [
+          480,
+          719
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 398,
+        "highest": 450,
+        "count": 9,
+        "average": 420.1111111111111,
+        "median": 419,
+        "percent_range_10": [
+          377,
+          461
+        ],
+        "percent_range_20": [
+          335,
+          503
+        ]
+      },
+      "carrier": "at&t",
+      "color": "black"
+    },
+    {
+      "id": "5ac4539f7bbe4d2c916124f4924f53d4",
+      "name": "Apple iPhone 5 64GB",
+      "original_name": "Apple iPhone 5 64GB (White) - Unlocked",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZR5A",
+      "brand": "Apple",
+      "model": "A1428",
+      "asin": "B0097CZR5A",
+      "sales_rank": 19100,
+      "item_count": 20,
+      "categories": [
+        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones",
+        "Electronics::Television & Video"
+      ],
+      "competitive_pricing": {
+        "lowest": 730,
+        "highest": 730,
+        "count": 1,
+        "average": 730.0,
+        "median": 730,
+        "percent_range_10": [
+          657,
+          803
+        ],
+        "percent_range_20": [
+          584,
+          876
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 625,
+        "highest": 874,
+        "count": 10,
+        "average": 732.7,
+        "median": 737.5,
+        "percent_range_10": [
+          664,
+          811
+        ],
+        "percent_range_20": [
+          590,
+          885
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 545,
+        "highest": 770,
+        "count": 9,
+        "average": 618.6666666666666,
+        "median": 599,
+        "percent_range_10": [
+          539,
+          659
+        ],
+        "percent_range_20": [
+          479,
+          719
+        ]
+      },
+      "carrier": "unlocked",
+      "color": "white"
+    },
+    {
+      "id": "b3de132244634f859bf5d3415c5ea622",
+      "name": "Apple iPhone 5 64GB",
+      "original_name": "Apple iPhone 5 64GB (Black) - Unlocked",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZJF8",
+      "brand": "Apple",
+      "model": "A1428",
+      "asin": "B0097CZJF8",
+      "sales_rank": 12483,
+      "item_count": 19,
+      "categories": [
+        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+      ],
+      "competitive_pricing": {
+        "lowest": 733,
+        "highest": 733,
+        "count": 1,
+        "average": 733.0,
+        "median": 733,
+        "percent_range_10": [
+          660,
+          806
+        ],
+        "percent_range_20": [
+          586,
+          880
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 699,
+        "highest": 760,
+        "count": 9,
+        "average": 729.7777777777778,
+        "median": 733,
+        "percent_range_10": [
+          660,
+          806
+        ],
+        "percent_range_20": [
+          586,
+          880
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 465,
+        "highest": 680,
+        "count": 9,
+        "average": 562.7777777777778,
+        "median": 550,
+        "percent_range_10": [
+          495,
+          605
+        ],
+        "percent_range_20": [
+          440,
+          660
+        ]
+      },
+      "carrier": "unlocked",
+      "color": "black"
+    },
+    {
+      "id": "435971120c194bfba89287fb9d87ad81",
+      "name": "Apple iPhone 5 64GB",
+      "original_name": "Apple iPhone 5 64GB (Black) - Verizon Wireless",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B0097BV55C",
+      "brand": "Apple",
+      "model": "iPhone 5",
+      "asin": "B0097BV55C",
+      "sales_rank": 12461,
+      "item_count": 16,
+      "categories": [
+        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+      ],
+      "competitive_pricing": {
+        "lowest": 539,
+        "highest": 889,
+        "count": 2,
+        "average": 714.0,
+        "median": 714.0,
+        "percent_range_10": [
+          643,
+          785
+        ],
+        "percent_range_20": [
+          571,
+          857
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 694,
+        "highest": 1009,
+        "count": 4,
+        "average": 883.25,
+        "median": 915.0,
+        "percent_range_10": [
+          824,
+          1007
+        ],
+        "percent_range_20": [
+          732,
+          1098
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 430,
+        "highest": 550,
+        "count": 10,
+        "average": 495.3,
+        "median": 492.5,
+        "percent_range_10": [
+          443,
+          542
+        ],
+        "percent_range_20": [
+          394,
+          591
+        ]
+      },
+      "carrier": "verizon",
+      "color": "black"
+    }
+  ],
   {
-    "id": "B005PTZT6Q",
+    "id": "20821c725aae40bf978892040d4f8a86",
     "name": "Motorola XT-910 DROID RAZR",
     "original_name": "Motorola XT-910 DROID RAZR Unlocked GSM Smartphone with 8 MP Camera, Android OS, Wi-Fi, and GPS--No Warranty (Black)",
     "amazon_url": "http://www.amazon.com/product-name/dp/B005PTZT6Q",
     "brand": "Motorola",
     "model": "XT-910",
     "asin": "B005PTZT6Q",
-    "sales_rank": 16564,
+    "sales_rank": 8769,
     "item_count": 14,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
@@ -306,135 +368,74 @@
     "color": "black"
   },
   {
-    "id": "B0072YKDLI",
-    "name": "Samsung Galaxy S Captivate Camera",
-    "original_name": "New Samsung Galaxy S Captivate Android AT&T Phone 5MP Camera, Wi-Fi, GPS - Black",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B0072YKDLI",
-    "brand": "Samsung",
-    "model": "i897",
-    "asin": "B0072YKDLI",
-    "sales_rank": 12189,
-    "item_count": 8,
+    "id": "fa550c8f60564cbebec37603f700cc3d",
+    "name": "Motorola MILESTONE 3 XT860 ME863 16GB 3G WiFi",
+    "original_name": "Motorola MILESTONE 3 XT860 ME863 16GB Unlocked GSM 3G WiFi Android 8MP New Phone",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0088RN42S",
+    "brand": "Motorola",
+    "model": "XT860",
+    "asin": "B0088RN42S",
+    "sales_rank": 88980,
+    "item_count": 3,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
     "competitive_pricing": {
-      "lowest": 149,
-      "highest": 149,
+      "lowest": 224,
+      "highest": 224,
       "count": 1,
-      "average": 149.0,
-      "median": 149,
+      "average": 224.0,
+      "median": 224,
       "percent_range_10": [
-        134,
-        164
+        202,
+        246
       ],
       "percent_range_20": [
-        119,
-        179
+        179,
+        269
       ]
     },
     "lowest_offer_new": {
-      "lowest": 108,
-      "highest": 149,
-      "count": 2,
-      "average": 128.5,
-      "median": 128.5,
-      "percent_range_10": [
-        116,
-        141
-      ],
-      "percent_range_20": [
-        103,
-        154
-      ]
-    },
-    "lowest_offer_used": {
-      "lowest": 74,
-      "highest": 165,
-      "count": 5,
-      "average": 107.4,
-      "median": 100,
-      "percent_range_10": [
-        90,
-        110
-      ],
-      "percent_range_20": [
-        80,
-        120
-      ]
-    },
-    "carrier": "at&t",
-    "color": "black"
-  },
-  {
-    "id": "B0055JCJH8",
-    "name": "HTC Evo Shift 4g Smart",
-    "original_name": "Sprint HTC Evo Shift 4g Smart Phone",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B0055JCJH8",
-    "brand": "HTC",
-    "model": "Evo Shift 4g",
-    "asin": "B0055JCJH8",
-    "sales_rank": 3909,
-    "item_count": 15,
-    "categories": [
-      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
-    ],
-    "competitive_pricing": {
-      "lowest": 120,
-      "highest": 120,
+      "lowest": 224,
+      "highest": 224,
       "count": 1,
-      "average": 120.0,
-      "median": 120,
+      "average": 224.0,
+      "median": 224,
       "percent_range_10": [
-        108,
-        132
+        202,
+        246
       ],
       "percent_range_20": [
-        96,
-        144
-      ]
-    },
-    "lowest_offer_new": {
-      "lowest": 120,
-      "highest": 399,
-      "count": 3,
-      "average": 268.0,
-      "median": 285,
-      "percent_range_10": [
-        257,
-        314
-      ],
-      "percent_range_20": [
-        228,
-        342
+        179,
+        269
       ]
     },
     "lowest_offer_used": {
-      "lowest": 23,
+      "lowest": 150,
       "highest": 150,
-      "count": 11,
-      "average": 70.9090909090909,
-      "median": 69,
+      "count": 1,
+      "average": 150.0,
+      "median": 150,
       "percent_range_10": [
-        62,
-        76
+        135,
+        165
       ],
       "percent_range_20": [
-        55,
-        83
+        120,
+        180
       ]
     },
-    "carrier": "sprint"
+    "carrier": "unlocked"
   },
   {
-    "id": "B005U25EGS",
+    "id": "66200204b8d2491ea64fb64c5389ec81",
     "name": "Motorola Atrix MB860 4G",
     "original_name": "Motorola Atrix MB860 4G Unlocked Dual Core Phone with Android Gingerbread 2.3 OS and 5MP Camera",
     "amazon_url": "http://www.amazon.com/product-name/dp/B005U25EGS",
     "brand": "Motorola",
     "model": "MB860",
     "asin": "B005U25EGS",
-    "sales_rank": 89223,
+    "sales_rank": 111691,
     "item_count": 4,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
@@ -487,15 +488,15 @@
     "carrier": "unlocked"
   },
   {
-    "id": "B00BQ760EG",
+    "id": "b0b36aa335014a6a935247a1cce997c5",
     "name": "Motorola Atrix HD MB886 4G OS",
     "original_name": "Motorola Atrix HD MB886 4G LTE Unlocked Android OS Smartphone White",
     "amazon_url": "http://www.amazon.com/product-name/dp/B00BQ760EG",
     "brand": "Motorola",
     "model": "MB886",
     "asin": "B00BQ760EG",
-    "sales_rank": 22864,
-    "item_count": 10,
+    "sales_rank": 25751,
+    "item_count": 11,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
@@ -517,16 +518,16 @@
     "lowest_offer_new": {
       "lowest": 239,
       "highest": 399,
-      "count": 5,
-      "average": 290.2,
-      "median": 264,
+      "count": 6,
+      "average": 282.5,
+      "median": 254.0,
       "percent_range_10": [
-        238,
-        290
+        229,
+        279
       ],
       "percent_range_20": [
-        211,
-        317
+        203,
+        305
       ]
     },
     "lowest_offer_used": {
@@ -548,134 +549,14 @@
     "color": "white"
   },
   {
-    "id": "B00578HQAW",
-    "name": "Samsung i997 Infuse 4G",
-    "original_name": "Samsung i997 Infuse 4G, 8MP,16GB, WIFI, GPS, Super AMOLED Plus, Gorilla Glass Capacitive Touchscreen AT&T Unlocked World Mobile Smartphone",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B00578HQAW",
-    "brand": "Samsung",
-    "model": "SGH-i997",
-    "asin": "B00578HQAW",
-    "sales_rank": 6872,
-    "item_count": 16,
-    "categories": [
-      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-    ],
-    "competitive_pricing": {
-      "lowest": 144,
-      "highest": 179,
-      "count": 2,
-      "average": 161.5,
-      "median": 161.5,
-      "percent_range_10": [
-        145,
-        178
-      ],
-      "percent_range_20": [
-        129,
-        194
-      ]
-    },
-    "lowest_offer_new": {
-      "lowest": 179,
-      "highest": 199,
-      "count": 3,
-      "average": 185.66666666666666,
-      "median": 179,
-      "percent_range_10": [
-        161,
-        197
-      ],
-      "percent_range_20": [
-        143,
-        215
-      ]
-    },
-    "lowest_offer_used": {
-      "lowest": 109,
-      "highest": 324,
-      "count": 11,
-      "average": 166.0909090909091,
-      "median": 128,
-      "percent_range_10": [
-        115,
-        141
-      ],
-      "percent_range_20": [
-        102,
-        154
-      ]
-    },
-    "carrier": "at&t"
-  },
-  {
-    "id": "B0052YQV8O",
-    "name": "Samsung Infuse 4G NO CONTRACT",
-    "original_name": "Samsung Infuse 4G Unlocked Smartphone AT&T NO CONTRACT",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B0052YQV8O",
-    "brand": "Samsung",
-    "model": "i997",
-    "asin": "B0052YQV8O",
-    "sales_rank": 9925,
-    "item_count": 12,
-    "categories": [
-      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-    ],
-    "competitive_pricing": {
-      "lowest": 169,
-      "highest": 169,
-      "count": 1,
-      "average": 169.0,
-      "median": 169,
-      "percent_range_10": [
-        152,
-        186
-      ],
-      "percent_range_20": [
-        135,
-        203
-      ]
-    },
-    "lowest_offer_new": {
-      "lowest": 169,
-      "highest": 187,
-      "count": 3,
-      "average": 177.0,
-      "median": 175,
-      "percent_range_10": [
-        158,
-        193
-      ],
-      "percent_range_20": [
-        140,
-        210
-      ]
-    },
-    "lowest_offer_used": {
-      "lowest": 90,
-      "highest": 175,
-      "count": 8,
-      "average": 135.0,
-      "median": 137.5,
-      "percent_range_10": [
-        124,
-        151
-      ],
-      "percent_range_20": [
-        110,
-        165
-      ]
-    },
-    "carrier": "at&t"
-  },
-  {
-    "id": "B008HU1MS4",
+    "id": "cb4c5d8fc3ab486fa9bfdf37f3ea63b4",
     "name": "HTC Inspire 4G Memory Card 32GB microSDHC Memory Card",
     "original_name": "HTC Inspire 4G Cell Phone Memory Card 32GB microSDHC Memory Card with SD Adapter",
     "amazon_url": "http://www.amazon.com/product-name/dp/B008HU1MS4",
     "brand": "Kingston",
     "model": "SDC4/32GB_178754",
     "asin": "B008HU1MS4",
-    "sales_rank": 97482,
+    "sales_rank": 120847,
     "item_count": 3,
     "categories": [
       "Electronics::Computers & Accessories::Cables & Accessories::Memory Cards::Micro SD Cards"
@@ -713,176 +594,288 @@
     "lowest_offer_used": null
   },
   {
-    "id": "B008VUZPUQ",
-    "name": "Apple iPhone 3GS 16GB",
-    "original_name": "Apple iPhone 3GS 16GB Black Factory Unlocked / Not Jailbroken",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B008VUZPUQ",
-    "brand": "Apple",
-    "model": "MB715LL/A",
-    "asin": "B008VUZPUQ",
-    "sales_rank": 6974,
-    "item_count": 14,
+    "id": "b0ac7ce16ba949338e6b487000ab5cab",
+    "name": "Motorola Droid Bionic 4g Xt875",
+    "original_name": "Motorola Droid Bionic 4g Verizon Lte Xt875 Android Cell Phone",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B006GQS02M",
+    "brand": "Motorola",
+    "model": "BIONIC",
+    "asin": "B006GQS02M",
+    "sales_rank": 54850,
+    "item_count": 6,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Batteries"
+    ],
+    "competitive_pricing": null,
+    "lowest_offer_new": {
+      "lowest": 175,
+      "highest": 349,
+      "count": 2,
+      "average": 262.0,
+      "median": 262.0,
+      "percent_range_10": [
+        236,
+        288
+      ],
+      "percent_range_20": [
+        210,
+        314
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 80,
+      "highest": 120,
+      "count": 4,
+      "average": 104.75,
+      "median": 109.5,
+      "percent_range_10": [
+        99,
+        120
+      ],
+      "percent_range_20": [
+        88,
+        131
+      ]
+    },
+    "carrier": "verizon"
+  },
+  {
+    "id": "9998b726e416443aa1d7e0bbd48cab4f",
+    "name": "EZOPower Ultra Compact High Capacity 6600mAh 2-Port External Backup Battery Charger",
+    "original_name": "EZOPower Ultra Compact High Capacity 6600mAh 2-Port External Backup Battery Charger / Power Bank For Verizon Motorola Droid RAZR M, Samsung Galaxy Stellar, LG Intuition, Pantech Marauder and Other Android Cell Phone, Window Smartphone, Blackberry, MP3 Playert, ebook, Tablet and more - Purple",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0097EHRE2",
+    "brand": "EZOPower",
+    "model": "EZEBA21U",
+    "asin": "B0097EHRE2",
+    "sales_rank": 18452,
+    "item_count": 2,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Chargers::Travel Chargers"
+    ],
+    "competitive_pricing": {
+      "lowest": 22,
+      "highest": 22,
+      "count": 1,
+      "average": 22.0,
+      "median": 22,
+      "percent_range_10": [
+        20,
+        24
+      ],
+      "percent_range_20": [
+        18,
+        26
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 22,
+      "highest": 22,
+      "count": 1,
+      "average": 22.0,
+      "median": 22,
+      "percent_range_10": [
+        20,
+        24
+      ],
+      "percent_range_20": [
+        18,
+        26
+      ]
+    },
+    "lowest_offer_used": null,
+    "carrier": "verizon",
+    "color": "black"
+  },
+  {
+    "id": "11be52095dec440d93d3c72e1e57712c",
+    "name": "HTC Evo Shift 4g Smart",
+    "original_name": "Sprint HTC Evo Shift 4g Smart Phone",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0055JCJH8",
+    "brand": "HTC",
+    "model": "Evo Shift 4g",
+    "asin": "B0055JCJH8",
+    "sales_rank": 3939,
+    "item_count": 15,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+    ],
+    "competitive_pricing": {
+      "lowest": 122,
+      "highest": 122,
+      "count": 1,
+      "average": 122.0,
+      "median": 122,
+      "percent_range_10": [
+        110,
+        134
+      ],
+      "percent_range_20": [
+        98,
+        146
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 122,
+      "highest": 399,
+      "count": 3,
+      "average": 268.6666666666667,
+      "median": 285,
+      "percent_range_10": [
+        257,
+        314
+      ],
+      "percent_range_20": [
+        228,
+        342
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 23,
+      "highest": 120,
+      "count": 11,
+      "average": 62.0,
+      "median": 55,
+      "percent_range_10": [
+        50,
+        61
+      ],
+      "percent_range_20": [
+        44,
+        66
+      ]
+    },
+    "carrier": "sprint"
+  },
+  {
+    "id": "80f259e5a0964044949ac2d19a917639",
+    "name": "Samsung Galaxy S II Skyrocket SGH-i727 16Gb WiFi 3G",
+    "original_name": "Samsung Galaxy S II Skyrocket SGH-i727 16Gb White WiFi Android GSM 3G Cell Phone",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B008GWF25W",
+    "brand": "Samsung",
+    "model": "SAMGALAXYSIII727WHITEN",
+    "asin": "B008GWF25W",
+    "sales_rank": 14159,
+    "item_count": 9,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
     "competitive_pricing": {
-      "lowest": 199,
-      "highest": 199,
+      "lowest": 239,
+      "highest": 239,
       "count": 1,
-      "average": 199.0,
-      "median": 199,
+      "average": 239.0,
+      "median": 239,
       "percent_range_10": [
-        179,
-        219
+        215,
+        263
       ],
       "percent_range_20": [
-        159,
-        239
+        191,
+        287
       ]
     },
     "lowest_offer_new": {
-      "lowest": 189,
-      "highest": 469,
-      "count": 4,
-      "average": 293.0,
-      "median": 257.0,
+      "lowest": 239,
+      "highest": 316,
+      "count": 3,
+      "average": 266.6666666666667,
+      "median": 245,
       "percent_range_10": [
-        231,
-        283
+        221,
+        270
       ],
       "percent_range_20": [
-        206,
-        308
+        196,
+        294
       ]
     },
     "lowest_offer_used": {
-      "lowest": 115,
+      "lowest": 165,
       "highest": 350,
-      "count": 9,
-      "average": 185.88888888888889,
-      "median": 169,
+      "count": 5,
+      "average": 249.6,
+      "median": 225,
       "percent_range_10": [
-        152,
-        186
+        203,
+        248
       ],
       "percent_range_20": [
-        135,
-        203
+        180,
+        270
       ]
     },
-    "carrier": "unlocked",
-    "color": "black"
+    "color": "white"
   },
   {
-    "id": "B00713Y6B8",
-    "name": "HTC Droid Incredible 2",
-    "original_name": "HTC Droid Incredible 2 - Unlocked - 16GB - 8MP - Black Android Smartphone + Free Car Charger by Devices Now",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B00713Y6B8",
-    "brand": "HTC",
-    "model": "ADR6350",
-    "asin": "B00713Y6B8",
-    "sales_rank": 139364,
-    "item_count": 1,
+    "id": "a9b9bc3033034a0789f60b4170e4c46b",
+    "name": "Samsung Galaxy S II Skyrocket 4G",
+    "original_name": "Samsung Galaxy S II Skyrocket 4G Android Unlocked Cell Phone (WHITE)",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0075WLO60",
+    "brand": "Samsung",
+    "model": "SGH-I727",
+    "asin": "B0075WLO60",
+    "sales_rank": 3518,
+    "item_count": 10,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
-    "competitive_pricing": null,
-    "lowest_offer_new": null,
-    "lowest_offer_used": {
-      "lowest": 115,
-      "highest": 115,
+    "competitive_pricing": {
+      "lowest": 239,
+      "highest": 239,
       "count": 1,
-      "average": 115.0,
-      "median": 115,
+      "average": 239.0,
+      "median": 239,
       "percent_range_10": [
-        104,
-        127
+        215,
+        263
       ],
       "percent_range_20": [
-        92,
-        138
+        191,
+        287
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 239,
+      "highest": 279,
+      "count": 3,
+      "average": 265.6666666666667,
+      "median": 279,
+      "percent_range_10": [
+        251,
+        307
+      ],
+      "percent_range_20": [
+        223,
+        335
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 175,
+      "highest": 275,
+      "count": 6,
+      "average": 219.5,
+      "median": 219.0,
+      "percent_range_10": [
+        197,
+        241
+      ],
+      "percent_range_20": [
+        175,
+        263
       ]
     },
     "carrier": "unlocked",
-    "color": "black"
+    "color": "white"
   },
-  [
-    {
-      "id": "B00AF5V7S4",
-      "name": "Samsung Galaxy S III SPH-L710",
-      "original_name": "Samsung Galaxy S III SPH-L710 - 16GB - Marble White (Sprint) Smartphone, CLEAN ESN! Like New!!",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B00AF5V7S4",
-      "brand": "Samsung",
-      "model": "SPH-L710",
-      "asin": "B00AF5V7S4",
-      "sales_rank": 144745,
-      "item_count": 3,
-      "categories": [
-        "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
-      ],
-      "competitive_pricing": null,
-      "lowest_offer_new": null,
-      "lowest_offer_used": {
-        "lowest": 189,
-        "highest": 194,
-        "count": 3,
-        "average": 190.66666666666666,
-        "median": 189,
-        "percent_range_10": [
-          170,
-          208
-        ],
-        "percent_range_20": [
-          151,
-          227
-        ]
-      },
-      "carrier": "sprint",
-      "color": "white"
-    },
-    {
-      "id": "B00BBL1F8I",
-      "name": "Samsung Galaxy S III SPH-L710",
-      "original_name": "Samsung Galaxy S III SPH-L710 - 16GB - Pebble Blue (Sprint) Smartphone (Pebble Blue)",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B00BBL1F8I",
-      "brand": "Cell Phone",
-      "model": "SPH-L710",
-      "asin": "B00BBL1F8I",
-      "sales_rank": 94888,
-      "item_count": 6,
-      "categories": [
-        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-      ],
-      "competitive_pricing": null,
-      "lowest_offer_new": null,
-      "lowest_offer_used": {
-        "lowest": 165,
-        "highest": 1200,
-        "count": 6,
-        "average": 377.6666666666667,
-        "median": 219.0,
-        "percent_range_10": [
-          197,
-          241
-        ],
-        "percent_range_20": [
-          175,
-          263
-        ]
-      },
-      "carrier": "sprint",
-      "color": "blue"
-    }
-  ],
   {
-    "id": "B00D3Q37MQ",
+    "id": "95d0c69c82054a2d9e7442caced0ba3d",
     "name": "Samsung Galaxy S III SPH-L710 16GB Pebble",
     "original_name": "New Samsung Galaxy S III SPH-L710 Sprint 16GB Pebble Blue Smartphone Clean ESN",
     "amazon_url": "http://www.amazon.com/product-name/dp/B00D3Q37MQ",
     "brand": "Samsung",
     "model": "SPH-L710",
     "asin": "B00D3Q37MQ",
-    "sales_rank": 62115,
+    "sales_rank": 88640,
     "item_count": 4,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
@@ -905,34 +898,128 @@
       ]
     },
     "carrier": "sprint",
-    "color": "blue"
+    "color": "pebble blue"
   },
   {
-    "id": "B008VUNRZQ",
+    "id": "5ce87a01b7fa4e00908736c4bacd2664",
+    "name": "Samsung Galaxy S III SPH-L710",
+    "original_name": "Samsung Galaxy S III SPH-L710 - 16GB - Marble White (Sprint) Smartphone, CLEAN ESN! Like New!!",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00AF5V7S4",
+    "brand": "Samsung",
+    "model": "SPH-L710",
+    "asin": "B00AF5V7S4",
+    "sales_rank": 21792,
+    "item_count": 3,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+    ],
+    "competitive_pricing": null,
+    "lowest_offer_new": null,
+    "lowest_offer_used": {
+      "lowest": 189,
+      "highest": 194,
+      "count": 3,
+      "average": 190.66666666666666,
+      "median": 189,
+      "percent_range_10": [
+        170,
+        208
+      ],
+      "percent_range_20": [
+        151,
+        227
+      ]
+    },
+    "carrier": "sprint",
+    "color": "marble white"
+  },
+  {
+    "id": "a813363ebcc641a19fe98fd34c052e59",
+    "name": "Apple iPhone 3G 8GB",
+    "original_name": "Apple iPhone 3G 8GB (Black) - AT&T",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B004ZLV4JG",
+    "brand": "Apple",
+    "model": "iPHONE3G8GBOS30BLK",
+    "asin": "B004ZLV4JG",
+    "sales_rank": 4366,
+    "item_count": 18,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+    ],
+    "competitive_pricing": {
+      "lowest": 59,
+      "highest": 139,
+      "count": 2,
+      "average": 99.0,
+      "median": 99.0,
+      "percent_range_10": [
+        89,
+        109
+      ],
+      "percent_range_20": [
+        79,
+        119
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 135,
+      "highest": 190,
+      "count": 7,
+      "average": 161.71428571428572,
+      "median": 175,
+      "percent_range_10": [
+        158,
+        193
+      ],
+      "percent_range_20": [
+        140,
+        210
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 47,
+      "highest": 70,
+      "count": 9,
+      "average": 59.888888888888886,
+      "median": 59,
+      "percent_range_10": [
+        53,
+        65
+      ],
+      "percent_range_20": [
+        47,
+        71
+      ]
+    },
+    "carrier": "at&t",
+    "color": "black"
+  },
+  {
+    "id": "99fe58713bd143f1abfa9b8258b6db57",
     "name": "Apple iPhone 3GS 8GB",
     "original_name": "Apple iPhone 3GS 8GB Black Factory Unlocked / Not Jailbroken",
     "amazon_url": "http://www.amazon.com/product-name/dp/B008VUNRZQ",
     "brand": "Apple",
     "model": "MC637LL/A",
     "asin": "B008VUNRZQ",
-    "sales_rank": 4503,
-    "item_count": 16,
+    "sales_rank": 3439,
+    "item_count": 15,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
     "competitive_pricing": {
-      "lowest": 159,
-      "highest": 159,
+      "lowest": 163,
+      "highest": 163,
       "count": 1,
-      "average": 159.0,
-      "median": 159,
+      "average": 163.0,
+      "median": 163,
       "percent_range_10": [
-        143,
-        175
+        147,
+        179
       ],
       "percent_range_20": [
-        127,
-        191
+        130,
+        196
       ]
     },
     "lowest_offer_new": {
@@ -952,600 +1039,125 @@
     },
     "lowest_offer_used": {
       "lowest": 107,
-      "highest": 255,
-      "count": 9,
-      "average": 169.33333333333334,
-      "median": 160,
+      "highest": 199,
+      "count": 8,
+      "average": 147.375,
+      "median": 152.0,
       "percent_range_10": [
-        144,
-        176
+        137,
+        167
       ],
       "percent_range_20": [
-        128,
-        192
+        122,
+        182
       ]
     },
     "carrier": "unlocked",
     "color": "black"
   },
   {
-    "id": "B008NC9PZ8",
-    "name": "HTC Droid Incredible 2 Memory Card 16GB microSDHC Memory Card",
-    "original_name": "HTC Droid Incredible 2 Cell Phone Memory Card 16GB microSDHC Memory Card with SD Adapter",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B008NC9PZ8",
-    "brand": "Kingston",
-    "model": "SDC4/16GB_189351",
-    "asin": "B008NC9PZ8",
-    "sales_rank": 22388,
-    "item_count": 3,
-    "categories": [
-      "Electronics::Computers & Accessories::Cables & Accessories::Memory Cards::Micro SD Cards"
-    ],
-    "competitive_pricing": {
-      "lowest": 9,
-      "highest": 9,
-      "count": 1,
-      "average": 9.0,
-      "median": 9,
-      "percent_range_10": [
-        8,
-        10
-      ],
-      "percent_range_20": [
-        7,
-        11
-      ]
-    },
-    "lowest_offer_new": {
-      "lowest": 9,
-      "highest": 20,
-      "count": 2,
-      "average": 14.5,
-      "median": 14.5,
-      "percent_range_10": [
-        13,
-        16
-      ],
-      "percent_range_20": [
-        12,
-        17
-      ]
-    },
-    "lowest_offer_used": null
-  },
-  {
-    "id": "B00B472RVS",
-    "name": "Samsung Galaxy S III",
-    "original_name": "Samsung Galaxy S III (Unlocked) - Pebble Blue - SGH-i747 GS3 Galaxy S3",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B00B472RVS",
-    "brand": "Samsung",
-    "model": "SGH-i747",
-    "asin": "B00B472RVS",
-    "sales_rank": 26439,
-    "item_count": 5,
+    "id": "742fd72be47f4800980ca7465bda86e6",
+    "name": "iPhone 3G 8GB",
+    "original_name": "iPhone 3G 8GB - Unlocked - Black",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0063HOBLS",
+    "brand": "Apple",
+    "model": "iPhone 3G",
+    "asin": "B0063HOBLS",
+    "sales_rank": 72679,
+    "item_count": 7,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
     "competitive_pricing": null,
-    "lowest_offer_new": null,
-    "lowest_offer_used": {
-      "lowest": 249,
-      "highest": 395,
-      "count": 5,
-      "average": 302.2,
-      "median": 279,
+    "lowest_offer_new": {
+      "lowest": 139,
+      "highest": 139,
+      "count": 1,
+      "average": 139.0,
+      "median": 139,
       "percent_range_10": [
-        251,
-        307
+        125,
+        153
       ],
       "percent_range_20": [
-        223,
-        335
+        111,
+        167
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 89,
+      "highest": 335,
+      "count": 6,
+      "average": 161.5,
+      "median": 124.0,
+      "percent_range_10": [
+        112,
+        136
+      ],
+      "percent_range_20": [
+        99,
+        149
       ]
     },
     "carrier": "unlocked",
-    "color": "blue"
-  },
-  {
-    "id": "B0074R1PI8",
-    "name": "Apple iPhone 4S 16GB",
-    "original_name": "Apple iPhone 4S 16GB (Black) - Verizon",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B0074R1PI8",
-    "brand": "Apple",
-    "model": "MD276LL/A",
-    "asin": "B0074R1PI8",
-    "sales_rank": 1836,
-    "item_count": 20,
-    "categories": [
-      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
-    ],
-    "competitive_pricing": {
-      "lowest": 214,
-      "highest": 379,
-      "count": 2,
-      "average": 296.5,
-      "median": 296.5,
-      "percent_range_10": [
-        267,
-        326
-      ],
-      "percent_range_20": [
-        237,
-        356
-      ]
-    },
-    "lowest_offer_new": {
-      "lowest": 299,
-      "highest": 495,
-      "count": 8,
-      "average": 406.0,
-      "median": 419.5,
-      "percent_range_10": [
-        378,
-        461
-      ],
-      "percent_range_20": [
-        336,
-        503
-      ]
-    },
-    "lowest_offer_used": {
-      "lowest": 189,
-      "highest": 214,
-      "count": 10,
-      "average": 197.9,
-      "median": 198.5,
-      "percent_range_10": [
-        179,
-        218
-      ],
-      "percent_range_20": [
-        159,
-        238
-      ]
-    },
-    "carrier": "verizon",
     "color": "black"
   },
   {
-    "id": "B00915VL58",
-    "name": "Samsung Galaxy SIII I747 16GB",
-    "original_name": "Samsung Galaxy SIII (S3) Cell Phone I747 16GB - Red",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B00915VL58",
-    "brand": "Samsung",
-    "model": "SGH-I747",
-    "asin": "B00915VL58",
-    "sales_rank": 62144,
-    "item_count": 17,
+    "id": "2b2ecb6b39be494583cdd360ac3668d9",
+    "name": "Apple iPhone 3GS 16GB",
+    "original_name": "Apple iPhone 3GS 16GB Black Factory Unlocked / Not Jailbroken",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B008VUZPUQ",
+    "brand": "Apple",
+    "model": "MB715LL/A",
+    "asin": "B008VUZPUQ",
+    "sales_rank": 6413,
+    "item_count": 11,
     "categories": [
-      "Electronics::Computers & Accessories::Cables & Accessories::Memory Cards::Micro SD Cards"
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
-    "competitive_pricing": {
-      "lowest": 346,
-      "highest": 346,
-      "count": 1,
-      "average": 346.0,
-      "median": 346,
-      "percent_range_10": [
-        311,
-        381
-      ],
-      "percent_range_20": [
-        277,
-        415
-      ]
-    },
+    "competitive_pricing": null,
     "lowest_offer_new": {
-      "lowest": 346,
-      "highest": 405,
-      "count": 4,
-      "average": 372.25,
-      "median": 369.0,
+      "lowest": 299,
+      "highest": 469,
+      "count": 3,
+      "average": 361.0,
+      "median": 315,
       "percent_range_10": [
-        332,
-        406
+        284,
+        347
       ],
       "percent_range_20": [
-        295,
-        443
+        252,
+        378
       ]
     },
     "lowest_offer_used": {
-      "lowest": 199,
-      "highest": 328,
-      "count": 12,
-      "average": 264.1666666666667,
-      "median": 264.0,
+      "lowest": 106,
+      "highest": 350,
+      "count": 8,
+      "average": 185.5,
+      "median": 169.0,
       "percent_range_10": [
-        238,
-        290
+        152,
+        186
       ],
       "percent_range_20": [
-        211,
-        317
+        135,
+        203
       ]
-    }
+    },
+    "carrier": "unlocked",
+    "color": "black"
   },
-  [
-    {
-      "id": "B008OK8IIY",
-      "name": "Samsung Galaxy S III I747 16GB",
-      "original_name": "Samsung Galaxy S III I747 New Unlocked 16GB - Blue",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B008OK8IIY",
-      "brand": "Samsung",
-      "model": "S3 SGH-I747",
-      "asin": "B008OK8IIY",
-      "sales_rank": 3562,
-      "item_count": 16,
-      "categories": [
-        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-      ],
-      "competitive_pricing": {
-        "lowest": 330,
-        "highest": 330,
-        "count": 1,
-        "average": 330.0,
-        "median": 330,
-        "percent_range_10": [
-          297,
-          363
-        ],
-        "percent_range_20": [
-          264,
-          396
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 330,
-        "highest": 342,
-        "count": 4,
-        "average": 338.25,
-        "median": 340.5,
-        "percent_range_10": [
-          306,
-          375
-        ],
-        "percent_range_20": [
-          272,
-          409
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 220,
-        "highest": 325,
-        "count": 11,
-        "average": 277.8181818181818,
-        "median": 285,
-        "percent_range_10": [
-          257,
-          314
-        ],
-        "percent_range_20": [
-          228,
-          342
-        ]
-      },
-      "carrier": "unlocked",
-      "color": "blue"
-    },
-    {
-      "id": "B008MC3N34",
-      "name": "Samsung Galaxy S III I747 16GB",
-      "original_name": "Samsung Galaxy S III I747 New Unlocked 16GB - White",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B008MC3N34",
-      "brand": "Samsung",
-      "model": "SGH-i747",
-      "asin": "B008MC3N34",
-      "sales_rank": 4720,
-      "item_count": 16,
-      "categories": [
-        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-      ],
-      "competitive_pricing": {
-        "lowest": 342,
-        "highest": 342,
-        "count": 1,
-        "average": 342.0,
-        "median": 342,
-        "percent_range_10": [
-          308,
-          376
-        ],
-        "percent_range_20": [
-          274,
-          410
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 338,
-        "highest": 439,
-        "count": 6,
-        "average": 358.0,
-        "median": 342.0,
-        "percent_range_10": [
-          308,
-          376
-        ],
-        "percent_range_20": [
-          274,
-          410
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 225,
-        "highest": 318,
-        "count": 9,
-        "average": 267.3333333333333,
-        "median": 269,
-        "percent_range_10": [
-          242,
-          296
-        ],
-        "percent_range_20": [
-          215,
-          323
-        ]
-      },
-      "carrier": "unlocked",
-      "color": "white"
-    }
-  ],
-  [
-    {
-      "id": "B0097CZJF8",
-      "name": "Apple iPhone 5 64GB",
-      "original_name": "Apple iPhone 5 64GB (Black) - Unlocked",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZJF8",
-      "brand": "Apple",
-      "model": "A1428",
-      "asin": "B0097CZJF8",
-      "sales_rank": 14798,
-      "item_count": 20,
-      "categories": [
-        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-      ],
-      "competitive_pricing": {
-        "lowest": 709,
-        "highest": 709,
-        "count": 1,
-        "average": 709.0,
-        "median": 709,
-        "percent_range_10": [
-          638,
-          780
-        ],
-        "percent_range_20": [
-          567,
-          851
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 699,
-        "highest": 760,
-        "count": 9,
-        "average": 729.7777777777778,
-        "median": 733,
-        "percent_range_10": [
-          660,
-          806
-        ],
-        "percent_range_20": [
-          586,
-          880
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 465,
-        "highest": 649,
-        "count": 10,
-        "average": 561.7,
-        "median": 554.5,
-        "percent_range_10": [
-          499,
-          610
-        ],
-        "percent_range_20": [
-          444,
-          665
-        ]
-      },
-      "carrier": "unlocked",
-      "color": "black"
-    },
-    {
-      "id": "B0097BV55C",
-      "name": "Apple iPhone 5 64GB",
-      "original_name": "Apple iPhone 5 64GB (Black) - Verizon Wireless",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B0097BV55C",
-      "brand": "Apple",
-      "model": "iPhone 5",
-      "asin": "B0097BV55C",
-      "sales_rank": 23667,
-      "item_count": 16,
-      "categories": [
-        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-      ],
-      "competitive_pricing": {
-        "lowest": 539,
-        "highest": 889,
-        "count": 2,
-        "average": 714.0,
-        "median": 714.0,
-        "percent_range_10": [
-          643,
-          785
-        ],
-        "percent_range_20": [
-          571,
-          857
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 694,
-        "highest": 941,
-        "count": 3,
-        "average": 841.3333333333334,
-        "median": 889,
-        "percent_range_10": [
-          800,
-          978
-        ],
-        "percent_range_20": [
-          711,
-          1067
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 455,
-        "highest": 575,
-        "count": 11,
-        "average": 513.4545454545455,
-        "median": 509,
-        "percent_range_10": [
-          458,
-          560
-        ],
-        "percent_range_20": [
-          407,
-          611
-        ]
-      },
-      "carrier": "verizon",
-      "color": "black"
-    },
-    {
-      "id": "B0097CZR5A",
-      "name": "Apple iPhone 5 64GB",
-      "original_name": "Apple iPhone 5 64GB (White) - Unlocked",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B0097CZR5A",
-      "brand": "Apple",
-      "model": "A1428",
-      "asin": "B0097CZR5A",
-      "sales_rank": 10692,
-      "item_count": 20,
-      "categories": [
-        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones",
-        "Electronics::Television & Video"
-      ],
-      "competitive_pricing": {
-        "lowest": 730,
-        "highest": 730,
-        "count": 1,
-        "average": 730.0,
-        "median": 730,
-        "percent_range_10": [
-          657,
-          803
-        ],
-        "percent_range_20": [
-          584,
-          876
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 625,
-        "highest": 795,
-        "count": 10,
-        "average": 722.1,
-        "median": 737.5,
-        "percent_range_10": [
-          664,
-          811
-        ],
-        "percent_range_20": [
-          590,
-          885
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 545,
-        "highest": 770,
-        "count": 9,
-        "average": 625.1111111111111,
-        "median": 599,
-        "percent_range_10": [
-          539,
-          659
-        ],
-        "percent_range_20": [
-          479,
-          719
-        ]
-      },
-      "carrier": "unlocked",
-      "color": "white"
-    },
-    {
-      "id": "B0097BX78U",
-      "name": "Apple iPhone 5 64GB",
-      "original_name": "Apple iPhone 5 64GB (Black) - AT&T",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B0097BX78U",
-      "brand": "Apple",
-      "model": "5",
-      "asin": "B0097BX78U",
-      "sales_rank": 18897,
-      "item_count": 21,
-      "categories": [
-        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-      ],
-      "competitive_pricing": {
-        "lowest": 483,
-        "highest": 579,
-        "count": 2,
-        "average": 531.0,
-        "median": 531.0,
-        "percent_range_10": [
-          478,
-          584
-        ],
-        "percent_range_20": [
-          425,
-          637
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 489,
-        "highest": 745,
-        "count": 10,
-        "average": 617.0,
-        "median": 599.5,
-        "percent_range_10": [
-          540,
-          659
-        ],
-        "percent_range_20": [
-          480,
-          719
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 398,
-        "highest": 450,
-        "count": 9,
-        "average": 425.77777777777777,
-        "median": 425,
-        "percent_range_10": [
-          383,
-          468
-        ],
-        "percent_range_20": [
-          340,
-          510
-        ]
-      },
-      "carrier": "at&t",
-      "color": "black"
-    }
-  ],
   {
-    "id": "B00ET9T3TC",
+    "id": "e9cd1d62a7404b0d90c420eb7d730edf",
     "name": "Motorola DROID RAZR M",
     "original_name": "Motorola DROID RAZR M, White 8GB, No Contract (Verizon Wireless)",
     "amazon_url": "http://www.amazon.com/product-name/dp/B00ET9T3TC",
     "brand": "Motorola",
     "model": "XT907",
     "asin": "B00ET9T3TC",
-    "sales_rank": 17392,
+    "sales_rank": 29625,
     "item_count": 12,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
@@ -1566,71 +1178,425 @@
       ]
     },
     "lowest_offer_new": {
-      "lowest": 264,
+      "lowest": 339,
       "highest": 475,
       "count": 4,
-      "average": 358.25,
-      "median": 347.0,
+      "average": 381.0,
+      "median": 355.0,
       "percent_range_10": [
-        312,
-        382
+        320,
+        391
       ],
       "percent_range_20": [
-        278,
-        416
+        284,
+        426
       ]
     },
     "lowest_offer_used": {
       "lowest": 129,
-      "highest": 269,
+      "highest": 185,
       "count": 7,
-      "average": 164.71428571428572,
-      "median": 147,
+      "average": 144.0,
+      "median": 135,
       "percent_range_10": [
-        132,
-        162
+        122,
+        149
       ],
       "percent_range_20": [
-        118,
-        176
+        108,
+        162
       ]
     },
     "carrier": "verizon",
     "color": "white"
   },
   {
-    "id": "B005XYGFIY",
-    "name": "Apple Iphone 4 16gb",
-    "original_name": "Apple Iphone 4 16gb White Unlocked",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B005XYGFIY",
-    "brand": "Apple",
-    "model": "iPhone 4",
-    "asin": "B005XYGFIY",
-    "sales_rank": 4033,
-    "item_count": 14,
+    "id": "96ebc9eea93f4b9d9587db8f19cead7b",
+    "name": "Motorola Milestone XT720",
+    "original_name": "Motorola Milestone XT720 Unlocked Phone with Android OS, 8 MP Camera and HD Video - International Version (Blue/Silver/Black)",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B003Y3BJC8",
+    "brand": "Motorola",
+    "model": "XT720",
+    "asin": "B003Y3BJC8",
+    "sales_rank": 13962,
+    "item_count": 3,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": null,
+    "lowest_offer_new": {
+      "lowest": 999,
+      "highest": 999,
+      "count": 1,
+      "average": 999.0,
+      "median": 999,
+      "percent_range_10": [
+        899,
+        1099
+      ],
+      "percent_range_20": [
+        799,
+        1199
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 63,
+      "highest": 79,
+      "count": 2,
+      "average": 71.0,
+      "median": 71.0,
+      "percent_range_10": [
+        64,
+        78
+      ],
+      "percent_range_20": [
+        57,
+        85
+      ]
+    },
+    "carrier": "unlocked",
+    "color": "black"
+  },
+  [
+    {
+      "id": "a0270223e9134b8bb091daa3a0393415",
+      "name": "Apple iPhone 4 8GB",
+      "original_name": "Apple iPhone 4 8GB (White) - Verizon",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B0074R1IP8",
+      "brand": "Apple",
+      "model": "MD200LL/A",
+      "asin": "B0074R1IP8",
+      "sales_rank": 2010,
+      "item_count": 19,
+      "categories": [
+        "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+      ],
+      "competitive_pricing": {
+        "lowest": 159,
+        "highest": 234,
+        "count": 2,
+        "average": 196.5,
+        "median": 196.5,
+        "percent_range_10": [
+          177,
+          216
+        ],
+        "percent_range_20": [
+          157,
+          236
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 223,
+        "highest": 253,
+        "count": 9,
+        "average": 238.66666666666666,
+        "median": 234,
+        "percent_range_10": [
+          211,
+          257
+        ],
+        "percent_range_20": [
+          187,
+          281
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 124,
+        "highest": 148,
+        "count": 8,
+        "average": 134.75,
+        "median": 134.0,
+        "percent_range_10": [
+          121,
+          147
+        ],
+        "percent_range_20": [
+          107,
+          161
+        ]
+      },
+      "carrier": "verizon",
+      "color": "white"
+    },
+    {
+      "id": "5a2c80f85191478a828cb7510c891931",
+      "name": "Apple iPhone 4 8GB",
+      "original_name": "Apple iPhone 4 (Black) 8GB (Factory Unlocked)",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B0096I594O",
+      "brand": "Apple",
+      "model": "MD127LL",
+      "asin": "B0096I594O",
+      "sales_rank": 7256,
+      "item_count": 15,
+      "categories": [
+        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+      ],
+      "competitive_pricing": {
+        "lowest": 389,
+        "highest": 389,
+        "count": 1,
+        "average": 389.0,
+        "median": 389,
+        "percent_range_10": [
+          350,
+          428
+        ],
+        "percent_range_20": [
+          311,
+          467
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 379,
+        "highest": 460,
+        "count": 6,
+        "average": 401.6666666666667,
+        "median": 394.0,
+        "percent_range_10": [
+          355,
+          433
+        ],
+        "percent_range_20": [
+          315,
+          473
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 260,
+        "highest": 325,
+        "count": 8,
+        "average": 289.375,
+        "median": 288.5,
+        "percent_range_10": [
+          260,
+          317
+        ],
+        "percent_range_20": [
+          231,
+          346
+        ]
+      },
+      "carrier": "unlocked",
+      "color": "black"
+    },
+    {
+      "id": "226858c41e3748439c25e3311ff473da",
+      "name": "Apple iPhone 4 8GB",
+      "original_name": "Apple iPhone 4 8GB (Black) - Verizon",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B0074R0Z3O",
+      "brand": "Apple",
+      "model": "Apple",
+      "asin": "B0074R0Z3O",
+      "sales_rank": 2504,
+      "item_count": 20,
+      "categories": [
+        "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+      ],
+      "competitive_pricing": {
+        "lowest": 230,
+        "highest": 230,
+        "count": 1,
+        "average": 230.0,
+        "median": 230,
+        "percent_range_10": [
+          207,
+          253
+        ],
+        "percent_range_20": [
+          184,
+          276
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 218,
+        "highest": 239,
+        "count": 9,
+        "average": 228.77777777777777,
+        "median": 229,
+        "percent_range_10": [
+          206,
+          252
+        ],
+        "percent_range_20": [
+          183,
+          275
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 115,
+        "highest": 139,
+        "count": 10,
+        "average": 130.1,
+        "median": 132.0,
+        "percent_range_10": [
+          119,
+          145
+        ],
+        "percent_range_20": [
+          106,
+          158
+        ]
+      },
+      "carrier": "verizon",
+      "color": "black"
+    },
+    {
+      "id": "4c5703b6cf6b4f998b5b91ebe3d6c58c",
+      "name": "Apple iPhone 4 8GB",
+      "original_name": "Apple iPhone 4 8GB (Black) - AT&T",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B0074R0TOE",
+      "brand": "Apple",
+      "model": "md127ll/a",
+      "asin": "B0074R0TOE",
+      "sales_rank": 2675,
+      "item_count": 19,
+      "categories": [
+        "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+      ],
+      "competitive_pricing": {
+        "lowest": 264,
+        "highest": 264,
+        "count": 1,
+        "average": 264.0,
+        "median": 264,
+        "percent_range_10": [
+          238,
+          290
+        ],
+        "percent_range_20": [
+          211,
+          317
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 245,
+        "highest": 294,
+        "count": 9,
+        "average": 265.8888888888889,
+        "median": 262,
+        "percent_range_10": [
+          236,
+          288
+        ],
+        "percent_range_20": [
+          210,
+          314
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 119,
+        "highest": 148,
+        "count": 9,
+        "average": 133.0,
+        "median": 130,
+        "percent_range_10": [
+          117,
+          143
+        ],
+        "percent_range_20": [
+          104,
+          156
+        ]
+      },
+      "carrier": "at&t",
+      "color": "black"
+    },
+    {
+      "id": "02507ed05537404a89501a8b353409f1",
+      "name": "Apple iPhone 4 8GB",
+      "original_name": "Apple iPhone 4 8GB (White) - AT&T",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B0074R1D0S",
+      "brand": "Apple",
+      "model": "MD197LL/A",
+      "asin": "B0074R1D0S",
+      "sales_rank": 2298,
+      "item_count": 16,
+      "categories": [
+        "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+      ],
+      "competitive_pricing": {
+        "lowest": 265,
+        "highest": 265,
+        "count": 1,
+        "average": 265.0,
+        "median": 265,
+        "percent_range_10": [
+          239,
+          292
+        ],
+        "percent_range_20": [
+          212,
+          318
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 240,
+        "highest": 400,
+        "count": 7,
+        "average": 294.0,
+        "median": 265,
+        "percent_range_10": [
+          239,
+          292
+        ],
+        "percent_range_20": [
+          212,
+          318
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 118,
+        "highest": 150,
+        "count": 8,
+        "average": 139.5,
+        "median": 141.5,
+        "percent_range_10": [
+          127,
+          156
+        ],
+        "percent_range_20": [
+          113,
+          170
+        ]
+      },
+      "carrier": "at&t",
+      "color": "white"
+    }
+  ],
+  {
+    "id": "004dd216c9bd444a98ad2bc10692539f",
+    "name": "Samsung T989 Galaxy S II 4G",
+    "original_name": "Samsung T989 Galaxy S II 4G Unlocked GSM Smartphone with 8 MP Camera, Android OS, 16 GB Internal Memory, Touchscreen, Wi-Fi, and GPS (Black)",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B005YF4OTO",
+    "brand": "Samsung",
+    "model": "t989",
+    "asin": "B005YF4OTO",
+    "sales_rank": 32459,
+    "item_count": 12,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
     "competitive_pricing": {
-      "lowest": 399,
-      "highest": 399,
+      "lowest": 320,
+      "highest": 320,
       "count": 1,
-      "average": 399.0,
-      "median": 399,
+      "average": 320.0,
+      "median": 320,
       "percent_range_10": [
-        359,
-        439
+        288,
+        352
       ],
       "percent_range_20": [
-        319,
-        479
+        256,
+        384
       ]
     },
     "lowest_offer_new": {
-      "lowest": 399,
-      "highest": 590,
-      "count": 5,
-      "average": 455.8,
+      "lowest": 320,
+      "highest": 549,
+      "count": 3,
+      "average": 429.6666666666667,
       "median": 420,
       "percent_range_10": [
         378,
@@ -1642,49 +1608,318 @@
       ]
     },
     "lowest_offer_used": {
-      "lowest": 267,
-      "highest": 375,
+      "lowest": 159,
+      "highest": 299,
       "count": 8,
-      "average": 307.5,
-      "median": 304.0,
+      "average": 207.125,
+      "median": 187.5,
       "percent_range_10": [
-        274,
-        334
+        169,
+        206
       ],
       "percent_range_20": [
-        243,
-        365
+        150,
+        225
       ]
     },
     "carrier": "unlocked",
-    "color": "white"
+    "color": "black"
   },
   {
-    "id": "B004Z2ML1K",
+    "id": "929776ac8a5d45399823ce9a6414d5a0",
+    "name": "Samsung Galaxy S2 Sgh-t989",
+    "original_name": "Samsung Galaxy S2 T-mobile Sgh-t989",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0079NRQH6",
+    "brand": "Galaxy S4",
+    "model": "SGH-T989",
+    "asin": "B0079NRQH6",
+    "sales_rank": 3293,
+    "item_count": 15,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 250,
+      "highest": 250,
+      "count": 1,
+      "average": 250.0,
+      "median": 250,
+      "percent_range_10": [
+        225,
+        275
+      ],
+      "percent_range_20": [
+        200,
+        300
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 249,
+      "highest": 399,
+      "count": 7,
+      "average": 280.14285714285717,
+      "median": 259,
+      "percent_range_10": [
+        233,
+        285
+      ],
+      "percent_range_20": [
+        207,
+        311
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 139,
+      "highest": 200,
+      "count": 7,
+      "average": 165.28571428571428,
+      "median": 169,
+      "percent_range_10": [
+        152,
+        186
+      ],
+      "percent_range_20": [
+        135,
+        203
+      ]
+    },
+    "carrier": "t-mobile"
+  },
+  {
+    "id": "e408be7c77394b949dff3fcabf670b6d",
+    "name": "Samsung Earbud Headset",
+    "original_name": "Samsung Earbud Headset with In-Line Mic and Answer/End Button for Samsung SCH-U640, SCH-U450, SPH-M240, and SPH-M330",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B002N8JAY4",
+    "brand": "Samsung",
+    "model": "AEP010SLEB/STD",
+    "asin": "B002N8JAY4",
+    "sales_rank": 15011,
+    "item_count": 3,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Headsets::Wired Headsets"
+    ],
+    "competitive_pricing": {
+      "lowest": 2,
+      "highest": 2,
+      "count": 1,
+      "average": 2.0,
+      "median": 2,
+      "percent_range_10": [
+        2,
+        2
+      ],
+      "percent_range_20": [
+        2,
+        2
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 2,
+      "highest": 6,
+      "count": 2,
+      "average": 4.0,
+      "median": 4.0,
+      "percent_range_10": [
+        4,
+        4
+      ],
+      "percent_range_20": [
+        3,
+        5
+      ]
+    },
+    "lowest_offer_used": null
+  },
+  {
+    "id": "0c8dc3e051be458883472922ec00c723",
+    "name": "Samsung Standard Battery for Samsung SCH-U640",
+    "original_name": "Samsung Standard Battery for Samsung SCH-U640",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00352LV4E",
+    "brand": "Samsung",
+    "model": "AB663450GZBSTD",
+    "asin": "B00352LV4E",
+    "sales_rank": 3567,
+    "item_count": 11,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Batteries::Internal Batteries"
+    ],
+    "competitive_pricing": {
+      "lowest": 6,
+      "highest": 6,
+      "count": 1,
+      "average": 6.0,
+      "median": 6,
+      "percent_range_10": [
+        5,
+        7
+      ],
+      "percent_range_20": [
+        5,
+        7
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 4,
+      "highest": 10,
+      "count": 5,
+      "average": 6.2,
+      "median": 6,
+      "percent_range_10": [
+        5,
+        7
+      ],
+      "percent_range_20": [
+        5,
+        7
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 4,
+      "highest": 6,
+      "count": 5,
+      "average": 5.0,
+      "median": 5,
+      "percent_range_10": [
+        5,
+        6
+      ],
+      "percent_range_20": [
+        4,
+        6
+      ]
+    }
+  },
+  {
+    "id": "6506ba078db5483ca59a53d420b7f13b",
+    "name": "Samsung Replacement USB Data Charging Cable for Samsung SCH-U960",
+    "original_name": "Samsung Replacement USB Data Charging Cable for Samsung SCH-U960, SCH-U640, SCH-U469, SCH-U450, SCH-T659, and SCH-R520",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B002N8NXSI",
+    "brand": "Samsung",
+    "model": "APCBS10UBEBSTD",
+    "asin": "B002N8NXSI",
+    "sales_rank": 14590,
+    "item_count": 2,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Data Cables"
+    ],
+    "competitive_pricing": {
+      "lowest": 3,
+      "highest": 3,
+      "count": 1,
+      "average": 3.0,
+      "median": 3,
+      "percent_range_10": [
+        3,
+        3
+      ],
+      "percent_range_20": [
+        2,
+        4
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 3,
+      "highest": 3,
+      "count": 1,
+      "average": 3.0,
+      "median": 3,
+      "percent_range_10": [
+        3,
+        3
+      ],
+      "percent_range_20": [
+        2,
+        4
+      ]
+    },
+    "lowest_offer_used": null
+  },
+  {
+    "id": "00c2ba18fb4945b387825a1cf7cae4a3",
+    "name": "- Samsung Convoy U640 for Wireless Network",
+    "original_name": "- \t Samsung Convoy U640 Phone for Verizon Wireless Network with No Contract (Gray) Rugged",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B004WLBTEY",
+    "brand": "Samsung",
+    "model": "Convoy",
+    "asin": "B004WLBTEY",
+    "sales_rank": 4994,
+    "item_count": 9,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 119,
+      "highest": 119,
+      "count": 1,
+      "average": 119.0,
+      "median": 119,
+      "percent_range_10": [
+        107,
+        131
+      ],
+      "percent_range_20": [
+        95,
+        143
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 119,
+      "highest": 119,
+      "count": 1,
+      "average": 119.0,
+      "median": 119,
+      "percent_range_10": [
+        107,
+        131
+      ],
+      "percent_range_20": [
+        95,
+        143
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 9,
+      "highest": 38,
+      "count": 7,
+      "average": 26.0,
+      "median": 29,
+      "percent_range_10": [
+        26,
+        32
+      ],
+      "percent_range_20": [
+        23,
+        35
+      ]
+    },
+    "carrier": "verizon"
+  },
+  {
+    "id": "6707b9743ec54bddb902ed7ca2c2877a",
     "name": "HTC Evo 4G",
     "original_name": "Sprint HTC Evo 4G Android Cell Phone (Black), Without Contract",
     "amazon_url": "http://www.amazon.com/product-name/dp/B004Z2ML1K",
     "brand": "HTC",
     "model": "Evo 4G",
     "asin": "B004Z2ML1K",
-    "sales_rank": 3313,
-    "item_count": 20,
+    "sales_rank": 3274,
+    "item_count": 18,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
     "competitive_pricing": {
-      "lowest": 121,
-      "highest": 121,
+      "lowest": 122,
+      "highest": 122,
       "count": 1,
-      "average": 121.0,
-      "median": 121,
+      "average": 122.0,
+      "median": 122,
       "percent_range_10": [
-        109,
-        133
+        110,
+        134
       ],
       "percent_range_20": [
-        97,
-        145
+        98,
+        146
       ]
     },
     "lowest_offer_new": {
@@ -1703,79 +1938,373 @@
       ]
     },
     "lowest_offer_used": {
-      "lowest": 35,
-      "highest": 75,
-      "count": 10,
-      "average": 55.2,
-      "median": 55.0,
+      "lowest": 29,
+      "highest": 84,
+      "count": 8,
+      "average": 60.25,
+      "median": 62.5,
       "percent_range_10": [
-        50,
-        61
+        56,
+        69
       ],
       "percent_range_20": [
-        44,
-        66
+        50,
+        75
       ]
     },
     "carrier": "sprint",
     "color": "black"
   },
   {
-    "id": "B00F4OIN6K",
-    "name": "~ 16gb Space Gray Apple Iphone Five-s ~ Fast Shipping Ship Worldwide Special Gift to Everyone",
-    "original_name": "New Factory Unlocked ~ 16gb Space Gray Apple Iphone Five-s ~ Black Fast Shipping Ship Worldwide Special Gift to Everyone",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B00F4OIN6K",
-    "brand": "Apple",
-    "model": "5S",
-    "asin": "B00F4OIN6K",
-    "sales_rank": 15814,
+    "id": "ac23ba6ef99044578dcb1647b6b73c7e",
+    "name": "Samsung Galaxy S lll I535 CDMA",
+    "original_name": "Samsung Galaxy S lll I535 Verizon CDMA Phone with 4.8\" HD Super AMOLED Screen, 8MP Camera, Android OS 4.0, A-GPS and Wi-Fi - Marble White",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00AQBDBIQ",
+    "brand": "Samsung",
+    "model": "SCH-I535",
+    "asin": "B00AQBDBIQ",
+    "sales_rank": 29398,
     "item_count": 7,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
-    "competitive_pricing": {
-      "lowest": 815,
-      "highest": 815,
-      "count": 1,
-      "average": 815.0,
-      "median": 815,
+    "competitive_pricing": null,
+    "lowest_offer_new": null,
+    "lowest_offer_used": {
+      "lowest": 229,
+      "highest": 350,
+      "count": 7,
+      "average": 277.0,
+      "median": 279,
       "percent_range_10": [
-        734,
-        897
+        251,
+        307
       ],
       "percent_range_20": [
-        652,
-        978
+        223,
+        335
+      ]
+    },
+    "carrier": "verizon",
+    "color": "marble white"
+  },
+  {
+    "id": "e353b0dac6f84ce6a34141c43e2a73dc",
+    "name": "ORIGINAL Samsung Battery EBL1G6LLZ MADE 2013 NFC 2100 mAh USPS tracking numbers come",
+    "original_name": "ORIGINAL Samsung Battery EBL1G6LLZ MADE 2013 NFC 2100 mAh USPS tracking numbers come with all shipped packages Samsung Galaxy S III, available for SCH-i535 or SCH-i930",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00DD6LCQY",
+    "brand": "Samsung",
+    "model": "EBL1G6LLZ 2013",
+    "asin": "B00DD6LCQY",
+    "sales_rank": 5845,
+    "item_count": 7,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Batteries"
+    ],
+    "competitive_pricing": {
+      "lowest": 6,
+      "highest": 6,
+      "count": 1,
+      "average": 6.0,
+      "median": 6,
+      "percent_range_10": [
+        5,
+        7
+      ],
+      "percent_range_20": [
+        5,
+        7
       ]
     },
     "lowest_offer_new": {
-      "lowest": 809,
-      "highest": 2049,
-      "count": 6,
-      "average": 1032.8333333333333,
-      "median": 817.5,
+      "lowest": 5,
+      "highest": 14,
+      "count": 5,
+      "average": 7.6,
+      "median": 6,
       "percent_range_10": [
-        736,
-        899
+        5,
+        7
       ],
       "percent_range_20": [
-        654,
-        981
+        5,
+        7
       ]
     },
-    "lowest_offer_used": null,
-    "carrier": "unlocked",
-    "color": "black"
+    "lowest_offer_used": {
+      "lowest": 8,
+      "highest": 8,
+      "count": 1,
+      "average": 8.0,
+      "median": 8,
+      "percent_range_10": [
+        7,
+        9
+      ],
+      "percent_range_20": [
+        6,
+        10
+      ]
+    }
   },
   {
-    "id": "B0093SKZKK",
+    "id": "9188fad54d9740a7be268f13bf6d45c2",
+    "name": "Samsung Galaxy S2 SGH-i777 4G World Mobile",
+    "original_name": "Samsung Galaxy S2 SGH-i777 Unlocked 4G World Mobile Smartphone 8MP, Gingerbread, Dual-core, 4.3 Touch Screen",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00642EWMU",
+    "brand": "Samsung",
+    "model": "i777",
+    "asin": "B00642EWMU",
+    "sales_rank": 9350,
+    "item_count": 10,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 231,
+      "highest": 231,
+      "count": 1,
+      "average": 231.0,
+      "median": 231,
+      "percent_range_10": [
+        208,
+        254
+      ],
+      "percent_range_20": [
+        185,
+        277
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 231,
+      "highest": 231,
+      "count": 1,
+      "average": 231.0,
+      "median": 231,
+      "percent_range_10": [
+        208,
+        254
+      ],
+      "percent_range_20": [
+        185,
+        277
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 144,
+      "highest": 204,
+      "count": 8,
+      "average": 179.0,
+      "median": 190.0,
+      "percent_range_10": [
+        171,
+        209
+      ],
+      "percent_range_20": [
+        152,
+        228
+      ]
+    },
+    "carrier": "unlocked"
+  },
+  {
+    "id": "4f4c4339144849bc96b5f99e7d3a844f",
+    "name": "Samsung Galaxy S II",
+    "original_name": "Samsung Galaxy S II - Unlocked - AT&T",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B006AUZYMS",
+    "brand": "GSM",
+    "model": "Galaxy SII",
+    "asin": "B006AUZYMS",
+    "sales_rank": 37368,
+    "item_count": 15,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 224,
+      "highest": 224,
+      "count": 1,
+      "average": 224.0,
+      "median": 224,
+      "percent_range_10": [
+        202,
+        246
+      ],
+      "percent_range_20": [
+        179,
+        269
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 224,
+      "highest": 426,
+      "count": 4,
+      "average": 319.5,
+      "median": 314.0,
+      "percent_range_10": [
+        283,
+        345
+      ],
+      "percent_range_20": [
+        251,
+        377
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 154,
+      "highest": 345,
+      "count": 10,
+      "average": 208.4,
+      "median": 175.0,
+      "percent_range_10": [
+        158,
+        193
+      ],
+      "percent_range_20": [
+        140,
+        210
+      ]
+    },
+    "carrier": "at&t"
+  },
+  {
+    "id": "c668cb36f71c4fc49b29c35f8d110f43",
+    "name": "Apple iPhone 4S 16GB",
+    "original_name": "Apple iPhone 4S 16GB (Black) - Verizon",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0074R1PI8",
+    "brand": "Apple",
+    "model": "MD276LL/A",
+    "asin": "B0074R1PI8",
+    "sales_rank": 2020,
+    "item_count": 20,
+    "categories": [
+      "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
+    ],
+    "competitive_pricing": {
+      "lowest": 363,
+      "highest": 363,
+      "count": 1,
+      "average": 363.0,
+      "median": 363,
+      "percent_range_10": [
+        327,
+        399
+      ],
+      "percent_range_20": [
+        290,
+        436
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 299,
+      "highest": 485,
+      "count": 9,
+      "average": 391.8888888888889,
+      "median": 363,
+      "percent_range_10": [
+        327,
+        399
+      ],
+      "percent_range_20": [
+        290,
+        436
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 155,
+      "highest": 214,
+      "count": 10,
+      "average": 192.7,
+      "median": 199.5,
+      "percent_range_10": [
+        180,
+        219
+      ],
+      "percent_range_20": [
+        160,
+        239
+      ]
+    },
+    "carrier": "verizon",
+    "color": "black"
+  },
+  [
+    {
+      "id": "49f73cc11ef44918b583e388103486ef",
+      "name": "Samsung Galaxy S II Epic 4G Touch SPH-D710",
+      "original_name": "WHITE Samsung Galaxy S II Epic 4G Touch SPH-D710 - WHITE (Sprint) Smartphone. CLEAN ESN!",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B009XUFHK6",
+      "brand": "Samsung",
+      "model": "Epic 4G Touch SPH-D710",
+      "asin": "B009XUFHK6",
+      "sales_rank": 40456,
+      "item_count": 6,
+      "categories": [
+        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+      ],
+      "competitive_pricing": null,
+      "lowest_offer_new": null,
+      "lowest_offer_used": {
+        "lowest": 95,
+        "highest": 599,
+        "count": 6,
+        "average": 212.0,
+        "median": 127.0,
+        "percent_range_10": [
+          114,
+          140
+        ],
+        "percent_range_20": [
+          102,
+          152
+        ]
+      },
+      "carrier": "sprint",
+      "color": "white"
+    },
+    {
+      "id": "f001b722822c4f07beba6d3dcc37b808",
+      "name": "Samsung Galaxy S II Epic 4G Touch SPH-D710",
+      "original_name": "Samsung Galaxy S II Epic 4G Touch SPH-D710 - Vortex Black (Sprint)...",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B009FQYZQK",
+      "brand": "Samsung",
+      "model": "D710",
+      "asin": "B009FQYZQK",
+      "sales_rank": 10668,
+      "item_count": 8,
+      "categories": [
+        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+      ],
+      "competitive_pricing": null,
+      "lowest_offer_new": null,
+      "lowest_offer_used": {
+        "lowest": 78,
+        "highest": 175,
+        "count": 8,
+        "average": 103.375,
+        "median": 92.0,
+        "percent_range_10": [
+          83,
+          101
+        ],
+        "percent_range_20": [
+          74,
+          110
+        ]
+      },
+      "carrier": "sprint",
+      "color": "black"
+    }
+  ],
+  {
+    "id": "d2bc8f6d2f114165b90b5de14e4aef70",
     "name": "EveCase Velcro Sport Workout Armband Carrying Case Cover for Apple iPhone 5",
     "original_name": "EveCase Velcro Sport Workout Armband Carrying Case Cover for Apple iPhone 5, 5S, 5C, 5th Generation The New iPhone ®, iPod Touch iTouch 5 5th Generation",
     "amazon_url": "http://www.amazon.com/product-name/dp/B0093SKZKK",
     "brand": "Evecase",
     "model": "EVARM10-01",
     "asin": "B0093SKZKK",
-    "sales_rank": 38054,
+    "sales_rank": 25555,
     "item_count": 2,
     "categories": [
       "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Armbands",
@@ -1813,453 +2342,707 @@
     },
     "lowest_offer_used": null
   },
-  [
-    {
-      "id": "B0074R1D0S",
-      "name": "Apple iPhone 4 8GB",
-      "original_name": "Apple iPhone 4 8GB (White) - AT&T",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B0074R1D0S",
-      "brand": "Apple",
-      "model": "MD197LL/A",
-      "asin": "B0074R1D0S",
-      "sales_rank": 2924,
-      "item_count": 16,
-      "categories": [
-        "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
-      ],
-      "competitive_pricing": {
-        "lowest": 310,
-        "highest": 310,
-        "count": 1,
-        "average": 310.0,
-        "median": 310,
-        "percent_range_10": [
-          279,
-          341
-        ],
-        "percent_range_20": [
-          248,
-          372
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 245,
-        "highest": 400,
-        "count": 6,
-        "average": 297.1666666666667,
-        "median": 289.5,
-        "percent_range_10": [
-          261,
-          318
-        ],
-        "percent_range_20": [
-          232,
-          347
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 115,
-        "highest": 150,
-        "count": 9,
-        "average": 140.11111111111111,
-        "median": 144,
-        "percent_range_10": [
-          130,
-          158
-        ],
-        "percent_range_20": [
-          115,
-          173
-        ]
-      },
-      "carrier": "at&t",
-      "color": "white"
-    },
-    {
-      "id": "B0074R1IP8",
-      "name": "Apple iPhone 4 8GB",
-      "original_name": "Apple iPhone 4 8GB (White) - Verizon",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B0074R1IP8",
-      "brand": "Apple",
-      "model": "MD200LL/A",
-      "asin": "B0074R1IP8",
-      "sales_rank": 1993,
-      "item_count": 18,
-      "categories": [
-        "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
-      ],
-      "competitive_pricing": {
-        "lowest": 159,
-        "highest": 239,
-        "count": 2,
-        "average": 199.0,
-        "median": 199.0,
-        "percent_range_10": [
-          179,
-          219
-        ],
-        "percent_range_20": [
-          159,
-          239
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 223,
-        "highest": 253,
-        "count": 8,
-        "average": 239.25,
-        "median": 241.0,
-        "percent_range_10": [
-          217,
-          265
-        ],
-        "percent_range_20": [
-          193,
-          289
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 125,
-        "highest": 148,
-        "count": 8,
-        "average": 135.375,
-        "median": 134.0,
-        "percent_range_10": [
-          121,
-          147
-        ],
-        "percent_range_20": [
-          107,
-          161
-        ]
-      },
-      "carrier": "verizon",
-      "color": "white"
-    },
-    {
-      "id": "B0074R0Z3O",
-      "name": "Apple iPhone 4 8GB",
-      "original_name": "Apple iPhone 4 8GB (Black) - Verizon",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B0074R0Z3O",
-      "brand": "Apple",
-      "model": "Apple",
-      "asin": "B0074R0Z3O",
-      "sales_rank": 2407,
-      "item_count": 22,
-      "categories": [
-        "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
-      ],
-      "competitive_pricing": {
-        "lowest": 159,
-        "highest": 230,
-        "count": 2,
-        "average": 194.5,
-        "median": 194.5,
-        "percent_range_10": [
-          175,
-          214
-        ],
-        "percent_range_20": [
-          156,
-          233
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 219,
-        "highest": 241,
-        "count": 10,
-        "average": 231.0,
-        "median": 232.0,
-        "percent_range_10": [
-          209,
-          255
-        ],
-        "percent_range_20": [
-          186,
-          278
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 125,
-        "highest": 140,
-        "count": 10,
-        "average": 134.6,
-        "median": 135.0,
-        "percent_range_10": [
-          122,
-          149
-        ],
-        "percent_range_20": [
-          108,
-          162
-        ]
-      },
-      "carrier": "verizon",
-      "color": "black"
-    },
-    {
-      "id": "B0074R0TOE",
-      "name": "Apple iPhone 4 8GB",
-      "original_name": "Apple iPhone 4 8GB (Black) - AT&T",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B0074R0TOE",
-      "brand": "Apple",
-      "model": "md127ll/a",
-      "asin": "B0074R0TOE",
-      "sales_rank": 2505,
-      "item_count": 19,
-      "categories": [
-        "Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases"
-      ],
-      "competitive_pricing": {
-        "lowest": 259,
-        "highest": 259,
-        "count": 1,
-        "average": 259.0,
-        "median": 259,
-        "percent_range_10": [
-          233,
-          285
-        ],
-        "percent_range_20": [
-          207,
-          311
-        ]
-      },
-      "lowest_offer_new": {
-        "lowest": 247,
-        "highest": 329,
-        "count": 9,
-        "average": 277.0,
-        "median": 278,
-        "percent_range_10": [
-          250,
-          306
-        ],
-        "percent_range_20": [
-          222,
-          334
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 129,
-        "highest": 140,
-        "count": 9,
-        "average": 132.88888888888889,
-        "median": 130,
-        "percent_range_10": [
-          117,
-          143
-        ],
-        "percent_range_20": [
-          104,
-          156
-        ]
-      },
-      "carrier": "at&t",
-      "color": "black"
-    }
-  ],
-  [
-    {
-      "id": "B009FQYZQK",
-      "name": "Samsung Galaxy S II Epic 4G Touch SPH-D710",
-      "original_name": "Samsung Galaxy S II Epic 4G Touch SPH-D710 - Vortex Black (Sprint)...",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B009FQYZQK",
-      "brand": "Samsung",
-      "model": "D710",
-      "asin": "B009FQYZQK",
-      "sales_rank": 9463,
-      "item_count": 9,
-      "categories": [
-        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-      ],
-      "competitive_pricing": null,
-      "lowest_offer_new": {
-        "lowest": 174,
-        "highest": 174,
-        "count": 1,
-        "average": 174.0,
-        "median": 174,
-        "percent_range_10": [
-          157,
-          191
-        ],
-        "percent_range_20": [
-          139,
-          209
-        ]
-      },
-      "lowest_offer_used": {
-        "lowest": 80,
-        "highest": 118,
-        "count": 8,
-        "average": 92.0,
-        "median": 89.0,
-        "percent_range_10": [
-          80,
-          98
-        ],
-        "percent_range_20": [
-          71,
-          107
-        ]
-      },
-      "carrier": "sprint",
-      "color": "black"
-    },
-    {
-      "id": "B009XUFHK6",
-      "name": "Samsung Galaxy S II Epic 4G Touch SPH-D710",
-      "original_name": "WHITE Samsung Galaxy S II Epic 4G Touch SPH-D710 - WHITE (Sprint) Smartphone. CLEAN ESN!",
-      "amazon_url": "http://www.amazon.com/product-name/dp/B009XUFHK6",
-      "brand": "Samsung",
-      "model": "Epic 4G Touch SPH-D710",
-      "asin": "B009XUFHK6",
-      "sales_rank": 22431,
-      "item_count": 6,
-      "categories": [
-        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
-      ],
-      "competitive_pricing": null,
-      "lowest_offer_new": null,
-      "lowest_offer_used": {
-        "lowest": 99,
-        "highest": 599,
-        "count": 6,
-        "average": 212.66666666666666,
-        "median": 127.0,
-        "percent_range_10": [
-          114,
-          140
-        ],
-        "percent_range_20": [
-          102,
-          152
-        ]
-      },
-      "carrier": "sprint",
-      "color": "white"
-    }
-  ],
   {
-    "id": "B008GWF25W",
-    "name": "Samsung Galaxy S II Skyrocket SGH-i727 16Gb WiFi 3G",
-    "original_name": "Samsung Galaxy S II Skyrocket SGH-i727 16Gb White WiFi Android GSM 3G Cell Phone",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B008GWF25W",
+    "id": "c5dc2f1cc79440b7985c75000b0c644d",
+    "name": "Samsung Galaxy S II 4G",
+    "original_name": "Samsung Galaxy S II 4G Prepaid Android Phone, Titanium (Virgin Mobile)",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00AQ30KLK",
     "brand": "Samsung",
-    "model": "SAMGALAXYSIII727WHITEN",
-    "asin": "B008GWF25W",
-    "sales_rank": 39822,
-    "item_count": 9,
+    "model": "Galaxy S II",
+    "asin": "B00AQ30KLK",
+    "sales_rank": 34936,
+    "item_count": 10,
     "categories": [
-      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+      "Cell Phones & Accessories::Cell Phones::No-Contract Cell Phones"
     ],
     "competitive_pricing": {
-      "lowest": 245,
-      "highest": 245,
+      "lowest": 247,
+      "highest": 247,
       "count": 1,
-      "average": 245.0,
-      "median": 245,
+      "average": 247.0,
+      "median": 247,
       "percent_range_10": [
-        221,
-        270
+        222,
+        272
       ],
       "percent_range_20": [
-        196,
-        294
+        198,
+        296
       ]
     },
-    "lowest_offer_new": {
-      "lowest": 238,
-      "highest": 316,
-      "count": 3,
-      "average": 266.3333333333333,
-      "median": 245,
-      "percent_range_10": [
-        221,
-        270
-      ],
-      "percent_range_20": [
-        196,
-        294
-      ]
-    },
+    "lowest_offer_new": null,
     "lowest_offer_used": {
-      "lowest": 155,
+      "lowest": 199,
       "highest": 350,
-      "count": 5,
-      "average": 238.8,
-      "median": 225,
+      "count": 9,
+      "average": 249.0,
+      "median": 245,
       "percent_range_10": [
-        203,
-        248
+        221,
+        270
       ],
       "percent_range_20": [
-        180,
-        270
+        196,
+        294
       ]
     },
-    "color": "white"
+    "color": "titanium"
   },
   {
-    "id": "B0075WLO60",
-    "name": "Samsung Galaxy S II Skyrocket 4G",
-    "original_name": "Samsung Galaxy S II Skyrocket 4G Android Unlocked Cell Phone (WHITE)",
-    "amazon_url": "http://www.amazon.com/product-name/dp/B0075WLO60",
-    "brand": "Samsung",
-    "model": "SGH-I727",
-    "asin": "B0075WLO60",
-    "sales_rank": 3676,
-    "item_count": 11,
+    "id": "503f8d465d544fa9a18eeee71541ff70",
+    "name": "Apple Iphone 4 16gb",
+    "original_name": "Apple Iphone 4 16gb White Unlocked",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B005XYGFIY",
+    "brand": "Apple",
+    "model": "iPhone 4",
+    "asin": "B005XYGFIY",
+    "sales_rank": 3533,
+    "item_count": 15,
     "categories": [
       "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
     ],
     "competitive_pricing": {
-      "lowest": 239,
-      "highest": 239,
+      "lowest": 369,
+      "highest": 369,
       "count": 1,
-      "average": 239.0,
-      "median": 239,
+      "average": 369.0,
+      "median": 369,
       "percent_range_10": [
-        215,
-        263
+        332,
+        406
       ],
       "percent_range_20": [
-        191,
-        287
+        295,
+        443
       ]
     },
     "lowest_offer_new": {
-      "lowest": 244,
-      "highest": 279,
-      "count": 3,
-      "average": 267.3333333333333,
-      "median": 279,
+      "lowest": 369,
+      "highest": 590,
+      "count": 6,
+      "average": 438.0,
+      "median": 410.0,
       "percent_range_10": [
-        251,
-        307
+        369,
+        451
       ],
       "percent_range_20": [
-        223,
-        335
+        328,
+        492
       ]
     },
     "lowest_offer_used": {
-      "lowest": 159,
-      "highest": 275,
-      "count": 7,
-      "average": 210.85714285714286,
-      "median": 209,
+      "lowest": 268,
+      "highest": 450,
+      "count": 8,
+      "average": 330.375,
+      "median": 311.5,
       "percent_range_10": [
-        188,
-        230
+        280,
+        343
       ],
       "percent_range_20": [
-        167,
-        251
+        249,
+        374
       ]
     },
     "carrier": "unlocked",
     "color": "white"
+  },
+  {
+    "id": "856ef44c3d3544fa90c18068ad29992a",
+    "name": "HTC Droid Incredible 2 Memory Card 16GB microSDHC Memory Card",
+    "original_name": "HTC Droid Incredible 2 Cell Phone Memory Card 16GB microSDHC Memory Card with SD Adapter",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B008NC9PZ8",
+    "brand": "Kingston",
+    "model": "SDC4/16GB_189351",
+    "asin": "B008NC9PZ8",
+    "sales_rank": 20863,
+    "item_count": 3,
+    "categories": [
+      "Electronics::Computers & Accessories::Cables & Accessories::Memory Cards::Micro SD Cards"
+    ],
+    "competitive_pricing": {
+      "lowest": 9,
+      "highest": 9,
+      "count": 1,
+      "average": 9.0,
+      "median": 9,
+      "percent_range_10": [
+        8,
+        10
+      ],
+      "percent_range_20": [
+        7,
+        11
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 9,
+      "highest": 20,
+      "count": 2,
+      "average": 14.5,
+      "median": 14.5,
+      "percent_range_10": [
+        13,
+        16
+      ],
+      "percent_range_20": [
+        12,
+        17
+      ]
+    },
+    "lowest_offer_used": null
+  },
+  {
+    "id": "2f5b9074bc9f46a69b3efbc33929ddde",
+    "name": "Samsung Galaxy S Captivate Camera",
+    "original_name": "New Samsung Galaxy S Captivate Android AT&T Phone 5MP Camera, Wi-Fi, GPS - Black",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0072YKDLI",
+    "brand": "Samsung",
+    "model": "i897",
+    "asin": "B0072YKDLI",
+    "sales_rank": 14728,
+    "item_count": 8,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 149,
+      "highest": 149,
+      "count": 1,
+      "average": 149.0,
+      "median": 149,
+      "percent_range_10": [
+        134,
+        164
+      ],
+      "percent_range_20": [
+        119,
+        179
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 130,
+      "highest": 149,
+      "count": 2,
+      "average": 139.5,
+      "median": 139.5,
+      "percent_range_10": [
+        126,
+        153
+      ],
+      "percent_range_20": [
+        112,
+        167
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 74,
+      "highest": 165,
+      "count": 5,
+      "average": 107.4,
+      "median": 100,
+      "percent_range_10": [
+        90,
+        110
+      ],
+      "percent_range_20": [
+        80,
+        120
+      ]
+    },
+    "carrier": "at&t",
+    "color": "black"
+  },
+  [
+    {
+      "id": "ea4c728fb3624210acbcead4c9892656",
+      "name": "Samsung Galaxy S III I747 16GB",
+      "original_name": "Samsung Galaxy S III I747 New Unlocked 16GB - White",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B008MC3N34",
+      "brand": "Samsung",
+      "model": "SGH-i747",
+      "asin": "B008MC3N34",
+      "sales_rank": 3071,
+      "item_count": 16,
+      "categories": [
+        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+      ],
+      "competitive_pricing": {
+        "lowest": 342,
+        "highest": 342,
+        "count": 1,
+        "average": 342.0,
+        "median": 342,
+        "percent_range_10": [
+          308,
+          376
+        ],
+        "percent_range_20": [
+          274,
+          410
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 337,
+        "highest": 439,
+        "count": 6,
+        "average": 358.3333333333333,
+        "median": 344.0,
+        "percent_range_10": [
+          310,
+          378
+        ],
+        "percent_range_20": [
+          275,
+          413
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 215,
+        "highest": 318,
+        "count": 9,
+        "average": 274.55555555555554,
+        "median": 269,
+        "percent_range_10": [
+          242,
+          296
+        ],
+        "percent_range_20": [
+          215,
+          323
+        ]
+      },
+      "carrier": "unlocked",
+      "color": "white"
+    },
+    {
+      "id": "6902979e6db849f6966cf5c410ca7eab",
+      "name": "Samsung Galaxy S III I747 16GB",
+      "original_name": "Samsung Galaxy S III I747 New Unlocked 16GB - Blue",
+      "amazon_url": "http://www.amazon.com/product-name/dp/B008OK8IIY",
+      "brand": "Samsung",
+      "model": "S3 SGH-I747",
+      "asin": "B008OK8IIY",
+      "sales_rank": 2961,
+      "item_count": 16,
+      "categories": [
+        "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+      ],
+      "competitive_pricing": {
+        "lowest": 289,
+        "highest": 345,
+        "count": 2,
+        "average": 317.0,
+        "median": 317.0,
+        "percent_range_10": [
+          285,
+          349
+        ],
+        "percent_range_20": [
+          254,
+          380
+        ]
+      },
+      "lowest_offer_new": {
+        "lowest": 338,
+        "highest": 345,
+        "count": 4,
+        "average": 341.0,
+        "median": 340.5,
+        "percent_range_10": [
+          306,
+          375
+        ],
+        "percent_range_20": [
+          272,
+          409
+        ]
+      },
+      "lowest_offer_used": {
+        "lowest": 229,
+        "highest": 325,
+        "count": 10,
+        "average": 281.6,
+        "median": 286.0,
+        "percent_range_10": [
+          257,
+          315
+        ],
+        "percent_range_20": [
+          229,
+          343
+        ]
+      },
+      "carrier": "unlocked",
+      "color": "blue"
+    }
+  ],
+  {
+    "id": "e5cc6aa16d034208af86128035d35bc9",
+    "name": "Samsung Galaxy SIII I747 16GB",
+    "original_name": "Samsung Galaxy SIII (S3) Cell Phone I747 16GB - Red",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00915VL58",
+    "brand": "Samsung",
+    "model": "SGH-I747",
+    "asin": "B00915VL58",
+    "sales_rank": 17994,
+    "item_count": 17,
+    "categories": [
+      "Electronics::Computers & Accessories::Cables & Accessories::Memory Cards::Micro SD Cards"
+    ],
+    "competitive_pricing": {
+      "lowest": 346,
+      "highest": 346,
+      "count": 1,
+      "average": 346.0,
+      "median": 346,
+      "percent_range_10": [
+        311,
+        381
+      ],
+      "percent_range_20": [
+        277,
+        415
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 346,
+      "highest": 405,
+      "count": 4,
+      "average": 372.25,
+      "median": 369.0,
+      "percent_range_10": [
+        332,
+        406
+      ],
+      "percent_range_20": [
+        295,
+        443
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 209,
+      "highest": 335,
+      "count": 12,
+      "average": 277.25,
+      "median": 269.5,
+      "percent_range_10": [
+        243,
+        296
+      ],
+      "percent_range_20": [
+        216,
+        323
+      ]
+    }
+  },
+  {
+    "id": "ea1c9d97f7994555b2d1167073c24843",
+    "name": "Samsung Galaxy S III",
+    "original_name": "Samsung Galaxy S III (Unlocked) - Pebble Blue - SGH-i747 GS3 Galaxy S3",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00B472RVS",
+    "brand": "Samsung",
+    "model": "SGH-i747",
+    "asin": "B00B472RVS",
+    "sales_rank": 55988,
+    "item_count": 4,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": null,
+    "lowest_offer_new": null,
+    "lowest_offer_used": {
+      "lowest": 249,
+      "highest": 395,
+      "count": 4,
+      "average": 302.0,
+      "median": 282.0,
+      "percent_range_10": [
+        254,
+        310
+      ],
+      "percent_range_20": [
+        226,
+        338
+      ]
+    },
+    "carrier": "unlocked",
+    "color": "pebble blue"
+  },
+  {
+    "id": "49d49eed89f741e7bc8fc5884a931bd7",
+    "name": "Motorola RAZR XT912 Wireless [Non-retail Packaging]",
+    "original_name": "Motorola RAZR XT912 Black Verizon Wireless [Non-retail Packaging]",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B008XLJ22A",
+    "brand": "Motorola",
+    "model": "XT912",
+    "asin": "B008XLJ22A",
+    "sales_rank": 8755,
+    "item_count": 18,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 218,
+      "highest": 218,
+      "count": 1,
+      "average": 218.0,
+      "median": 218,
+      "percent_range_10": [
+        196,
+        240
+      ],
+      "percent_range_20": [
+        174,
+        262
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 148,
+      "highest": 275,
+      "count": 7,
+      "average": 207.85714285714286,
+      "median": 218,
+      "percent_range_10": [
+        196,
+        240
+      ],
+      "percent_range_20": [
+        174,
+        262
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 83,
+      "highest": 175,
+      "count": 10,
+      "average": 120.8,
+      "median": 119.5,
+      "percent_range_10": [
+        108,
+        131
+      ],
+      "percent_range_20": [
+        96,
+        143
+      ]
+    },
+    "carrier": "verizon",
+    "color": "black"
+  },
+  {
+    "id": "a78598c2685644c5b62856c736a302eb",
+    "name": "Droid Razr By Motorola in Cranberry 16gb Xt912r",
+    "original_name": "Droid Razr By Motorola in Cranberry (Red) 16gb Xt912r Verizon",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00AS2B9UA",
+    "brand": "Motorola",
+    "model": "XT912R",
+    "asin": "B00AS2B9UA",
+    "sales_rank": 38585,
+    "item_count": 4,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": null,
+    "lowest_offer_new": null,
+    "lowest_offer_used": {
+      "lowest": 149,
+      "highest": 185,
+      "count": 4,
+      "average": 160.75,
+      "median": 154.5,
+      "percent_range_10": [
+        139,
+        170
+      ],
+      "percent_range_20": [
+        124,
+        185
+      ]
+    },
+    "carrier": "verizon"
+  },
+  {
+    "id": "0cd250280c734176bfdbcf1a19ce331e",
+    "name": "Nokia Lumia 710 4G Windows",
+    "original_name": "Nokia Lumia 710 4G Prepaid Windows Phone, Black (T-mobile)",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B009QP72VU",
+    "brand": "Nokia",
+    "model": "Lumia 710 Black",
+    "asin": "B009QP72VU",
+    "sales_rank": 99218,
+    "item_count": 11,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::No-Contract Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 179,
+      "highest": 179,
+      "count": 1,
+      "average": 179.0,
+      "median": 179,
+      "percent_range_10": [
+        161,
+        197
+      ],
+      "percent_range_20": [
+        143,
+        215
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 148,
+      "highest": 179,
+      "count": 3,
+      "average": 158.66666666666666,
+      "median": 149,
+      "percent_range_10": [
+        134,
+        164
+      ],
+      "percent_range_20": [
+        119,
+        179
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 47,
+      "highest": 126,
+      "count": 7,
+      "average": 69.71428571428571,
+      "median": 49,
+      "percent_range_10": [
+        44,
+        54
+      ],
+      "percent_range_20": [
+        39,
+        59
+      ]
+    },
+    "carrier": "t-mobile",
+    "color": "black"
+  },
+  {
+    "id": "41baced57d0d4ab1acf0d3fdcb1924a5",
+    "name": "Samsung Infuse 4G NO CONTRACT",
+    "original_name": "Samsung Infuse 4G Unlocked Smartphone AT&T NO CONTRACT",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B0052YQV8O",
+    "brand": "Samsung",
+    "model": "i997",
+    "asin": "B0052YQV8O",
+    "sales_rank": 10624,
+    "item_count": 12,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 169,
+      "highest": 169,
+      "count": 1,
+      "average": 169.0,
+      "median": 169,
+      "percent_range_10": [
+        152,
+        186
+      ],
+      "percent_range_20": [
+        135,
+        203
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 169,
+      "highest": 187,
+      "count": 3,
+      "average": 177.0,
+      "median": 175,
+      "percent_range_10": [
+        158,
+        193
+      ],
+      "percent_range_20": [
+        140,
+        210
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 100,
+      "highest": 175,
+      "count": 8,
+      "average": 140.625,
+      "median": 140.0,
+      "percent_range_10": [
+        126,
+        154
+      ],
+      "percent_range_20": [
+        112,
+        168
+      ]
+    },
+    "carrier": "at&t"
+  },
+  {
+    "id": "abb6cf6602e04170b4884e3ef387a779",
+    "name": "Samsung i997 Infuse 4G",
+    "original_name": "Samsung i997 Infuse 4G, 8MP,16GB, WIFI, GPS, Super AMOLED Plus, Gorilla Glass Capacitive Touchscreen AT&T Unlocked World Mobile Smartphone",
+    "amazon_url": "http://www.amazon.com/product-name/dp/B00578HQAW",
+    "brand": "Samsung",
+    "model": "SGH-i997",
+    "asin": "B00578HQAW",
+    "sales_rank": 6790,
+    "item_count": 14,
+    "categories": [
+      "Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones"
+    ],
+    "competitive_pricing": {
+      "lowest": 144,
+      "highest": 179,
+      "count": 2,
+      "average": 161.5,
+      "median": 161.5,
+      "percent_range_10": [
+        145,
+        178
+      ],
+      "percent_range_20": [
+        129,
+        194
+      ]
+    },
+    "lowest_offer_new": {
+      "lowest": 179,
+      "highest": 199,
+      "count": 2,
+      "average": 189.0,
+      "median": 189.0,
+      "percent_range_10": [
+        170,
+        208
+      ],
+      "percent_range_20": [
+        151,
+        227
+      ]
+    },
+    "lowest_offer_used": {
+      "lowest": 109,
+      "highest": 324,
+      "count": 10,
+      "average": 170.7,
+      "median": 133.5,
+      "percent_range_10": [
+        120,
+        147
+      ],
+      "percent_range_20": [
+        107,
+        160
+      ]
+    },
+    "carrier": "at&t"
   }
 ]

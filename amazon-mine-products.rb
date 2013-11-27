@@ -9,6 +9,7 @@ require 'logger'
 require 'yaml'
 require 'nokogiri'
 require 'open-uri'
+require 'securerandom'
 
 require_relative 'math-tools'
 require_relative 'ruby-mws'
@@ -45,6 +46,8 @@ ebay_data.map { |x| x[:name] }.concat(ebay_data.map { |x| "#{x[:brand]} #{x[:'fa
   #amazon_products = mws.products.list_matching_products :query => query, :marketplace_id => 'ATVPDKIKX0DER'
 
   search_url = URI::encode "http://www.amazon.com/s/search-alias=#{amazon_etl[category_id][:search][:search_alias]}&field-keywords=#{query}"
+
+  logger.info search_url
   web_text = RestClient.get search_url
 
   next if web_text.include? 'did not match any products'
@@ -125,10 +128,15 @@ ebay_data.map { |x| x[:name] }.concat(ebay_data.map { |x| "#{x[:brand]} #{x[:'fa
           sales_rank: sales_rank,
           item_count: item_count,
           categories: categories,
+          price: {},
           competitive_pricing: competitive_pricing_analyze,
           lowest_offer_new: lowest_offer_new_analyze,
           lowest_offer_used: lowest_offer_used_analyze,
       }
+
+      product[:price][:new] = competitive_pricing_analyze[:median] if not competitive_pricing_analyze.nil?
+      product[:price][:low_new] = lowest_offer_new_analyze[:median] if not lowest_offer_new_analyze.nil?
+      product[:price][:used] = lowest_offer_used_analyze[:median] if not lowest_offer_used_analyze.nil?
 
       properties_extractors.map { |k, v|
         extracted = v.map { |x| original_name.scan /#{x}/i }.flatten.map(&:downcase)
@@ -150,37 +158,3 @@ number_of_products = products.length
 
 logger.info "Number of products found is: #{number_of_products}"
 File.open("amazon-#{ARGV[0]}.json", 'w') { |f| f.write JSON.pretty_generate(products) }
-
-products = products
-.group_by { |x| x[:name] }
-.map { |k, v|
-  first_product = v.first
-
-  base_hash = {
-      name: first_product[:name],
-      brand: first_product[:brand],
-      model: first_product[:model],
-  }
-
-  variants = amazon_etl[category_id][:variants]
-  keys = variants.map { |x| x[:key] }
-
-  products_that_are_variants = v.select { |x| keys.all? { |k| x.has_key? k } }
-
-  products = Array.new
-  if products_that_are_variants.length > 1
-    base_hash[:variants] = variants.map { |x|
-      {
-          name: x[:name],
-          values: products_that_are_variants.map { |p| p[x[:key]] }
-      }
-    }
-
-    base_hash[:products] = products_that_are_variants
-  else
-    base_hash[:products] = v.first
-  end
-
-}
-
-File.open("amazon-#{ARGV[0]}-uniq.json", 'w') { |f| f.write JSON.pretty_generate(products) }
