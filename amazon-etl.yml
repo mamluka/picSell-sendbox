@@ -1,4 +1,5 @@
 :9355:
+  # phones
   :search:
     :search_alias: 'mobile'
   :bad_words:
@@ -36,44 +37,89 @@
     - Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases
     - Cell Phones & Accessories::Cell Phones::No-Contract Cell Phones
     - Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones
+  :allow_no_category: false
+
 :171485:
+  # tablets
   :search:
     :search_alias: 'electronics'
   :bad_words:
-    - android
-    - new
-    - phone
-    - gsm
-    - smartphone
-    - lte
-    - factory
-    - smartphone
-    - cellphone
+    - pc
   :bad_phrases:
-    - international version
-    - cell phone
-    - dual core
-    - clean esn
+    - 'NEWEST VERSION'
+    - 'Dual Core'
+    - 'Google Android'
+    - 'DUAL CAMERA'
   :bad_patterns:
-    - 'with\s.+?$'
-    - '\d{1,2}\.?\d{0,2}mp'
+    - '\s\w+?\/A\s'
     - '\(.+?\)'
     - '\s-\s?.*$'
     - ',\s.*$'
-    - 'prepaid'
-    - '\/.*$'
+    - ';\s.*$'
+    - 'with\s.+?$'
+    - '\s\/\s.+?$'
+    - 'android \d{1,2}\.?(\d{1,2})?\.?(\d{1,2})?'
+  :replace_groups:
+    :patterns:
+      -
+        :key: 'storage'
+        :pattern: '(\d+\s?gb)'
+        :group: 0
+      -
+        :key: 'generation'
+        :pattern: '(\d(th|nd|rd) generation|first generation)'
+        :group: 0
+
+    :title: ' generation storage'
+
   :extractors:
-    :carrier: [no contract]
-    :color: []
+    :carrier: []
   :variants:
       -
         :name: Carrier
         :key: :carrier
+  :allowed_categories: []
+  :allow_no_category: true
+
+:11071:
+  # tv
+  :search:
+    :search_alias: 'electronics'
+  :bad_words:
+    - LED
+    - HDTV
+    - Smart
+    - forAdults
+    - SmartTV
+    - Slim
+    - LED-LCD
+  :bad_phrases:
+  :bad_patterns:
+     - '\d+?p'
+     - '\d+?Hz'
+     - '\(.+?\)'
+     - 'with\s.+?$'
+     - '\s-\s?.*$'
+     - ',\s.*$'
+  :extractors:
+  :variants:
+      -
+        :name: Carrier
+        :key: :carrier
+  :allowed_categories: []
+  :allow_no_category: true
+
+:139971:
+  # wii console
+  :search:
+    :search_alias: 'videogames'
+  :bad_words:
+  :bad_phrases:
+  :bad_patterns:
+  :extractors:
+  :variants:
   :allowed_categories:
-    - Cell Phones & Accessories::Cell Phones::Contract Cell Phones
-    - Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases
-    - Cell Phones & Accessories::Cell Phones::No-Contract Cell Phones
-    - Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones
+  :allow_no_category: true
 
 
 

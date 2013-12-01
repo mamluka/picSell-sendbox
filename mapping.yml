@@ -43,6 +43,14 @@
         - UPC
         - Carrier
 
+  :11071:
+      :properties:
+        - Brand
+        - Model
+        - UPC
+      :exclude_from_name:
+        - UPC
+
 :amazon_categories_mapping:
   :9355:
     - 2407749011

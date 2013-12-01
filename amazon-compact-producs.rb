@@ -16,7 +16,7 @@ products = products
 
   base_hash = {
       name: first_product[:name],
-      id: Digest::MD5.hexdigest(k),
+      id: Digest::MD5.hexdigest(k)[0..8],
       brand: first_product[:brand],
       model: first_product[:model],
       category_id: category_id,
