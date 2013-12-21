@@ -26,7 +26,7 @@ class EbayMining < Thor
   end
 
   desc 'Get products from ebay by category', 'Get products by category in decreasing order using the find products API and limited to a category'
-  option :threads, default: 10,type: :numeric
+  option :threads, default: 10, type: :numeric
   option :log, default: 'log-get-products-by-category.log'
   option :must_have_full_price, type: :boolean
 
@@ -117,10 +117,10 @@ class EbayMining < Thor
               product[k]= extracted.first if extracted.any?
             }
 
-            new_items = new_items_by_product.to_a
+            new_items = [new_items_by_product].flatten
             .map { |x| x['sellingStatus']['currentPrice']['__value__'].to_f }
 
-            used_items = used_items_by_product.to_a
+            used_items = [used_items_by_product].flatten
             .map { |x| x['sellingStatus']['currentPrice']['__value__'].to_f }
 
             new_price = MathTools.analyze(new_items.remove_growth_over(1.5))
