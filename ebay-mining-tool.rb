@@ -26,7 +26,7 @@ class EbayMining < Thor
   end
 
   desc 'Get products from ebay by category', 'Get products by category in decreasing order using the find products API and limited to a category'
-  option :threads, default: 10
+  option :threads, default: 10,type: :numeric
   option :log, default: 'log-get-products-by-category.log'
   option :must_have_full_price, type: :boolean
 
