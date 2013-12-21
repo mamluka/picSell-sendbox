@@ -117,10 +117,10 @@ class EbayMining < Thor
               product[k]= extracted.first if extracted.any?
             }
 
-            new_items = new_items_by_product
+            new_items = new_items_by_product.to_a
             .map { |x| x['sellingStatus']['currentPrice']['__value__'].to_f }
 
-            used_items = used_items_by_product
+            used_items = used_items_by_product.to_a
             .map { |x| x['sellingStatus']['currentPrice']['__value__'].to_f }
 
             new_price = MathTools.analyze(new_items.remove_growth_over(1.5))
