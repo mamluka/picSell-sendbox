@@ -8,21 +8,31 @@
     :exclude_from_name:
       - MPN
       - UPC
-  :9355:
+  :phones:
+    :category_id: 9355
     :properties:
       - Brand
-      - Model
       - Family Line
+      - Model
       - Carrier
       - Storage Capacity
       - UPC
       - MPN
       - Color
-    :exclude_from_name:
-      - Carrier
-      - UPC
-      - MPN
-      - Color
+      - Weight
+      - Height
+      - Depth
+      - Width
+    :title:
+      - Brand
+      - Family Line
+      - Model
+      - Storage Capacity
+    :matchers:
+      - :brand
+      - :carrier
+      - :color
+
   :139971:
     :properties:
       - Brand
@@ -39,9 +49,14 @@
         - Hard Drive Capacity
         - UPC
         - Carrier
+        - Color
       :exclude_from_name:
         - UPC
         - Carrier
+        - Color
+      :extractors:
+        :carrier: [no contract]
+        :color: []
 
   :11071:
       :properties:
@@ -50,15 +65,3 @@
         - UPC
       :exclude_from_name:
         - UPC
-
-:amazon_categories_mapping:
-  :9355:
-    - 2407749011
-    - 2407748011
-    - 2407747011
-  :31388:
-    - 3017941
-    - 330405011
-    - 3109924011
-  :139971:
-    - 14210711

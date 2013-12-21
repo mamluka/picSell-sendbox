@@ -1,4 +1,4 @@
-:9355:
+:phones:
   # phones
   :search:
     :search_alias: 'mobile'
@@ -38,8 +38,9 @@
     - Cell Phones & Accessories::Cell Phones::No-Contract Cell Phones
     - Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones
   :allow_no_category: false
+  :min_price: 50
 
-:171485:
+:tablets:
   # tablets
   :search:
     :search_alias: 'electronics'
@@ -51,7 +52,7 @@
     - 'Google Android'
     - 'DUAL CAMERA'
   :bad_patterns:
-    - '\s\w+?\/A\s'
+    - '\s\w+?\/A'
     - '\(.+?\)'
     - '\s-\s?.*$'
     - ',\s.*$'
@@ -81,7 +82,7 @@
   :allowed_categories: []
   :allow_no_category: true
 
-:11071:
+:tvs:
   # tv
   :search:
     :search_alias: 'electronics'
@@ -109,7 +110,7 @@
   :allowed_categories: []
   :allow_no_category: true
 
-:139971:
+:consoles:
   # wii console
   :search:
     :search_alias: 'videogames'

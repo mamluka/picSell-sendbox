@@ -1,0 +1,11 @@
+%%
+percent_diff = prices(:,1)./prices(:,2);
+hist(percent_diff(isfinite(percent_diff)),0:0.05:2)
+%%
+phones_clean = phones(phones(:,2) > 50,1:2);
+phones_diff = phones_clean(:,1)./phones_clean(:,2);
+
+hist(phones_diff,0:0.05:20)
+%%
+phones_diff = phones(:,1)./phones(:,2);
+find(phones_diff > 2 & phones_diff < 50)

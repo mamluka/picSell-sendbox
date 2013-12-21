@@ -88,6 +88,7 @@ ebay_data.map { |x| x[:name] }.concat(ebay_data.map { |x| "#{x[:brand]} #{x[:'fa
       (logger.info 'Skipped because product asin was already gathered'; next) if products.any? { |x| x[:asin] == asin }
 
       amazon_name = amazon_product.attribute_sets.item_attributes.title
+
       original_name = amazon_name
 
       all_products_original_name << original_name
