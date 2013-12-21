@@ -2,7 +2,7 @@ module MWS
   module API
 
     class Response < Hashie::Rash
-      
+
       def self.parse(hash, name, params)
         rash = self.new(hash)
         handle_error_response(rash["error_response"]["error"]) unless rash["error_response"].nil?
@@ -11,7 +11,15 @@ module MWS
 
         if rash = rash["#{name}_result"]
           # only runs mods if correct result is present
-          params[:mods].each {|mod| mod.call(rash) } if params[:mods]
+          if params[:mods]
+            if rash.kind_of?(Array)
+              params[:mods].each { |mod| rash.each { |r| mod.call(r) } }
+            else
+              params[:mods].each { |mod| mod.call(rash) }
+            end
+
+          end
+
           rash
         end
       end

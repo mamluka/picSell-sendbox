@@ -1,0 +1,126 @@
+:phones:
+  # phones
+  :search:
+    :search_alias: 'mobile'
+  :bad_words:
+    - android
+    - new
+    - phone
+    - gsm
+    - smartphone
+    - lte
+    - factory
+    - smartphone
+    - cellphone
+  :bad_phrases:
+    - international version
+    - cell phone
+    - dual core
+    - clean esn
+  :bad_patterns:
+    - 'with\s.+?$'
+    - '\d{1,2}\.?\d{0,2}mp'
+    - '\(.+?\)'
+    - '\s-\s?.*$'
+    - ',\s.*$'
+    - 'prepaid'
+    - '\/.*$'
+  :extractors:
+    :carrier: [no contract]
+    :color: []
+  :variants:
+      -
+        :name: Carrier
+        :key: :carrier
+  :allowed_categories:
+    - Cell Phones & Accessories::Cell Phones::Contract Cell Phones
+    - Cell Phones & Accessories::Accessories::Cases, Holsters & Clips::Cases
+    - Cell Phones & Accessories::Cell Phones::No-Contract Cell Phones
+    - Cell Phones & Accessories::Cell Phones::Unlocked Cell Phones
+  :allow_no_category: false
+  :min_price: 50
+
+:tablets:
+  # tablets
+  :search:
+    :search_alias: 'electronics'
+  :bad_words:
+    - pc
+  :bad_phrases:
+    - 'NEWEST VERSION'
+    - 'Dual Core'
+    - 'Google Android'
+    - 'DUAL CAMERA'
+  :bad_patterns:
+    - '\s\w+?\/A'
+    - '\(.+?\)'
+    - '\s-\s?.*$'
+    - ',\s.*$'
+    - ';\s.*$'
+    - 'with\s.+?$'
+    - '\s\/\s.+?$'
+    - 'android \d{1,2}\.?(\d{1,2})?\.?(\d{1,2})?'
+  :replace_groups:
+    :patterns:
+      -
+        :key: 'storage'
+        :pattern: '(\d+\s?gb)'
+        :group: 0
+      -
+        :key: 'generation'
+        :pattern: '(\d(th|nd|rd) generation|first generation)'
+        :group: 0
+
+    :title: ' generation storage'
+
+  :extractors:
+    :carrier: []
+  :variants:
+      -
+        :name: Carrier
+        :key: :carrier
+  :allowed_categories: []
+  :allow_no_category: true
+
+:tvs:
+  # tv
+  :search:
+    :search_alias: 'electronics'
+  :bad_words:
+    - LED
+    - HDTV
+    - Smart
+    - forAdults
+    - SmartTV
+    - Slim
+    - LED-LCD
+  :bad_phrases:
+  :bad_patterns:
+     - '\d+?p'
+     - '\d+?Hz'
+     - '\(.+?\)'
+     - 'with\s.+?$'
+     - '\s-\s?.*$'
+     - ',\s.*$'
+  :extractors:
+  :variants:
+      -
+        :name: Carrier
+        :key: :carrier
+  :allowed_categories: []
+  :allow_no_category: true
+
+:consoles:
+  # wii console
+  :search:
+    :search_alias: 'videogames'
+  :bad_words:
+  :bad_phrases:
+  :bad_patterns:
+  :extractors:
+  :variants:
+  :allowed_categories:
+  :allow_no_category: true
+
+
+

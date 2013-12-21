@@ -1,2 +1,67 @@
-9355: [2407749011,2407748011,2407747011]
-233: []
+:ebay_details_mapping:
+  :31388:
+    :properties:
+      - Brand
+      - Model
+      - MPN
+      - UPC
+    :exclude_from_name:
+      - MPN
+      - UPC
+  :phones:
+    :category_id: 9355
+    :properties:
+      - Brand
+      - Family Line
+      - Model
+      - Carrier
+      - Storage Capacity
+      - UPC
+      - MPN
+      - Color
+      - Weight
+      - Height
+      - Depth
+      - Width
+    :title:
+      - Brand
+      - Family Line
+      - Model
+      - Storage Capacity
+    :matchers:
+      - :brand
+      - :carrier
+      - :color
+
+  :139971:
+    :properties:
+      - Brand
+      - Product Name
+      - UPC
+    :exclude_from_name:
+      - UPC
+
+  :171485:
+      :properties:
+        - Brand
+        - Family Line
+        - Model
+        - Hard Drive Capacity
+        - UPC
+        - Carrier
+        - Color
+      :exclude_from_name:
+        - UPC
+        - Carrier
+        - Color
+      :extractors:
+        :carrier: [no contract]
+        :color: []
+
+  :11071:
+      :properties:
+        - Brand
+        - Model
+        - UPC
+      :exclude_from_name:
+        - UPC

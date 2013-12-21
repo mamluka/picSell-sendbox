@@ -22,15 +22,7 @@ Rebay::Api.configure do |rebay|
 end
 
 logger = Logger.new('get-ebay-items.log')
-
-mws = MWS.new(:aws_access_key_id => "AKIAIDZUEZILKOGLJNJQ",
-              :secret_access_key => "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",
-              :seller_id => "A25ONFDA24CSQ8",
-              :marketplace_id => "ATVPDKIKX0DER")
-
-shopping = Rebay::Shopping.new
 finder = Rebay::Finding.new
-
 product_details = Array.new
 
 start = Time.now
@@ -39,7 +31,9 @@ start = Time.now
 
   begin
     current_page = page
-    response = shopping.find_products(CategoryID: ARGV[0].to_i, MaxEntries: 20, PageNumber: current_page, IncludeSelector: 'Details')
+    response = finder.find_items_by_category(categoryId: ARGV[0].to_i, :'paginationInput.entriesPerPage' => 100, :'paginationInput.pageNumber' => current_page, :'itemFilter.name' => 'ListingType', :'itemFilter.value' => 'AuctionWithBIN', sortOrder: 'BidCountMost')
+
+    logger.info response.response
 
     next if response.results.nil?
 
@@ -49,9 +43,14 @@ start = Time.now
 
       begin
 
+        logger.info x
+
+        name = x['title']
         product_details << {
-            product: x,
-            details_url: x['DetailsURL']
+            title: name,
+            listing_type: x['listingInfo']['listingType'],
+            primary_category: x['primaryCategory']['categoryName'],
+            details_url: x['viewItemURL']
         }
 
       rescue Exception => ex
@@ -70,4 +69,6 @@ end
 logger.info "Took: #{(Time.now-start)/60} min"
 logger.info "Number of product_details found is: #{product_details.length}"
 
-File.open("#{ARGV[1]}.json", 'w') { |f| f.write JSON.pretty_generate(product_details) }
+if product_details.length > 0
+  File.open("#{ARGV[1]}.json", 'w') { |f| f.write JSON.pretty_generate(product_details) }
+end

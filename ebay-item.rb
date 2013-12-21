@@ -6,6 +6,7 @@ require 'peach'
 require 'open-uri'
 require 'pry'
 require 'logger'
+require 'yaml'
 
 require_relative 'math-tools'
 require_relative 'ruby-mws'
@@ -31,17 +32,22 @@ mws = MWS.new(:aws_access_key_id => "AKIAIDZUEZILKOGLJNJQ",
 shopping = Rebay::Shopping.new
 finder = Rebay::Finding.new
 
+mapping = YAML.load(File.read(File.dirname(__FILE__) + '/mapping.yml'))
+
 products = Array.new
 
 start = Time.now
 
 product_ranking = Hash.new
 
-(1..1).each do |page|
+category_id = ARGV[0]
+
+(1..ARGV[1].to_i).each do |page|
 
   begin
     current_page = page
-    response = shopping.find_products(CategoryID: 9355, MaxEntries: 20, PageNumber: current_page, IncludeSelector: 'Details')
+
+    response = shopping.find_products(CategoryID: category_id, MaxEntries: 20, PageNumber: current_page, IncludeSelector: 'Details')
 
     next if response.results.nil?
 
@@ -59,15 +65,28 @@ product_ranking = Hash.new
 
         product_id = x['ProductID']['Value']
 
-        brand = response.scan(/>Brand.+?<font.+?>(.+?)<\/font>/)[0][0] rescue nil
-        model = response.scan(/>Model.+?<font.+?>(.+?)<\/font>/)[0][0] rescue nil
-        family_line = response.scan(/>Family Line.+?<font.+?>(.+?)<\/font>/)[0][0] rescue nil
-        carrier = response.scan(/>Carrier.+?<font.+?>(.+?)<\/font>/)[0][0] rescue nil
-        storage_capacity = response.scan(/>Storage Capacity.+?<font.+?>(.+?)<\/font>/)[0][0].delete(' ') rescue nil
+        properties = mapping[:ebay_details_mapping][category_id.to_sym]
 
-        family_line = family_line.gsub(brand, '') if !brand.nil? && !family_line.nil?
+        extracted_properties = Array.new
+        properties[:properties].each do |prop|
+          extracted = (response.scan(/>#{prop}.+?<font.+?>(.+?)<\/font>/)[0][0] rescue nil)
+          extracted_properties << {name: prop, value: extracted} if not extracted.nil?
+        end
 
-        name = "#{brand} #{family_line} #{model} #{storage_capacity}".squeeze(' ').strip
+        name = extracted_properties
+        .select { |x| !x.nil? }
+        .select { |x|
+          if not properties[:exclude_from_name].nil?
+            !properties[:exclude_from_name].include?(x[:name])
+          else
+            true
+          end
+        }
+        .map { |x| x[:value] }
+        .uniq.join(' ')
+        .split(' ')
+        .uniq
+        .join(' ')
 
         logger.info "Working on #{name}"
 
@@ -123,7 +142,9 @@ product_ranking = Hash.new
             product_categories = x.sales_rankings.sales_rank.map { |x| x.product_category_id.to_i if !x.kind_of?(Array) && x.product_category_id.match(/^\d*$/) }.select { |x| x!= nil } if not x.sales_rankings.nil?
             amazon_url = "http://www.amazon.com/product-name/dp/#{asin}"
 
-            if product_categories.nil? || product_categories.all? { |x| x != 2407749011 && x != 2407748011 && x!=2407747011 }
+            allows_categories = mapping[:amazon_categories_mapping][category_id.to_sym]
+
+            if product_categories.nil? || (product_categories & allows_categories).length == 0
 
               amazon_page = open(amazon_url)
               amazon_page_content = amazon_page.read
@@ -135,7 +156,7 @@ product_ranking = Hash.new
 
               amazon_category_section = amazon_category_section_array[0][0]
 
-              if !amazon_category_section.include?(2407749011.to_s) && !amazon_category_section.include?(2407748011.to_s) && !amazon_category_section.include?(2407747011.to_s)
+              if  allows_categories.all? { |x| amazon_category_section.include? x.to_s }
                 next
               end
             end
@@ -177,11 +198,7 @@ product_ranking = Hash.new
             name: name,
             details_url: x['DetailsURL'],
             product_id: product_id,
-            model: model,
-            brand: brand,
-            family_line: family_line,
-            carrier: carrier,
-            storage_capacity: storage_capacity,
+            properties: extracted_properties,
             popularity_rank: product_ranking[product_id],
             item_count: (items_by_product.length rescue nil),
             ebay_new_range: ebay_new_range,
@@ -213,6 +230,12 @@ product_ranking = Hash.new
 end
 
 logger.info "Took: #{(Time.now-start)/60} min"
-logger.info "Number of products found is: #{products.length}"
+number_of_products = products.length
+
+logger.info "Number of products found is: #{number_of_products}"
+
+number_amazon_matches = products.count { |x| x[:amazon_matched_products].length > 0 }
+
+logger.info "Hits on amazon #{(number_amazon_matches/number_of_products.to_f*100).round(0)}%"
 
 File.open('phones-ebay-products.json', 'w') { |f| f.write JSON.pretty_generate(products) }
