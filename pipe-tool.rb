@@ -4,6 +4,8 @@ require 'pry'
 require 'thor'
 require 'json'
 require 'digest/md5'
+require 'logger'
+
 require_relative 'extentions'
 
 class Pipe < Thor
@@ -12,6 +14,7 @@ class Pipe < Thor
     super
 
     @pipe_data = YAML.load File.read(File.dirname(__FILE__) +'/pipes-data.yml')
+    @logger = Logger.new('log-pipe.log')
   end
 
   desc 'combine', 'combine files to a grouped by'
@@ -65,48 +68,52 @@ class Pipe < Thor
     products = json_load file
 
     mashed_products = products.map { |x|
-      variants = x[:products].map { |p|
+      begin
+        variants = x[:products].map { |p|
 
-        basic = {
-            name: p[:name],
-            amazon_name: p[:amazon_name],
-            ebay_name: p[:ebay_name],
-            asin: p[:asin],
-            upc: p[:upc],
-            item_count: p[:ebay][:item_count] + p[:amazon][:item_count],
-            sales_rank: (1.0/p[:amazon][:sales_rank])*10000,
+          basic = {
+              name: p[:name],
+              amazon_name: p[:amazon_name],
+              ebay_name: p[:ebay_name],
+              asin: p[:asin],
+              upc: p[:upc],
+              item_count: p[:ebay][:item_count] + p[:amazon][:item_count],
+              sales_rank: (1.0/p[:amazon][:sales_rank])*10000,
+          }
+
+          prices = Hash.new
+          prices[:ebay_new] = p[:ebay][:price][:new]
+          prices[:ebay_used] = p[:ebay][:price][:used]
+          prices[:amazon_new] = p[:amazon][:price][:new] if p[:amazon][:price][:new]
+          prices[:amazon_used] = p[:amazon][:price][:used] if p[:amazon][:price][:used]
+
+          prices[:new] = [prices[:ebay_new], prices[:amazon_new]].compact.min
+          prices[:used] = [prices[:ebay_used], prices[:amazon_used]].compact.min
+
+          basic[:prices] = prices
+
+          basic[:variants] = Hash[data[:variants].map { |v|
+            [v, p[:ebay][:properties][v]] if p[:ebay][:properties][v]
+          }.compact]
+
+          basic[:properties] = p[:ebay][:properties].merge(p[:amazon][:properties])
+
+          basic
         }
 
-        prices = Hash.new
-        prices[:ebay_new] = p[:ebay][:price][:new]
-        prices[:ebay_used] = p[:ebay][:price][:used]
-        prices[:amazon_new] = p[:amazon][:price][:new] if p[:amazon][:price][:new]
-        prices[:amazon_used] = p[:amazon][:price][:used] if p[:amazon][:price][:used]
+        {
+            id: Digest::MD5.hexdigest(x[:name])[0..8],
+            name: x[:name],
+            item_count: variants.inject(0) { |sum, x| sum + x[:item_count] },
+            sales_rank: variants.inject(0) { |sum, x| sum + x[:sales_rank] },
+            variants_count: variants.length,
+            category: category,
+            variants: variants
 
-        prices[:new] = [prices[:ebay_new], prices[:amazon_new]].compact.min
-        prices[:used] = [prices[:ebay_used], prices[:amazon_used]].compact.min
+        }
+      rescue Exception => ex
 
-        basic[:prices] = prices
-
-        basic[:variants] = Hash[data[:variants].map { |v|
-          [v, p[:ebay][:properties][v]] if p[:ebay][:properties][v]
-        }.compact]
-
-        basic[:properties] = p[:ebay][:properties].merge(p[:amazon][:properties])
-
-        basic
-      }
-
-      {
-          id: Digest::MD5.hexdigest(x[:name])[0..8],
-          name: x[:name],
-          item_count: variants.inject(0) { |sum, x| sum + x[:item_count] },
-          sales_rank: variants.inject(0) { |sum, x| sum + x[:sales_rank] },
-          variants_count: variants.length,
-          category: category,
-          variants: variants
-
-      }
+      end
     }
 
     $stdout.puts JSON.pretty_generate mashed_products
