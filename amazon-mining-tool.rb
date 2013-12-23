@@ -214,9 +214,10 @@ class AmazonMining < Thor
   def match(file, category_id)
     products = JSON.parse File.read(file), symbolize_names: true
 
-    matched_products = products.pmap(20) { |product|
+    matched_products = products.pmap(1) { |product|
       amazon_products = search_by_query product[:query], {return_value: :titles_and_asins, search_alias: @amazon_etl[category_id.to_sym][:search][:search_alias]}
-      matched_product = amazon_products.first { |x| product[:matchers].all? { |p| x[:title] =~ /#{p}/i } }
+
+      matched_product = amazon_products.select { |x| product[:matchers].all? { |p| x[:title] =~ /#{p}/i } }.first
 
       next product.merge matched: false, amazon_options: amazon_products if matched_product.nil?
 

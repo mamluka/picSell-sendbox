@@ -40,6 +40,7 @@ class EbayMining < Thor
 
     ebay_mapping = @mapping[:ebay_details_mapping][category_id.to_sym]
     properties_extractors = Hash[ebay_mapping[:extractors].empty_if_nil.map { |k, v| [k, product_properties[k] + v] }]
+
     start = Time.new
 
     (1..number_of_pages.to_i).peach(options[:threads]) do |page|
@@ -101,6 +102,7 @@ class EbayMining < Thor
 
             next if options[:must_have_full_price] && (new_items_by_product.empty? || used_items_by_product.empty?)
 
+
             product = {
                 name: name,
                 original_name: original_name,
@@ -113,9 +115,10 @@ class EbayMining < Thor
 
 
             properties_extractors.map { |k, v|
-              extracted = v.map { |x| original_name.scan /#{x}/i }.flatten.map(&:downcase)
-              product[k]= extracted.first if extracted.any?
+              extracted = v.map { |x| original_name.scan /#{x}/i }.flatten
+              product[:properties][k]= extracted.first if extracted.any?
             }
+
 
             new_items = [new_items_by_product].flatten
             .map { |x| x['sellingStatus']['currentPrice']['__value__'].to_f }

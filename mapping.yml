@@ -41,22 +41,29 @@
     :exclude_from_name:
       - UPC
 
-  :171485:
-      :properties:
-        - Brand
-        - Family Line
-        - Model
-        - Hard Drive Capacity
-        - UPC
-        - Carrier
-        - Color
-      :exclude_from_name:
-        - UPC
-        - Carrier
-        - Color
-      :extractors:
-        :carrier: [no contract]
-        :color: []
+  :tablets:
+    :category_id: 171485
+    :properties:
+      - Brand
+      - Family Line
+      - Model
+      - Hard Drive Capacity
+      - UPC
+      - Carrier
+      - Color
+    :exclude_from_name:
+      - UPC
+      - Carrier
+      - Color
+    :title:
+      - Brand
+      - Family Line
+      - Model
+      - Storage Capacity
+    :matchers:
+      - :brand
+    :extractors:
+      :color: []
 
   :11071:
       :properties:

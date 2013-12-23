@@ -2,3 +2,8 @@
   :variants:
     - :carrier
     - :color
+
+:tablets:
+  :variants:
+    - :carrier
+    - :color

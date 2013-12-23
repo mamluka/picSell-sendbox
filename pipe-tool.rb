@@ -41,6 +41,7 @@ class Pipe < Thor
           ebay_name: ebay_product[:original_name],
           asin: asin,
           upc: upc,
+          variant_id: Digest::MD5.hexdigest("#{asin}#{upc}")[0..8],
           amazon: amazon_product,
           ebay: ebay_product
       }
@@ -68,52 +69,49 @@ class Pipe < Thor
     products = json_load file
 
     mashed_products = products.map { |x|
-      begin
-        variants = x[:products].map { |p|
+      variants = x[:products].map { |p|
 
-          basic = {
-              name: p[:name],
-              amazon_name: p[:amazon_name],
-              ebay_name: p[:ebay_name],
-              asin: p[:asin],
-              upc: p[:upc],
-              item_count: p[:ebay][:item_count] + p[:amazon][:item_count],
-              sales_rank: (1.0/p[:amazon][:sales_rank])*10000,
-          }
-
-          prices = Hash.new
-          prices[:ebay_new] = p[:ebay][:price][:new]
-          prices[:ebay_used] = p[:ebay][:price][:used]
-          prices[:amazon_new] = p[:amazon][:price][:new] if p[:amazon][:price][:new]
-          prices[:amazon_used] = p[:amazon][:price][:used] if p[:amazon][:price][:used]
-
-          prices[:new] = [prices[:ebay_new], prices[:amazon_new]].compact.min
-          prices[:used] = [prices[:ebay_used], prices[:amazon_used]].compact.min
-
-          basic[:prices] = prices
-
-          basic[:variants] = Hash[data[:variants].map { |v|
-            [v, p[:ebay][:properties][v]] if p[:ebay][:properties][v]
-          }.compact]
-
-          basic[:properties] = p[:ebay][:properties].merge(p[:amazon][:properties])
-
-          basic
+        basic = {
+            name: p[:name],
+            amazon_name: p[:amazon_name],
+            ebay_name: p[:ebay_name],
+            asin: p[:asin],
+            upc: p[:upc],
+            variant_id: p[:variant_id],
+            item_count: p[:ebay][:item_count] + p[:amazon][:item_count],
+            sales_rank: (1.0/p[:amazon][:sales_rank])*10000,
         }
 
-        {
-            id: Digest::MD5.hexdigest(x[:name])[0..8],
-            name: x[:name],
-            item_count: variants.inject(0) { |sum, x| sum + x[:item_count] },
-            sales_rank: variants.inject(0) { |sum, x| sum + x[:sales_rank] },
-            variants_count: variants.length,
-            category: category,
-            variants: variants
+        prices = Hash.new
+        prices[:ebay_new] = p[:ebay][:price][:new]
+        prices[:ebay_used] = p[:ebay][:price][:used]
+        prices[:amazon_new] = p[:amazon][:price][:new] if p[:amazon][:price][:new]
+        prices[:amazon_used] = p[:amazon][:price][:used] if p[:amazon][:price][:used]
 
-        }
-      rescue Exception => ex
+        prices[:new] = [prices[:ebay_new], prices[:amazon_new]].compact.min
+        prices[:used] = [prices[:ebay_used], prices[:amazon_used]].compact.min
 
-      end
+        basic[:prices] = prices
+
+        basic[:variants] = Hash[data[:variants].map { |v|
+          [v, p[:ebay][:properties][v]] if p[:ebay][:properties][v]
+        }.compact]
+
+        basic[:properties] = p[:ebay][:properties].merge(p[:amazon][:properties])
+
+        basic
+      }
+
+      {
+          id: Digest::MD5.hexdigest(x[:name])[0..8],
+          name: x[:name],
+          item_count: variants.inject(0) { |sum, x| sum + x[:item_count] },
+          sales_rank: variants.inject(0) { |sum, x| sum + x[:sales_rank] },
+          variants_count: variants.length,
+          category: category,
+          variants: variants
+
+      }
     }
 
     $stdout.puts JSON.pretty_generate mashed_products
