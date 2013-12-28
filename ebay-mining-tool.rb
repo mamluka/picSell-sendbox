@@ -13,6 +13,7 @@ require 'nokogiri'
 require_relative 'ruby-mws/base'
 require_relative 'math-tools'
 require_relative 'extentions'
+require_relative 'ebay-tablets-calculated'
 
 class EbayMining < Thor
 
@@ -77,7 +78,17 @@ class EbayMining < Thor
               next if extracted.nil?
 
               extracted = extracted.split(', ') if extracted.include? ','
-              extracted_properties[prop] = extracted if not extracted.nil?
+              extracted_properties[prop] = extracted if !extracted.nil? && !ebay_mapping[:properties_nullifiers].include?(extracted)
+            end
+
+            ebay_mapping[:properties_calculated].each do |prop|
+              input = extracted_properties[prop[:input]]
+              next if input.nil?
+
+              calculator = Object.const_get("Ebay#{category_id.capitalize}#{prop[:class]}").new
+              calculated = calculator.calculate input
+
+              extracted_properties[prop[:key]] = calculated if !calculated.nil? && !ebay_mapping[:properties_nullifiers].include?(calculated)
             end
 
             name = extracted_properties
@@ -100,8 +111,12 @@ class EbayMining < Thor
             .find_items_by_product({productId: product_id, :'itemFilter(0).name' => 'ListingType', :'itemFilter(0).value' => 'FixedPrice', :'itemFilter(1).name' => 'Condition', :'itemFilter(1).value(0)' => '3000'})
             .results.empty_if_nil
 
+
             next if options[:must_have_full_price] && (new_items_by_product.empty? || used_items_by_product.empty?)
 
+            item_count = new_items_by_product.count + used_items_by_product.count
+
+            next if item_count == 0
 
             product = {
                 name: name,
@@ -110,7 +125,7 @@ class EbayMining < Thor
                 product_id: product_id,
                 description: description,
                 properties: extracted_properties,
-                item_count: new_items_by_product.count + used_items_by_product.count
+                item_count: item_count
             }
 
 
@@ -248,13 +263,15 @@ class EbayMining < Thor
       .map { |p|
         {
             query: p,
-            matchers: ebay_mapping[:matchers].map { |m| x[:properties][m] }.compact,
-            name: x[:original_name]
+            matchers: ebay_mapping[:matchers][:list].map { |m| x[:properties][m] }.compact,
+            name: x[:original_name],
+            max_mismatch: ebay_mapping[:matchers][:max_mismatch],
+            min_matches: ebay_mapping[:matchers][:min_matches]
         }
       }
     }.flatten
 
-    $stdout.puts match_products.to_json
+    $stdout.puts JSON.pretty_generate(match_products)
 
   end
 

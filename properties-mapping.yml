@@ -1,0 +1,45 @@
+:definitions:
+  :name: title
+  :brand: brand
+  :color: color
+  :display_size:
+    -
+      - Diagonal Screen Size
+    -
+      - display_size
+      - _content_
+  :weight:
+    -
+      - weight
+    -
+      - item_dimensions
+      - weight
+      - _content_
+  :width:
+    -
+      - width
+    -
+      - item_dimensions
+      - width
+      - _content_
+  :height:
+    -
+      - height
+    -
+      - item_dimensions
+      - height
+      - _content_
+
+  :length:
+    -
+      - depth
+    -
+      - item_dimensions
+      - length
+      - _content_
+
+  :family_line: family_line
+  :manufacturer: manufacturer
+  :model: model
+  :part_number: part_number
+  :mnp: mnp

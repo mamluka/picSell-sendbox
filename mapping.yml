@@ -1,13 +1,4 @@
 :ebay_details_mapping:
-  :31388:
-    :properties:
-      - Brand
-      - Model
-      - MPN
-      - UPC
-    :exclude_from_name:
-      - MPN
-      - UPC
   :phones:
     :category_id: 9355
     :properties:
@@ -29,17 +20,12 @@
       - Model
       - Storage Capacity
     :matchers:
-      - :brand
-      - :carrier
-      - :color
-
-  :139971:
-    :properties:
-      - Brand
-      - Product Name
-      - UPC
-    :exclude_from_name:
-      - UPC
+      :max_mismatch: 1
+      :min_matches: 1
+      :list:
+        - :brand
+        - :carrier
+        - :color
 
   :tablets:
     :category_id: 171485
@@ -51,24 +37,38 @@
       - UPC
       - Carrier
       - Color
-    :exclude_from_name:
-      - UPC
-      - Carrier
-      - Color
+      - Display Size
+      - Internet Connectivity
+    :properties_nullifiers:
+      - Not Applicable
+      - Not Specified
+    :properties_calculated:
+      -
+        :key: Short Display Size
+        :input: Display Size
+        :class: ShortDisplaySize
+      -
+        :key: Inch Count Display Size
+        :input: Display Size
+        :class: InchCountDisplaySize
+      -
+        :key: Carrier
+        :input: Carrier
+        :class: CleanCarrier
+
     :title:
       - Brand
       - Family Line
       - Model
-      - Storage Capacity
+      - Hard Drive Capacity
+      - Short Display Size
     :matchers:
-      - :brand
+      :max_mismatch: 1
+      :min_matches: 1
+      :list:
+        - :brand
+        - :carrier
+        - :family_line
+
     :extractors:
       :color: []
-
-  :11071:
-      :properties:
-        - Brand
-        - Model
-        - UPC
-      :exclude_from_name:
-        - UPC

@@ -8,4 +8,3 @@ pageCount=$2
 cat asins/$category | ./amazon-mining-tool.rb mine $category --use-asins --allow-no-categories --allow-any-sales-ranking
 ./pipe-tool.rb combine ebay-$category.json amazon-$category.json matched-$category.json > combined-$category.json
 ./pipe-tool.rb mash combined-$category.json $category > indexable-$category.json
-./product-indexing-tool.rb index indexable-$category.json

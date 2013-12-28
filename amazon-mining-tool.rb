@@ -210,14 +210,20 @@ class AmazonMining < Thor
 
   desc 'match', 'Match products given query amd features to match'
   option :asins, type: :boolean
+  option :threads, type: :numeric, default: 10
 
   def match(file, category_id)
     products = JSON.parse File.read(file), symbolize_names: true
 
-    matched_products = products.pmap(1) { |product|
+    matched_products = products.pmap(options[:threads]) { |product|
       amazon_products = search_by_query product[:query], {return_value: :titles_and_asins, search_alias: @amazon_etl[category_id.to_sym][:search][:search_alias]}
 
-      matched_product = amazon_products.select { |x| product[:matchers].all? { |p| x[:title] =~ /#{p}/i } }.first
+      max_mismatch = product[:max_mismatch] || 0
+      min_matches = product[:min_matches] || 1
+      matched_product = amazon_products.select { |x|
+        matches = product[:matchers].count { |p| x[:title] =~ /#{p}/i }
+        matches >= product[:matchers].length-max_mismatch && matches >=min_matches
+      }.first
 
       next product.merge matched: false, amazon_options: amazon_products if matched_product.nil?
 
@@ -234,7 +240,7 @@ class AmazonMining < Thor
 
   def extract_asins(file)
     items = file.parse_path_to_json
-    items.map {|x| x[:asin]}.compact.each{|x| $stdout.puts x}
+    items.map { |x| x[:asin] }.compact.each { |x| $stdout.puts x }
   end
 
   desc 'append-categories', 'Append categories to an existing feed on product in a json  output by match'

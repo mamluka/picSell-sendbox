@@ -8,6 +8,24 @@ require 'logger'
 
 require_relative 'extentions'
 
+module Core
+  module Mapping
+    class Mapping
+
+      def initialize
+        @mapping = YAML.load File.read(File.dirname(__FILE__)+'/properties-mapping.yml')
+      end
+
+      def map(properties)
+        Hash[@mapping[:definitions].map { |k, v|
+          [k, [*v].map { |p| [*p].inject(properties) { |sum, x| sum[x.to_sym] if !sum.nil? && sum.kind_of?(Hash) } }.compact.first]
+        }.select { |k, v| !v.nil? }]
+      end
+
+    end
+  end
+end
+
 class Pipe < Thor
 
   def initialize(*args)
@@ -25,7 +43,9 @@ class Pipe < Thor
     amazon_products = json_load amazon_file
     matched_pairs = json_load matched_file
 
-    combined_products = matched_pairs.select { |x| x[:matched] }.map { |x|
+    combined_products = matched_pairs
+    .select { |x| x[:matched] }
+    .map { |x|
       asin = x[:asin]
       upc = x[:query]
 
@@ -69,24 +89,36 @@ class Pipe < Thor
     products = json_load file
 
     mashed_products = products.map { |x|
+
+      product_id =Digest::MD5.hexdigest(x[:name])[0..8]
       variants = x[:products].map { |p|
 
         basic = {
             name: p[:name],
+            long_name: p[:ebay_name],
+            description: p[:ebay][:description],
             amazon_name: p[:amazon_name],
             ebay_name: p[:ebay_name],
             asin: p[:asin],
             upc: p[:upc],
+            category: category,
             variant_id: p[:variant_id],
+            product_id: product_id,
             item_count: p[:ebay][:item_count] + p[:amazon][:item_count],
             sales_rank: (1.0/p[:amazon][:sales_rank])*10000,
         }
 
         prices = Hash.new
-        prices[:ebay_new] = p[:ebay][:price][:new]
-        prices[:ebay_used] = p[:ebay][:price][:used]
-        prices[:amazon_new] = p[:amazon][:price][:new] if p[:amazon][:price][:new]
-        prices[:amazon_used] = p[:amazon][:price][:used] if p[:amazon][:price][:used]
+
+        if p[:ebay][:price]
+          prices[:ebay_new] = p[:ebay][:price][:new] if p[:ebay][:price][:new]
+          prices[:ebay_used] = p[:ebay][:price][:used] if p[:ebay][:price][:used]
+        end
+
+        if p[:amazon][:price]
+          prices[:amazon_new] = p[:amazon][:price][:new] if p[:amazon][:price][:new]
+          prices[:amazon_used] = p[:amazon][:price][:used] if p[:amazon][:price][:used]
+        end
 
         prices[:new] = [prices[:ebay_new], prices[:amazon_new]].compact.min
         prices[:used] = [prices[:ebay_used], prices[:amazon_used]].compact.min
@@ -97,13 +129,16 @@ class Pipe < Thor
           [v, p[:ebay][:properties][v]] if p[:ebay][:properties][v]
         }.compact]
 
-        basic[:properties] = p[:ebay][:properties].merge(p[:amazon][:properties])
+        mapping = Core::Mapping::Mapping.new
+        properties = convert_keys_to_symbols(p[:amazon][:raw_properties].merge(p[:ebay][:properties]))
+
+        basic[:properties] = mapping.map(properties)
 
         basic
-      }
+      }.uniq { |x| x[:variants] }
 
       {
-          id: Digest::MD5.hexdigest(x[:name])[0..8],
+          id: product_id,
           name: x[:name],
           item_count: variants.inject(0) { |sum, x| sum + x[:item_count] },
           sales_rank: variants.inject(0) { |sum, x| sum + x[:sales_rank] },
@@ -123,6 +158,21 @@ class Pipe < Thor
   def json_load(file)
     JSON.parse File.read(file), symbolize_names: true
   end
+
+  def convert_keys_to_symbols(hash)
+    s2s =
+        lambda do |h|
+          Hash === h ?
+              Hash[
+                  h.map do |k, v|
+                    [k.respond_to?(:to_sym) ? k.to_sym : k, s2s[v]]
+                  end
+              ] : h
+        end
+
+    s2s[hash]
+  end
+
 end
 
 Pipe.start
