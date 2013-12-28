@@ -78,7 +78,7 @@ class EbayMining < Thor
               next if extracted.nil?
 
               extracted = extracted.split(', ') if extracted.include? ','
-              extracted_properties[prop] = extracted if !extracted.nil? && !ebay_mapping[:properties_nullifiers].include?(extracted)
+              extracted_properties[prop] = extracted if !extracted.nil? && !ebay_mapping[:properties_nullifiers].empty_if_nil.include?(extracted)
             end
 
             ebay_mapping[:properties_calculated].each do |prop|
@@ -88,8 +88,8 @@ class EbayMining < Thor
               calculator = Object.const_get("Ebay#{category_id.capitalize}#{prop[:class]}").new
               calculated = calculator.calculate input
 
-              extracted_properties[prop[:key]] = calculated if !calculated.nil? && !ebay_mapping[:properties_nullifiers].include?(calculated)
-            end
+              extracted_properties[prop[:key]] = calculated if !calculated.nil? && !ebay_mapping[:properties_nullifiers].empty_if_nil.include?(calculated)
+            end if ebay_mapping[:properties_calculated]
 
             name = extracted_properties
             .select { |x| ebay_mapping[:title].include? x }
