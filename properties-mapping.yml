@@ -42,4 +42,20 @@
   :manufacturer: manufacturer
   :model: model
   :part_number: part_number
-  :mnp: mnp
+  :mpn: mpn
+
+:basic:
+  - name
+  - weight
+  - asin
+  - upc
+  - mpn
+  - manufacturer
+  - model
+  - brand
+  - condition
+  - height
+  - width
+  - length
+
+

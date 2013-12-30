@@ -22,6 +22,16 @@ module Core
         }.select { |k, v| !v.nil? }]
       end
 
+      def distribute(item, properties)
+        basic_properties = @mapping[:basic].map(&:to_sym)
+        mapped_properties = map(properties)
+
+        item = item.merge(mapped_properties.select { |k| basic_properties.include? k })
+        item[:properties] = mapped_properties.reject { |k| basic_properties.include? k }
+
+        item
+      end
+
     end
   end
 end
@@ -132,9 +142,10 @@ class Pipe < Thor
         mapping = Core::Mapping::Mapping.new
         properties = convert_keys_to_symbols(p[:amazon][:raw_properties].merge(p[:ebay][:properties]))
 
-        basic[:properties] = mapping.map(properties)
+        basic = mapping.distribute(basic, properties)
 
         basic
+
       }.uniq { |x| x[:variants] }
 
       {
